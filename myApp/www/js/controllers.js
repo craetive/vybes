@@ -34,19 +34,19 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = ply;
+  $scope.books = ply;
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-        $scope.player = ply[$stateParams.playlistId-1].title;
+        $scope.book = ply[$stateParams.playlistId-1];
 
 })
 
 var ply = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { title: 'Genesis', id: 1 },
+    { title: 'Exodus', id: 2 },
+    { title: 'Leviticus', id: 3 },
+    { title: 'Numbers', id: 4 },
+    { title: 'Deuteronomy', id: 5 },
+    { title: 'Joshua', id: 6 }
 ];
