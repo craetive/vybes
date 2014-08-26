@@ -34,19 +34,81 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistsCtrl', function($scope) {
-  $scope.books = ply;
+  $scope.books = bibleBooks;
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-        $scope.book = ply[$stateParams.playlistId-1];
+        $scope.book = bibleBooks[$stateParams.playlistId-1];
+        $scope.chapters = bibleBooks[$stateParams.playlistId-1].chapters;
 
 })
 
-var ply = [
-    { title: 'Genesis', id: 1 },
-    { title: 'Exodus', id: 2 },
-    { title: 'Leviticus', id: 3 },
-    { title: 'Numbers', id: 4 },
-    { title: 'Deuteronomy', id: 5 },
-    { title: 'Joshua', id: 6 }
+.controller('VerseCtrl', function($scope, $stateParams) {
+        $scope.verses = bibleBooks[$stateParams.playlistId-1].chapters[$stateParams.verseId-1];
+
+})
+
+var bibleBooks = [
+    { book: 'Genesis',
+        id: 1,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+    },
+    { book: 'Exodus',
+        id: 2,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+
+    },
+    { book: 'Leviticus',
+        id: 3,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+    },
+    { book: 'Numbers',
+        id: 4,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+    },
+    { book: 'Deuteronomy',
+        id: 5,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+    },
+    { book: 'Joshua',
+        id: 6,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+
+    }
 ];
