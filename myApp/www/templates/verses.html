@@ -1,22 +1,16 @@
-<ion-view title={{verses.name}}>
+<ion-view title={{chapter.name}}>
     <ion-content class="has-header">
         <div class="list card">
 
             <div class="item item-avatar">
-                <img src="mcfly.jpg">
-                <h2>{{verses.name}}</h2>
-                <p>November 05, 1955</p>
+                <h2>Audio goes here</h2>
             </div>
 
             <div class="item item-body">
-                <img class="item-avatar" src="delorean.jpg">
-                <p>
-                    <h2> Verses for {{verses.name}}</h2>
+                <div ng-repeat="verse in chapter.verses">
+                    {{verse.text}}
+                </div>
 
-                    This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
-                    the content is from a card-body consisting of an image and paragraph text. The footer
-                    consists of tabs, icons aligned left, within the card-footer.
-                </p>
                 <p>
                     <a href="#" class="subdued">1 Like</a>
                     <a href="#" class="subdued">5 Comments</a>

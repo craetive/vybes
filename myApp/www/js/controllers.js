@@ -40,19 +40,33 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
         $scope.book = bibleBooks[$stateParams.playlistId-1];
         $scope.chapters = bibleBooks[$stateParams.playlistId-1].chapters;
+        currentBook = bibleBooks[$stateParams.playlistId-1];
+        currentChapter = bibleBooks[$stateParams.playlistId-1].chapters;
 
 })
 
 .controller('VerseCtrl', function($scope, $stateParams) {
-        $scope.verses = bibleBooks[$stateParams.playlistId-1].chapters[$stateParams.verseId-1];
+        $scope.chapter = currentChapter[$stateParams.verseId-1];
 
 })
 
+var currentBook = '';
+var currentChapter = '';
 var bibleBooks = [
     { book: 'Genesis',
         id: 1,
         chapters: [
-            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 1',
+                id: 1,
+                verses: [
+                    {text: 'In the beginning God created the heavens and the earth.', id: 1},
+                    {text: 'Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters.', id: 2},
+                    {text: 'And God said, “Let there be light,” and there was light.', id: 3},
+                    {text: 'God saw that the light was good, and he separated the light from the darkness.', id: 4},
+                    {text: 'God called the light “day,” and the darkness he called “night.” And there was evening, and there was morning—the first day.', id: 5}
+                ]
+
+            },
             {name: 'Chapter 2', id: 2},
             {name: 'Chapter 3', id: 3},
             {name: 'Chapter 4', id: 4},
