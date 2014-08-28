@@ -34,7 +34,6 @@ angular.module('starter.controllers', [])
 })
 
 .factory('theService', function($http) {
-
         return {
             thing : function() {
                return $http({
@@ -43,20 +42,11 @@ angular.module('starter.controllers', [])
                 })
             }
         };
-})
-.factory('theService', function($http) {
 
-    return {
-        thing : function() {
-            return $http({
-                url: 'lib/bible.json',
-                method: 'GET'
-            })
-        }
-    };
 })
-.controller('PlaylistsCtrl', function($scope, theService) {
-        theService.thing().success(function(data){
+
+.controller('PlaylistsCtrl', function($scope, $http) {
+        $http.get('lib/bible.json').success(function(data){
             $scope.books = data;
         })
         .error(function() {

@@ -3,14 +3,13 @@
         <div class="list card">
 
             <div class="item item-avatar">
-                <h2>Audio goes here</h2>
-                <audio controls>
-                    <source src="lib\mp3\Ch_01.mp3" type="audio/mpeg">
-                    <embed height="50" width="100" src="Ch_01.mp3">
-                </audio>
+                <h2>Search</h2>
+                <ion-slide-box>
+                <input type="text" data-ng-model="name" /> {{name}}
+                </ion-slide-box>
             </div>
             <div class="item item-body">
-                <div ng-repeat="verse in chapter.verses">
+                <div ng-repeat="verse in chapter.verses | filter:name">
                    <strong>{{verse.id}}</strong> {{verse.text}}
                 </div>
 
