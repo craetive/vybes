@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "book": "Genesis",
+        "chapters": [
+            {
+                "id": 1,
+                "name": "Chapter 1",
+                "verses": [
+                    {"id": 1, "text": "Toorri hidda dhaloota Yesus Kiristos sanyii Daawit, sanyii Abrahaam isa kana."},
+                    {"id": 2, "text": "Abrahaam Yisihaqin dhalche; Yisihaq Yaaqoobin dhalche; Yaaqoob Yihudaa fi obboloota Yihudaa dhalche."},
+                    {"id": 3, "text": "Yihudaan Taamaar irraa Faaresii fi Zaaraa dhalche; Faares Hesromin dhalche; Hesrom Aaramin dhalche."},
+                    {"id": 4, "text": "Aaram Aminaadaabin dhalche; Aminaadaab Nahasoonin dhalche; Nahasoon Salmoonin dhalche."},
+                    {"id": 5, "text": "Salmoon Rahaab irraa Boazin dhalche; Boaz Ruut irraa Yoobeedin dhalche; Yoobeed Iseyin dhalche."},
+                    {"id": 6, "text": "Isey Daawit mooticha dhalche; Daawit haadha manaa Uriiyaa irraa Solomoonin dhalche;"},
+                    {"id": 7, "text": "Solomoon Rehobi'aamin dhalche; Rehobi'aam Abiiyaa dhalche; Abiiyaan Asaafin dhalche;"},
+                    {"id": 8, "text": "Asaaf Yoshaafaaxin dhalche; Yoshaafaax Yooraamin dhalche; Yooraam Oziyaasin dhalche;"},
+                    {"id": 9, "text": "Oziyaas Yo'ataamin dhalche; Yo' ataam Akaazin dhalche; Akaaz Hisqiyaasin dhalche."},
+                    {"id": 10, "text": "Hisqiyaas Minaasee dhalche; Minaaseen Amosin dhalche; Amos Yosiyaasin dhalche."},
+                    {"id": 11, "text": "Yosiyaas bara sabni Israa'el biyya Baabilonitti booji'amanitti Yekoniyaasii fi obboloota Yekoniyaas dhalche."},
+                    {"id": 12, "text": "Sabni Israa'el biyya Baabilonitti erga booji'amanii booddee Yekoniyaas Salaati'elin dhalche; Salaati'el Zarubaabelin dhalche."},
+                    {"id": 13, "text": "Zarubaabel Abiyuudin dhalche; Abiyuud Eliyaaqimin dhalche; Eliyaaqim Azorin dhalche;"},
+                    {"id": 14, "text": "Azor Zaadoqin dhalche; Zaadoq Akiimin dhalche; Akiim Eliyudin dhalche."}
+
+                ]
+
+            },
+            {"id": 2, "name": "Chapter 2"},
+            {"id": 3, "name": "Chapter 3"},
+            {"id": 4, "name": "Chapter 4"},
+            {"id": 5, "name": "Chapter 5"}
+        ]
+    },
+    {
+        "id": 2,
+        "book": "Exodus",
+        "chapters": [
+            {"id": 1, "name": "Chapter 1"},
+            {"id": 2, "name": "Chapter 2"},
+            {"id": 3, "name": "Chapter 3"},
+            {"id": 4, "name": "Chapter 4"},
+            {"id": 5, "name": "Chapter 5"}
+        ]
+
+    },
+    {
+        "id": 3,
+        "book": "Leviticus",
+        "chapters": [
+            {"id": 1, "name": "Chapter 1"},
+            {"id": 2, "name": "Chapter 2"},
+            {"id": 3, "name": "Chapter 3"},
+            {"id": 4, "name": "Chapter 4"},
+            {"id": 5, "name": "Chapter 5"}
+        ]
+    },
+    {
+        "id": 4,
+        "book": "Numbers",
+        "chapters": [
+            {"id": 1, "name": "Chapter 1"},
+            {"id": 2, "name": "Chapter 2"},
+            {"id": 3, "name": "Chapter 3"},
+            {"id": 4, "name": "Chapter 4"},
+            {"id": 5, "name": "Chapter 5"}
+        ]
+    },
+    {
+        "id": 5,
+        "book": "Deuteronomy",
+        "chapters": [
+            {"id": 1, "name": "Chapter 1"},
+            {"id": 2, "name": "Chapter 2"},
+            {"id": 3, "name": "Chapter 3"},
+            {"id": 4, "name": "Chapter 4"},
+            {"id": 5, "name": "Chapter 5"}
+        ]
+    },
+    {
+        "id": 6,
+        "book": "Joshua",
+        "chapters": [
+            {"id": 1, "name": "Chapter 1"},
+            {"id": 2, "name": "Chapter 2"},
+            {"id": 3, "name": "Chapter 3"},
+            {"id": 4, "name": "Chapter 4"},
+            {"id": 5, "name": "Chapter 5"}
+        ]
+
+    }
+]
