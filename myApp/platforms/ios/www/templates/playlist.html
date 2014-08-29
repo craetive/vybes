@@ -1,5 +1,9 @@
-<ion-view title="Playlist">
+<ion-view title={{book.book}}>
   <ion-content class="has-header">
-    <h1>Playlist</h1>
+      <ion-list>
+          <ion-item ng-repeat="chapter in chapters" href="#/app/playlists/{{book.id}}/{{chapter.id}}">
+              {{chapter.name}}
+          </ion-item>
+      </ion-list>
   </ion-content>
 </ion-view>

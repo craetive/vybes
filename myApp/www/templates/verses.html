@@ -3,15 +3,17 @@
         <div class="list card">
 
             <div class="item item-avatar">
-                <h2>Search</h2>
-                <ion-slide-box>
-                <input type="text" data-ng-model="name" /> {{name}}
-                </ion-slide-box>
+                Search:
+                <div class="gridStyle">
+                <input type="text" ng-model="name" />
+                 </div>
+
             </div>
             <div class="item item-body">
-                <div ng-repeat="verse in chapter.verses | filter:name">
-                   <strong>{{verse.id}}</strong> {{verse.text}}
-                </div>
+
+                <ol ng-repeat="verse in chapter.verses | filter:name">
+                   <a href="#">{{verse.id}}</a> {{verse.text}}
+                </ol>
 
                 <p>
                     <a href="#" class="subdued">1 Like</a>
@@ -21,16 +23,16 @@
 
             <div class="item tabs tabs-secondary tabs-icon-left">
                 <a class="tab-item" href="#">
-                    <i class="icon ion-thumbsup"></i>
-                    Like
+                    <i class="icon ion-chevron-left"></i>
+                    Prev
                 </a>
                 <a class="tab-item" href="#">
-                    <i class="icon ion-chatbox"></i>
-                    Comment
+                    <i class="icon ion-home"></i>
+                    Home
                 </a>
                 <a class="tab-item" href="#">
-                    <i class="icon ion-share"></i>
-                    Share
+                    <i class="icon ion-chevron-right"></i>
+                    Next
                 </a>
             </div>
 

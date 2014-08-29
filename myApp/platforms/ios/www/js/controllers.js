@@ -34,15 +34,95 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
+  $scope.books = bibleBooks;
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+        $scope.book = bibleBooks[$stateParams.playlistId-1];
+        $scope.chapters = bibleBooks[$stateParams.playlistId-1].chapters;
+        currentBook = bibleBooks[$stateParams.playlistId-1];
+        currentChapter = bibleBooks[$stateParams.playlistId-1].chapters;
+
 })
+
+.controller('VerseCtrl', function($scope, $stateParams) {
+        $scope.chapter = currentChapter[$stateParams.verseId-1];
+
+})
+
+var currentBook = '';
+var currentChapter = '';
+var bibleBooks = [
+    { book: 'Genesis',
+        id: 1,
+        chapters: [
+            {name: 'Chapter 1',
+                id: 1,
+                verses: [
+                    {text: 'In the beginning God created the heavens and the earth.', id: 1},
+                    {text: 'Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters.', id: 2},
+                    {text: 'And God said, “Let there be light,” and there was light.', id: 3},
+                    {text: 'God saw that the light was good, and he separated the light from the darkness.', id: 4},
+                    {text: 'God called the light “day,” and the darkness he called “night.” And there was evening, and there was morning—the first day.', id: 5}
+                ]
+
+            },
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+    },
+    { book: 'Exodus',
+        id: 2,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+
+    },
+    { book: 'Leviticus',
+        id: 3,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+    },
+    { book: 'Numbers',
+        id: 4,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+    },
+    { book: 'Deuteronomy',
+        id: 5,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+    },
+    { book: 'Joshua',
+        id: 6,
+        chapters: [
+            {name: 'Chapter 1', id: 1},
+            {name: 'Chapter 2', id: 2},
+            {name: 'Chapter 3', id: 3},
+            {name: 'Chapter 4', id: 4},
+            {name: 'Chapter 5', id: 5}
+        ]
+
+    }
+];
