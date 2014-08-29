@@ -56,18 +56,27 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams, theService) {
         theService.thing().success(function(data){
             $scope.books = data;
-            $scope.book = $scope.books[$stateParams.playlistId-1];
-            $scope.chapters = $scope.books[$stateParams.playlistId-1].chapters;
+            $scope.book = $scope.books[$stateParams.booklistId-1];
+            $scope.chapters = $scope.books[$stateParams.booklistId-1].chapters;
         });
 
+})
+
+.controller('ChapterCtrl', function($scope, $stateParams, theService) {
+        theService.thing().success(function(data){
+            $scope.books = data;
+            $scope.book = $scope.books[$stateParams.booklistId-1];
+            $scope.chapter = $scope.books[$stateParams.booklistId-1].chapters[$stateParams.chapterId-1];
+        });
 
 })
 
 .controller('VerseCtrl', function($scope, $stateParams, theService) {
-        theService.thing().success(function(data){
-            $scope.books = data;
-            $scope.book = $scope.books[$stateParams.playlistId-1];
-            $scope.chapter = $scope.books[$stateParams.playlistId-1].chapters[$stateParams.verseId-1];
-        });
+    theService.thing().success(function(data){
+        $scope.books = data;
+        $scope.book = $scope.books[$stateParams.booklistId-1];
+        $scope.chapter = $scope.books[$stateParams.booklistId-1].chapters[$stateParams.chapterId-1];
+        $scope.verse = $scope.books[$stateParams.booklistId-1].chapters[$stateParams.chapterId-1].verses[$stateParams.verseId-1];
+    });
 
 })

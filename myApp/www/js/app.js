@@ -48,8 +48,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
-    .state('app.playlists', {
-      url: "/playlists",
+    .state('app.booklists', {
+      url: "/booklists",
       views: {
         'menuContent' :{
           templateUrl: "templates/playlists.html",
@@ -58,8 +58,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
-    .state('app.single', {
-      url: "/playlists/:playlistId",
+    .state('app.chapterlists', {
+      url: "/booklists/:booklistId",
       views: {
         'menuContent' :{
           templateUrl: "templates/playlist.html",
@@ -67,9 +67,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-
-    .state('app.verse', {
-      url: "/playlists/:playlistId/:verseId",
+  .state('app.chapter', {
+      url: "/booklists/:booklistId/:chapterId",
+      views: {
+          'menuContent' :{
+              templateUrl: "templates/chapter.html",
+              controller: 'ChapterCtrl'
+          }
+      }
+  })
+    .state('app.verses', {
+      url: "/booklists/:booklistId/:chapterId/:verseId",
       views: {
         'menuContent' :{
           templateUrl: "templates/verses.html",
@@ -78,6 +86,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/booklists');
 });
 
