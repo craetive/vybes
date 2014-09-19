@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name":	"Artist Name",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1,
+                "name":	"Album Name",
+                "image":	"Album_image",
+                "year":	"Album Year",
+                "songs":	[
+                    {"id":	1,	"song":	"song.mp3"},
+                    {"id":	2,	"song":	"song.mp3"}
+                ]
+            },
+            {
+                "id":	2,
+                "name":	"Album Name",
+                "image":	"Album_image",
+                "year":	"Album Year",
+                "songs":	[
+                    {"id":	1,	"song":	"song.mp3"},
+                    {"id":	2,	"song":	"song.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	2,
+        "name":	"Artist Name",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1,
+                "name":	"Album Name",
+                "image":	"Album_image",
+                "year":	"Album Year",
+                "songs":	[
+                    {"id":	1,	"song":	"song.mp3"},
+                    {"id":	2,	"song":	"song.mp3"}
+                ]
+            },
+            {
+                "id":	2,
+                "name":	"Album Name",
+                "image":	"Album_default",
+                "year":	"Album Year",
+                "songs":	[
+                    {"id":	1,	"song":	"song.mp3"},
+                    {"id":	2,	"song":	"song.mp3"}
+                ]
+            }
+        ]
+    }
+
+]
