@@ -1,27 +1,27 @@
 [
     {
-        "id": 1,
-        "name":	"Artist Name",
+        "id":	1,
+        "name":	"Ababau Gebrelu",
         "image":	"Artist_image",
         "album":	[
             {
-                "id":	1,
-                "name":	"Album Name",
-                "image":	"Album_image",
-                "year":	"Album Year",
+                "id":	1 ,
+                "name":	"Fewus Yishagnal",
+                "image":	"Album_default",
+                "year":	"2009",
                 "songs":	[
-                    {"id":	1,	"song":	"song.mp3"},
-                    {"id":	2,	"song":	"song.mp3"}
-                ]
-            },
-            {
-                "id":	2,
-                "name":	"Album Name",
-                "image":	"Album_image",
-                "year":	"Album Year",
-                "songs":	[
-                    {"id":	1,	"song":	"song.mp3"},
-                    {"id":	2,	"song":	"song.mp3"}
+                    {"id":	1,	"song":	"3108.mp3"},
+                    {"id":	2,	"song":	"3109.mp3"},
+                    {"id":	3,	"song":	"3110.mp3"},
+                    {"id":	4,	"song":	"3111.mp3"},
+                    {"id":	5,	"song":	"3112.mp3"},
+                    {"id":	6,	"song":	"3113.mp3"},
+                    {"id":	7,	"song":	"3114.mp3"},
+                    {"id":	8,	"song":	"3115.mp3"},
+                    {"id":	9,	"song":	"3116.mp3"},
+                    {"id":	10,	"song":	"3117.mp3"},
+                    {"id":	11,	"song":	"3118.mp3"},
+                    {"id":	12,	"song":	"3119.mp3"}
                 ]
             }
         ]
@@ -29,30 +29,5280 @@
 
     {
         "id":	2,
-        "name":	"Artist Name",
+        "name":	"Abba Natnael Taye",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Man Beye Letra Semehen",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"939.mp3"},
+                    {"id":	2,	"song":	"940.mp3"},
+                    {"id":	3,	"song":	"941.mp3"},
+                    {"id":	4,	"song":	"942.mp3"},
+                    {"id":	5,	"song":	"943.mp3"},
+                    {"id":	6,	"song":	"944.mp3"},
+                    {"id":	7,	"song":	"945.mp3"},
+                    {"id":	8,	"song":	"946.mp3"},
+                    {"id":	9,	"song":	"947.mp3"},
+                    {"id":	10,	"song":	"948.mp3"},
+                    {"id":	11,	"song":	"949.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Yetebarek Medehanialem",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1345.mp3"},
+                    {"id":	2,	"song":	"1346.mp3"},
+                    {"id":	3,	"song":	"1347.mp3"},
+                    {"id":	4,	"song":	"1348.mp3"},
+                    {"id":	5,	"song":	"1349.mp3"},
+                    {"id":	6,	"song":	"1350.mp3"},
+                    {"id":	7,	"song":	"1351.mp3"},
+                    {"id":	8,	"song":	"1352.mp3"},
+                    {"id":	9,	"song":	"1357.mp3"},
+                    {"id":	10,	"song":	"1358.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	3 ,
+        "name":	"Abiy Taddele",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Atetaglew",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3002.mp3"},
+                    {"id":	2,	"song":	"3003.mp3"},
+                    {"id":	3,	"song":	"3004.mp3"},
+                    {"id":	4,	"song":	"3005.mp3"},
+                    {"id":	5,	"song":	"3006.mp3"},
+                    {"id":	6,	"song":	"3008.mp3"},
+                    {"id":	7,	"song":	"3009.mp3"},
+                    {"id":	8,	"song":	"3010.mp3"},
+                    {"id":	9,	"song":	"3011.mp3"},
+                    {"id":	10,	"song":	"3012.mp3"},
+                    {"id":	11,	"song":	"3013.mp3"},
+                    {"id":	12,	"song":	"3014.mp3"},
+                    {"id":	13,	"song":	"3015.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	4 ,
+        "name":	"Abu Bedada",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"NA",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1146.mp3"},
+                    {"id":	2,	"song":	"1147.mp3"},
+                    {"id":	3,	"song":	"1148.mp3"},
+                    {"id":	4,	"song":	"1149.mp3"},
+                    {"id":	5,	"song":	"1150.mp3"},
+                    {"id":	6,	"song":	"1151.mp3"},
+                    {"id":	7,	"song":	"1152.mp3"},
+                    {"id":	8,	"song":	"1153.mp3"},
+                    {"id":	9,	"song":	"1154.mp3"},
+                    {"id":	10,	"song":	"1155.mp3"},
+                    {"id":	11,	"song":	"1156.mp3"}
+                ]
+            }
+        ]
+    },
+    {
+        "id":	5 ,
+        "name":	"Adane Buni",
         "image":	"Artist_image",
         "album":	[
             {
                 "id":	1,
-                "name":	"Album Name",
-                "image":	"Album_image",
-                "year":	"Album Year",
+                "name":	"Enem Alegn",
+                "image":	"Album_default",
+                "year":	"2010",
                 "songs":	[
-                    {"id":	1,	"song":	"song.mp3"},
-                    {"id":	2,	"song":	"song.mp3"}
+                    {"id":	1,	"song":	"3186.mp3"},
+                    {"id":	2,	"song":	"3187.mp3"},
+                    {"id":	3,	"song":	"3188.mp3"},
+                    {"id":	4,	"song":	"3189.mp3"},
+                    {"id":	5,	"song":	"3190.mp3"},
+                    {"id":	6,	"song":	"3191.mp3"},
+                    {"id":	7,	"song":	"3192.mp3"},
+                    {"id":	8,	"song":	"3193.mp3"},
+                    {"id":	9,	"song":	"3194.mp3"},
+                    {"id":	10,	"song":	"3195.mp3"},
+                    {"id":	11,	"song":	"3196.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	6 ,
+        "name":	"Addis Ababa Emanuel Social Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Tamag New Egziabher",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"692.mp3"},
+                    {"id":	2,	"song":	"693.mp3"},
+                    {"id":	3,	"song":	"694.mp3"},
+                    {"id":	4,	"song":	"695.mp3"},
+                    {"id":	5,	"song":	"696.mp3"},
+                    {"id":	6,	"song":	"697.mp3"},
+                    {"id":	7,	"song":	"698.mp3"},
+                    {"id":	8,	"song":	"699.mp3"},
+                    {"id":	9,	"song":	"700.mp3"},
+                    {"id":	10,	"song":	"701.mp3"},
+                    {"id":	11,	"song":	"702.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	7 ,
+        "name":	"Addis Demelew",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"BeKinfocheh Tila Gardehgal",
+                "image":	"Album_default",
+                "year":	"2010",
+                "songs":	[
+                    {"id":	1,	"song":	"3029.mp3"},
+                    {"id":	2,	"song":	"3030.mp3"},
+                    {"id":	3,	"song":	"3031.mp3"},
+                    {"id":	4,	"song":	"3032.mp3"},
+                    {"id":	5,	"song":	"3033.mp3"},
+                    {"id":	6,	"song":	"3034.mp3"},
+                    {"id":	7,	"song":	"3035.mp3"},
+                    {"id":	8,	"song":	"3036.mp3"},
+                    {"id":	9,	"song":	"3037.mp3"},
+                    {"id":	10,	"song":	"3038.mp3"},
+                    {"id":	11,	"song":	"3039.mp3"},
+                    {"id":	12,	"song":	"3040.mp3"},
+                    {"id":	13,	"song":	"3041.mp3"}
                 ]
             },
             {
-                "id":	2,
-                "name":	"Album Name",
+                "id":	2 ,
+                "name":	"Wuhochen Beefejnu Yesefere",
                 "image":	"Album_default",
-                "year":	"Album Year",
+                "year":	"2010",
                 "songs":	[
-                    {"id":	1,	"song":	"song.mp3"},
-                    {"id":	2,	"song":	"song.mp3"}
+                    {"id":	1,	"song":	"1975.mp3"},
+                    {"id":	2,	"song":	"1976.mp3"},
+                    {"id":	3,	"song":	"1977.mp3"},
+                    {"id":	4,	"song":	"1978.mp3"},
+                    {"id":	5,	"song":	"1979.mp3"},
+                    {"id":	6,	"song":	"1980.mp3"},
+                    {"id":	7,	"song":	"1981.mp3"},
+                    {"id":	8,	"song":	"1982.mp3"},
+                    {"id":	9,	"song":	"1983.mp3"},
+                    {"id":	10,	"song":	"1984.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	8 ,
+        "name":	"Addisu Worku",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ene Bebkule",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1386.mp3"},
+                    {"id":	2,	"song":	"1387.mp3"},
+                    {"id":	3,	"song":	"1388.mp3"},
+                    {"id":	4,	"song":	"1389.mp3"},
+                    {"id":	5,	"song":	"1390.mp3"},
+                    {"id":	6,	"song":	"1391.mp3"},
+                    {"id":	7,	"song":	"1392.mp3"},
+                    {"id":	8,	"song":	"1393.mp3"},
+                    {"id":	9,	"song":	"1394.mp3"},
+                    {"id":	10,	"song":	"1395.mp3"},
+                    {"id":	11,	"song":	"1396.mp3"},
+                    {"id":	12,	"song":	"1397.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Kibur Kibur",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"281.mp3"},
+                    {"id":	2,	"song":	"282.mp3"},
+                    {"id":	3,	"song":	"283.mp3"},
+                    {"id":	4,	"song":	"284.mp3"},
+                    {"id":	5,	"song":	"285.mp3"},
+                    {"id":	6,	"song":	"286.mp3"},
+                    {"id":	7,	"song":	"287.mp3"},
+                    {"id":	8,	"song":	"288.mp3"},
+                    {"id":	9,	"song":	"289.mp3"},
+                    {"id":	10,	"song":	"290.mp3"},
+                    {"id":	11,	"song":	"291.mp3"},
+                    {"id":	12,	"song":	"292.mp3"},
+                    {"id":	13,	"song":	"293.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	9 ,
+        "name":	"Alemaheu Tesfa Michael",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Egziabher Sendek Alamye Now",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2216.mp3"},
+                    {"id":	2,	"song":	"2217.mp3"},
+                    {"id":	3,	"song":	"2218.mp3"},
+                    {"id":	4,	"song":	"2219.mp3"},
+                    {"id":	5,	"song":	"2220.mp3"},
+                    {"id":	6,	"song":	"2221.mp3"},
+                    {"id":	7,	"song":	"2222.mp3"},
+                    {"id":	8,	"song":	"2223.mp3"},
+                    {"id":	9,	"song":	"2224.mp3"},
+                    {"id":	10,	"song":	"2225.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	10 ,
+        "name":	"Alemay University Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ekuya Ataneleh",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"987.mp3"},
+                    {"id":	2,	"song":	"988.mp3"},
+                    {"id":	3,	"song":	"989.mp3"},
+                    {"id":	4,	"song":	"990.mp3"},
+                    {"id":	5,	"song":	"991.mp3"},
+                    {"id":	6,	"song":	"992.mp3"},
+                    {"id":	7,	"song":	"993.mp3"},
+                    {"id":	8,	"song":	"994.mp3"},
+                    {"id":	9,	"song":	"995.mp3"},
+                    {"id":	10,	"song":	"996.mp3"},
+                    {"id":	11,	"song":	"997.mp3"},
+                    {"id":	12,	"song":	"998.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	11 ,
+        "name":	"Alemayo Tesfam",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Kidan Misgana",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2779.mp3"},
+                    {"id":	2,	"song":	"2780.mp3"},
+                    {"id":	3,	"song":	"2781.mp3"},
+                    {"id":	4,	"song":	"2782.mp3"},
+                    {"id":	5,	"song":	"2783.mp3"},
+                    {"id":	6,	"song":	"2784.mp3"},
+                    {"id":	7,	"song":	"2785.mp3"},
+                    {"id":	8,	"song":	"2786.mp3"},
+                    {"id":	9,	"song":	"2787.mp3"},
+                    {"id":	10,	"song":	"2788.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	12 ,
+        "name":	"Amanuel Church (Addis Abeba)",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Bedel Enwtalen",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2098.mp3"},
+                    {"id":	2,	"song":	"2099.mp3"},
+                    {"id":	3,	"song":	"2100.mp3"},
+                    {"id":	4,	"song":	"2101.mp3"},
+                    {"id":	5,	"song":	"2102.mp3"},
+                    {"id":	6,	"song":	"2103.mp3"},
+                    {"id":	7,	"song":	"2104.mp3"},
+                    {"id":	8,	"song":	"2105.mp3"},
+                    {"id":	9,	"song":	"2106.mp3"},
+                    {"id":	10,	"song":	"2107.mp3"},
+                    {"id":	11,	"song":	"2108.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	13 ,
+        "name":	"Andenet Gezahegn",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Eyesus Korahubih",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2659.mp3"},
+                    {"id":	2,	"song":	"2660.mp3"},
+                    {"id":	3,	"song":	"2661.mp3"},
+                    {"id":	4,	"song":	"2662.mp3"},
+                    {"id":	5,	"song":	"2663.mp3"},
+                    {"id":	6,	"song":	"2664.mp3"},
+                    {"id":	7,	"song":	"2665.mp3"},
+                    {"id":	8,	"song":	"2666.mp3"},
+                    {"id":	9,	"song":	"2667.mp3"},
+                    {"id":	10,	"song":	"2668.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	14 ,
+        "name":	"Arusi Emmanuel Church Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Dekdek Chelma Yshnefew",
+                "image":	"Album_default",
+                "year":	"2007",
+                "songs":	[
+                    {"id":	1,	"song":	"1818.mp3"},
+                    {"id":	2,	"song":	"1819.mp3"},
+                    {"id":	3,	"song":	"1820.mp3"},
+                    {"id":	4,	"song":	"1821.mp3"},
+                    {"id":	5,	"song":	"1822.mp3"},
+                    {"id":	6,	"song":	"1823.mp3"},
+                    {"id":	7,	"song":	"1824.mp3"},
+                    {"id":	8,	"song":	"1825.mp3"},
+                    {"id":	9,	"song":	"1826.mp3"},
+                    {"id":	10,	"song":	"1827.mp3"},
+                    {"id":	11,	"song":	"1828.mp3"},
+                    {"id":	12,	"song":	"1829.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	15 ,
+        "name":	"Asaph Worship and Gospel Ministry",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Alawodadrhim",
+                "image":	"Album_default",
+                "year":	"2007",
+                "songs":	[
+                    {"id":	1,	"song":	"929.mp3"},
+                    {"id":	2,	"song":	"930.mp3"},
+                    {"id":	3,	"song":	"931.mp3"},
+                    {"id":	4,	"song":	"932.mp3"},
+                    {"id":	5,	"song":	"933.mp3"},
+                    {"id":	6,	"song":	"934.mp3"},
+                    {"id":	7,	"song":	"935.mp3"},
+                    {"id":	8,	"song":	"936.mp3"},
+                    {"id":	9,	"song":	"937.mp3"},
+                    {"id":	10,	"song":	"938.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	16 ,
+        "name":	"Ashenafi Deyas",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Halelujah",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3143.mp3"},
+                    {"id":	2,	"song":	"3144.mp3"},
+                    {"id":	3,	"song":	"3145.mp3"},
+                    {"id":	4,	"song":	"3146.mp3"},
+                    {"id":	5,	"song":	"3147.mp3"},
+                    {"id":	6,	"song":	"3148.mp3"},
+                    {"id":	7,	"song":	"3149.mp3"},
+                    {"id":	8,	"song":	"3150.mp3"},
+                    {"id":	9,	"song":	"3151.mp3"},
+                    {"id":	10,	"song":	"3152.mp3"},
+                    {"id":	11,	"song":	"3153.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	17 ,
+        "name":	"Asmamaw",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Asmamaw",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"520.mp3"},
+                    {"id":	2,	"song":	"521.mp3"},
+                    {"id":	3,	"song":	"522.mp3"},
+                    {"id":	4,	"song":	"523.mp3"},
+                    {"id":	5,	"song":	"524.mp3"},
+                    {"id":	6,	"song":	"525.mp3"},
+                    {"id":	7,	"song":	"526.mp3"},
+                    {"id":	8,	"song":	"527.mp3"},
+                    {"id":	9,	"song":	"528.mp3"},
+                    {"id":	10,	"song":	"529.mp3"},
+                    {"id":	11,	"song":	"530.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	18 ,
+        "name":	"Assela Mulu Wongel Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Endih Zemene Yelk",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1751.mp3"},
+                    {"id":	2,	"song":	"1752.mp3"},
+                    {"id":	3,	"song":	"1753.mp3"},
+                    {"id":	4,	"song":	"1754.mp3"},
+                    {"id":	5,	"song":	"1755.mp3"},
+                    {"id":	6,	"song":	"1756.mp3"},
+                    {"id":	7,	"song":	"1757.mp3"},
+                    {"id":	8,	"song":	"1758.mp3"},
+                    {"id":	9,	"song":	"1759.mp3"},
+                    {"id":	10,	"song":	"1760.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	19 ,
+        "name":	"Aster & Endlkachewu",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"LeEgzabher Ezemralehu",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2291.mp3"},
+                    {"id":	2,	"song":	"2292.mp3"},
+                    {"id":	3,	"song":	"2293.mp3"},
+                    {"id":	4,	"song":	"2294.mp3"},
+                    {"id":	5,	"song":	"2295.mp3"},
+                    {"id":	6,	"song":	"2296.mp3"},
+                    {"id":	7,	"song":	"2297.mp3"},
+                    {"id":	8,	"song":	"2298.mp3"},
+                    {"id":	9,	"song":	"2299.mp3"},
+                    {"id":	10,	"song":	"2300.mp3"},
+                    {"id":	11,	"song":	"2301.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	20 ,
+        "name":	"Aster Angelo",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ale BeMaderiyaw",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2693.mp3"},
+                    {"id":	2,	"song":	"2694.mp3"},
+                    {"id":	3,	"song":	"2695.mp3"},
+                    {"id":	4,	"song":	"2696.mp3"},
+                    {"id":	5,	"song":	"2697.mp3"},
+                    {"id":	6,	"song":	"2698.mp3"},
+                    {"id":	7,	"song":	"2699.mp3"},
+                    {"id":	8,	"song":	"2700.mp3"},
+                    {"id":	9,	"song":	"2701.mp3"},
+                    {"id":	10,	"song":	"2702.mp3"},
+                    {"id":	11,	"song":	"2703.mp3"},
+                    {"id":	12,	"song":	"2704.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	21 ,
+        "name":	"Aster Moges",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ene Aleweredeme",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1256.mp3"},
+                    {"id":	2,	"song":	"1257.mp3"},
+                    {"id":	3,	"song":	"1258.mp3"},
+                    {"id":	4,	"song":	"1259.mp3"},
+                    {"id":	5,	"song":	"1260.mp3"},
+                    {"id":	6,	"song":	"1261.mp3"},
+                    {"id":	7,	"song":	"1262.mp3"},
+                    {"id":	8,	"song":	"1263.mp3"},
+                    {"id":	9,	"song":	"1264.mp3"},
+                    {"id":	10,	"song":	"1265.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	22 ,
+        "name":	"Aster Yoseph",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Antew Teschalegnaleh",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2707.mp3"},
+                    {"id":	2,	"song":	"2708.mp3"},
+                    {"id":	3,	"song":	"2709.mp3"},
+                    {"id":	4,	"song":	"2710.mp3"},
+                    {"id":	5,	"song":	"2711.mp3"},
+                    {"id":	6,	"song":	"2712.mp3"},
+                    {"id":	7,	"song":	"2713.mp3"},
+                    {"id":	8,	"song":	"2714.mp3"},
+                    {"id":	9,	"song":	"2715.mp3"},
+                    {"id":	10,	"song":	"2716.mp3"},
+                    {"id":	11,	"song":	"2717.mp3"},
+                    {"id":	12,	"song":	"2718.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	23 ,
+        "name":	"Awassa Emmanuel Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Yefker Sitota",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"950.mp3"},
+                    {"id":	2,	"song":	"951.mp3"},
+                    {"id":	3,	"song":	"952.mp3"},
+                    {"id":	4,	"song":	"953.mp3"},
+                    {"id":	5,	"song":	"954.mp3"},
+                    {"id":	6,	"song":	"955.mp3"},
+                    {"id":	7,	"song":	"956.mp3"},
+                    {"id":	8,	"song":	"957.mp3"},
+                    {"id":	9,	"song":	"958.mp3"},
+                    {"id":	10,	"song":	"960.mp3"},
+                    {"id":	11,	"song":	"961.mp3"},
+                    {"id":	12,	"song":	"962.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	24 ,
+        "name":	"Awet Kebdeom",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"2005",
+                "songs":	[
+                    {"id":	1,	"song":	"2891.mp3"},
+                    {"id":	2,	"song":	"2892.mp3"},
+                    {"id":	3,	"song":	"2893.mp3"},
+                    {"id":	4,	"song":	"2894.mp3"},
+                    {"id":	5,	"song":	"2895.mp3"},
+                    {"id":	6,	"song":	"2896.mp3"},
+                    {"id":	7,	"song":	"2897.mp3"},
+                    {"id":	8,	"song":	"2898.mp3"},
+                    {"id":	9,	"song":	"2899.mp3"},
+                    {"id":	10,	"song":	"2900.mp3"},
+                    {"id":	11,	"song":	"2901.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	25 ,
+        "name":	"Awtaru Kebede",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Lelitu Nega",
+                "image":	"Album_default",
+                "year":	"2005",
+                "songs":	[
+                    {"id":	1,	"song":	"66.mp3"},
+                    {"id":	2,	"song":	"67.mp3"},
+                    {"id":	3,	"song":	"68.mp3"},
+                    {"id":	4,	"song":	"69.mp3"},
+                    {"id":	5,	"song":	"70.mp3"},
+                    {"id":	6,	"song":	"71.mp3"},
+                    {"id":	7,	"song":	"72.mp3"},
+                    {"id":	8,	"song":	"73.mp3"},
+                    {"id":	9,	"song":	"74.mp3"},
+                    {"id":	10,	"song":	"75.mp3"},
+                    {"id":	11,	"song":	"76.mp3"},
+                    {"id":	12,	"song":	"77.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Tenstoal",
+                "image":	"Album_default",
+                "year":	"2007",
+                "songs":	[
+                    {"id":	1,	"song":	"248.mp3"},
+                    {"id":	2,	"song":	"249.mp3"},
+                    {"id":	3,	"song":	"250.mp3"},
+                    {"id":	4,	"song":	"251.mp3"},
+                    {"id":	5,	"song":	"252.mp3"},
+                    {"id":	6,	"song":	"253.mp3"},
+                    {"id":	7,	"song":	"254.mp3"},
+                    {"id":	8,	"song":	"255.mp3"},
+                    {"id":	9,	"song":	"256.mp3"},
+                    {"id":	10,	"song":	"257.mp3"},
+                    {"id":	11,	"song":	"258.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Vol 3",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1310.mp3"},
+                    {"id":	2,	"song":	"1311.mp3"},
+                    {"id":	3,	"song":	"1312.mp3"},
+                    {"id":	4,	"song":	"1313.mp3"},
+                    {"id":	5,	"song":	"1314.mp3"},
+                    {"id":	6,	"song":	"1315.mp3"},
+                    {"id":	7,	"song":	"1316.mp3"},
+                    {"id":	8,	"song":	"1317.mp3"},
+                    {"id":	9,	"song":	"1318.mp3"},
+                    {"id":	10,	"song":	"1319.mp3"},
+                    {"id":	11,	"song":	"1320.mp3"},
+                    {"id":	12,	"song":	"1321.mp3"}
+                ]
+            },
+            {
+                "id":	4 ,
+                "name":	"Vol.2",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1683.mp3"},
+                    {"id":	2,	"song":	"1684.mp3"},
+                    {"id":	3,	"song":	"1685.mp3"},
+                    {"id":	4,	"song":	"1686.mp3"},
+                    {"id":	5,	"song":	"1688.mp3"},
+                    {"id":	6,	"song":	"1689.mp3"},
+                    {"id":	7,	"song":	"1690.mp3"},
+                    {"id":	8,	"song":	"1691.mp3"},
+                    {"id":	9,	"song":	"1692.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	26,
+        "name":	"Aynaleme Huegawe",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Zenbel Alalge Geta",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1011.mp3"},
+                    {"id":	2,	"song":	"1012.mp3"},
+                    {"id":	3,	"song":	"1013.mp3"},
+                    {"id":	4,	"song":	"1014.mp3"},
+                    {"id":	5,	"song":	"1015.mp3"},
+                    {"id":	6,	"song":	"1016.mp3"},
+                    {"id":	7,	"song":	"1017.mp3"},
+                    {"id":	8,	"song":	"1018.mp3"},
+                    {"id":	9,	"song":	"1019.mp3"},
+                    {"id":	10,	"song":	"1020.mp3"},
+                    {"id":	11,	"song":	"1021.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	27 ,
+        "name":	"Azeb Hailu",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ameletekut",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2133.mp3"},
+                    {"id":	2,	"song":	"2134.mp3"},
+                    {"id":	3,	"song":	"2135.mp3"},
+                    {"id":	4,	"song":	"2136.mp3"},
+                    {"id":	5,	"song":	"2137.mp3"},
+                    {"id":	6,	"song":	"2138.mp3"},
+                    {"id":	7,	"song":	"2139.mp3"},
+                    {"id":	8,	"song":	"2140.mp3"},
+                    {"id":	9,	"song":	"2141.mp3"},
+                    {"id":	10,	"song":	"2142.mp3"},
+                    {"id":	11,	"song":	"2143.mp3"},
+                    {"id":	12,	"song":	"2144.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Vol 2",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1089.mp3"},
+                    {"id":	2,	"song":	"1090.mp3"},
+                    {"id":	3,	"song":	"1091.mp3"},
+                    {"id":	4,	"song":	"1092.mp3"},
+                    {"id":	5,	"song":	"1093.mp3"},
+                    {"id":	6,	"song":	"1094.mp3"},
+                    {"id":	7,	"song":	"1095.mp3"},
+                    {"id":	8,	"song":	"1096.mp3"},
+                    {"id":	9,	"song":	"1097.mp3"},
+                    {"id":	10,	"song":	"1098.mp3"},
+                    {"id":	11,	"song":	"1099.mp3"},
+                    {"id":	12,	"song":	"1100.mp3"},
+                    {"id":	13,	"song":	"1101.mp3"},
+                    {"id":	14,	"song":	"1102.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Yeteral Yadinal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2145.mp3"},
+                    {"id":	2,	"song":	"2146.mp3"},
+                    {"id":	3,	"song":	"2147.mp3"},
+                    {"id":	4,	"song":	"2148.mp3"},
+                    {"id":	5,	"song":	"2149.mp3"},
+                    {"id":	6,	"song":	"2150.mp3"},
+                    {"id":	7,	"song":	"2151.mp3"},
+                    {"id":	8,	"song":	"2152.mp3"},
+                    {"id":	9,	"song":	"2153.mp3"},
+                    {"id":	10,	"song":	"2154.mp3"},
+                    {"id":	11,	"song":	"2155.mp3"},
+                    {"id":	12,	"song":	"2156.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	28 ,
+        "name":	"Baca Beyene",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"2008",
+                "songs":	[
+                    {"id":	1,	"song":	"2604.mp3"},
+                    {"id":	2,	"song":	"2605.mp3"},
+                    {"id":	3,	"song":	"2606.mp3"},
+                    {"id":	4,	"song":	"2607.mp3"},
+                    {"id":	5,	"song":	"2608.mp3"},
+                    {"id":	6,	"song":	"2609.mp3"},
+                    {"id":	7,	"song":	"2610.mp3"},
+                    {"id":	8,	"song":	"2611.mp3"},
+                    {"id":	9,	"song":	"2612.mp3"},
+                    {"id":	10,	"song":	"2613.mp3"},
+                    {"id":	11,	"song":	"2614.mp3"},
+                    {"id":	12,	"song":	"2615.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	29 ,
+        "name":	"Benyam Hussen",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Astemerge",
+                "image":	"Album_default",
+                "year":	"2008",
+                "songs":	[
+                    {"id":	1,	"song":	"2811.mp3"},
+                    {"id":	2,	"song":	"2812.mp3"},
+                    {"id":	3,	"song":	"2813.mp3"},
+                    {"id":	4,	"song":	"2814.mp3"},
+                    {"id":	5,	"song":	"2815.mp3"},
+                    {"id":	6,	"song":	"2816.mp3"},
+                    {"id":	7,	"song":	"2817.mp3"},
+                    {"id":	8,	"song":	"2818.mp3"},
+                    {"id":	9,	"song":	"2819.mp3"},
+                    {"id":	10,	"song":	"2820.mp3"},
+                    {"id":	11,	"song":	"2821.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	30 ,
+        "name":	"Betelehem Tezera",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Abetu Amlake Vol. 1",
+                "image":	"Album_default",
+                "year":	"2007",
+                "songs":	[
+                    {"id":	1,	"song":	"462.mp3"},
+                    {"id":	2,	"song":	"463.mp3"},
+                    {"id":	3,	"song":	"464.mp3"},
+                    {"id":	4,	"song":	"465.mp3"},
+                    {"id":	5,	"song":	"466.mp3"},
+                    {"id":	6,	"song":	"467.mp3"},
+                    {"id":	7,	"song":	"468.mp3"},
+                    {"id":	8,	"song":	"469.mp3"},
+                    {"id":	9,	"song":	"470.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	31,
+        "name":	"Betelehem Wolde		",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Kalehen Wededkut",
+                "image":	"Album_default",
+                "year":	"2007",
+                "songs":	[
+                    {"id":	1,	"song":	"106.mp3"},
+                    {"id":	2,	"song":	"107.mp3"},
+                    {"id":	3,	"song":	"108.mp3"},
+                    {"id":	4,	"song":	"109.mp3"},
+                    {"id":	5,	"song":	"110.mp3"},
+                    {"id":	6,	"song":	"111.mp3"},
+                    {"id":	7,	"song":	"112.mp3"},
+                    {"id":	8,	"song":	"113.mp3"},
+                    {"id":	9,	"song":	"114.mp3"},
+                    {"id":	10,	"song":	"115.mp3"},
+                    {"id":	11,	"song":	"116.mp3"},
+                    {"id":	12,	"song":	"117.mp3"},
+                    {"id":	13,	"song":	"118.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	32 ,
+        "name":	"Betelehem Wolde,Lili & Endalkachew Hawaz",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Kalet Atahu",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1599.mp3"},
+                    {"id":	2,	"song":	"1600.mp3"},
+                    {"id":	3,	"song":	"1601.mp3"},
+                    {"id":	4,	"song":	"1602.mp3"},
+                    {"id":	5,	"song":	"1603.mp3"},
+                    {"id":	6,	"song":	"1604.mp3"},
+                    {"id":	7,	"song":	"1605.mp3"},
+                    {"id":	8,	"song":	"1606.mp3"},
+                    {"id":	9,	"song":	"1607.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	33,
+        "name":	"Bethel Music Ministry		",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"EndZenbaba Enlemlmlan",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2236.mp3"},
+                    {"id":	2,	"song":	"2237.mp3"},
+                    {"id":	3,	"song":	"2238.mp3"},
+                    {"id":	4,	"song":	"2239.mp3"},
+                    {"id":	5,	"song":	"2240.mp3"},
+                    {"id":	6,	"song":	"2241.mp3"},
+                    {"id":	7,	"song":	"2242.mp3"},
+                    {"id":	8,	"song":	"2243.mp3"},
+                    {"id":	9,	"song":	"2244.mp3"},
+                    {"id":	10,	"song":	"2245.mp3"},
+                    {"id":	11,	"song":	"2246.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Mesgana Leswa",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2226.mp3"},
+                    {"id":	2,	"song":	"2227.mp3"},
+                    {"id":	3,	"song":	"2228.mp3"},
+                    {"id":	4,	"song":	"2229.mp3"},
+                    {"id":	5,	"song":	"2230.mp3"},
+                    {"id":	6,	"song":	"2231.mp3"},
+                    {"id":	7,	"song":	"2232.mp3"},
+                    {"id":	8,	"song":	"2233.mp3"},
+                    {"id":	9,	"song":	"2234.mp3"},
+                    {"id":	10,	"song":	"2235.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	34 ,
+        "name":	"Bezu Mulugeta & Tedla Assefa (Wongelawi)",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Eysus Leiu New Alen Endgena",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1932.mp3"},
+                    {"id":	2,	"song":	"1933.mp3"},
+                    {"id":	3,	"song":	"1934.mp3"},
+                    {"id":	4,	"song":	"1935.mp3"},
+                    {"id":	5,	"song":	"1936.mp3"},
+                    {"id":	6,	"song":	"1937.mp3"},
+                    {"id":	7,	"song":	"1938.mp3"},
+                    {"id":	8,	"song":	"1939.mp3"},
+                    {"id":	9,	"song":	"1940.mp3"},
+                    {"id":	10,	"song":	"1941.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	35 ,
+        "name":	"Bezuayehu Gebretsadik",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. 4",
+                "image":	"Album_default",
+                "year":	"1996",
+                "songs":	[
+                    {"id":	1,	"song":	"2928.mp3"},
+                    {"id":	2,	"song":	"2929.mp3"},
+                    {"id":	3,	"song":	"2930.mp3"},
+                    {"id":	4,	"song":	"2931.mp3"},
+                    {"id":	5,	"song":	"2932.mp3"},
+                    {"id":	6,	"song":	"2933.mp3"},
+                    {"id":	7,	"song":	"2934.mp3"},
+                    {"id":	8,	"song":	"2935.mp3"},
+                    {"id":	9,	"song":	"2936.mp3"},
+                    {"id":	10,	"song":	"2937.mp3"},
+                    {"id":	11,	"song":	"2938.mp3"},
+                    {"id":	12,	"song":	"2939.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	36 ,
+        "name":	"Birhana Wongel Mitmkawin Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Egzabher Kega Gar New",
+                "image":	"Album_default",
+                "year":	"1996",
+                "songs":	[
+                    {"id":	1,	"song":	"1527.mp3"},
+                    {"id":	2,	"song":	"1528.mp3"},
+                    {"id":	3,	"song":	"1529.mp3"},
+                    {"id":	4,	"song":	"1530.mp3"},
+                    {"id":	5,	"song":	"1531.mp3"},
+                    {"id":	6,	"song":	"1532.mp3"},
+                    {"id":	7,	"song":	"1533.mp3"},
+                    {"id":	8,	"song":	"1534.mp3"},
+                    {"id":	9,	"song":	"1535.mp3"},
+                    {"id":	10,	"song":	"1536.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Egzabher Merkoachenn Melslen",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"1911.mp3"},
+                    {"id":	2,	"song":	"1912.mp3"},
+                    {"id":	3,	"song":	"1913.mp3"},
+                    {"id":	4,	"song":	"1914.mp3"},
+                    {"id":	5,	"song":	"1915.mp3"},
+                    {"id":	6,	"song":	"1916.mp3"},
+                    {"id":	7,	"song":	"1918.mp3"},
+                    {"id":	8,	"song":	"1919.mp3"},
+                    {"id":	9,	"song":	"1920.mp3"},
+                    {"id":	10,	"song":	"1921.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	37 ,
+        "name":	"Birhanu Bekele",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Be Eysus Memot",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"908.mp3"},
+                    {"id":	2,	"song":	"909.mp3"},
+                    {"id":	3,	"song":	"910.mp3"},
+                    {"id":	4,	"song":	"911.mp3"},
+                    {"id":	5,	"song":	"912.mp3"},
+                    {"id":	6,	"song":	"913.mp3"},
+                    {"id":	7,	"song":	"914.mp3"},
+                    {"id":	8,	"song":	"915.mp3"},
+                    {"id":	9,	"song":	"916.mp3"},
+                    {"id":	10,	"song":	"917.mp3"},
+                    {"id":	11,	"song":	"918.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	38 ,
+        "name":	"Birucktawit Assefa & Getayawqale Girmay",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Egzabher Sewn Yeflgal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2531.mp3"},
+                    {"id":	2,	"song":	"2532.mp3"},
+                    {"id":	3,	"song":	"2533.mp3"},
+                    {"id":	4,	"song":	"2534.mp3"},
+                    {"id":	5,	"song":	"2535.mp3"},
+                    {"id":	6,	"song":	"2536.mp3"},
+                    {"id":	7,	"song":	"2537.mp3"},
+                    {"id":	8,	"song":	"2538.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Enkwan Des Yalachu",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"658.mp3"},
+                    {"id":	2,	"song":	"659.mp3"},
+                    {"id":	3,	"song":	"660.mp3"},
+                    {"id":	4,	"song":	"661.mp3"},
+                    {"id":	5,	"song":	"662.mp3"},
+                    {"id":	6,	"song":	"663.mp3"},
+                    {"id":	7,	"song":	"664.mp3"},
+                    {"id":	8,	"song":	"665.mp3"},
+                    {"id":	9,	"song":	"666.mp3"},
+                    {"id":	10,	"song":	"667.mp3"},
+                    {"id":	11,	"song":	"668.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Midir Alefelat",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2157.mp3"},
+                    {"id":	2,	"song":	"2158.mp3"},
+                    {"id":	3,	"song":	"2159.mp3"},
+                    {"id":	4,	"song":	"2160.mp3"},
+                    {"id":	5,	"song":	"2161.mp3"},
+                    {"id":	6,	"song":	"2162.mp3"},
+                    {"id":	7,	"song":	"2163.mp3"},
+                    {"id":	8,	"song":	"2164.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	39 ,
+        "name":	"Bisrat Yohannes",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Tigraga Mezmur",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1408.mp3"},
+                    {"id":	2,	"song":	"1409.mp3"},
+                    {"id":	3,	"song":	"1410.mp3"},
+                    {"id":	4,	"song":	"1411.mp3"},
+                    {"id":	5,	"song":	"1412.mp3"},
+                    {"id":	6,	"song":	"1413.mp3"},
+                    {"id":	7,	"song":	"1414.mp3"},
+                    {"id":	8,	"song":	"1415.mp3"},
+                    {"id":	9,	"song":	"1416.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	40 ,
+        "name":	"Christian Girma & Emnet Zewdi",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Eyesus yenefse Nigus neh",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2940.mp3"},
+                    {"id":	2,	"song":	"2941.mp3"},
+                    {"id":	3,	"song":	"2942.mp3"},
+                    {"id":	4,	"song":	"2943.mp3"},
+                    {"id":	5,	"song":	"2944.mp3"},
+                    {"id":	6,	"song":	"2945.mp3"},
+                    {"id":	7,	"song":	"2946.mp3"},
+                    {"id":	8,	"song":	"2947.mp3"},
+                    {"id":	9,	"song":	"2948.mp3"},
+                    {"id":	10,	"song":	"2949.mp3"},
+                    {"id":	11,	"song":	"2950.mp3"},
+                    {"id":	12,	"song":	"2951.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	41 ,
+        "name":	"Dagmawi Tilahun",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"450.mp3"},
+                    {"id":	2,	"song":	"451.mp3"},
+                    {"id":	3,	"song":	"452.mp3"},
+                    {"id":	4,	"song":	"453.mp3"},
+                    {"id":	5,	"song":	"454.mp3"},
+                    {"id":	6,	"song":	"455.mp3"},
+                    {"id":	7,	"song":	"456.mp3"},
+                    {"id":	8,	"song":	"457.mp3"},
+                    {"id":	9,	"song":	"458.mp3"},
+                    {"id":	10,	"song":	"459.mp3"},
+                    {"id":	11,	"song":	"460.mp3"},
+                    {"id":	12,	"song":	"461.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	42 ,
+        "name":	"Daniel Agonafer",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ye'Yesus Getnet",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1608.mp3"},
+                    {"id":	2,	"song":	"1609.mp3"},
+                    {"id":	3,	"song":	"1610.mp3"},
+                    {"id":	4,	"song":	"1611.mp3"},
+                    {"id":	5,	"song":	"1612.mp3"},
+                    {"id":	6,	"song":	"1613.mp3"},
+                    {"id":	7,	"song":	"1614.mp3"},
+                    {"id":	8,	"song":	"1615.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	43 ,
+        "name":	"Daniel Amdemichael",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Daniel Amdemichael (Unknown Album)",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"597.mp3"},
+                    {"id":	2,	"song":	"598.mp3"},
+                    {"id":	3,	"song":	"599.mp3"},
+                    {"id":	4,	"song":	"600.mp3"},
+                    {"id":	5,	"song":	"601.mp3"},
+                    {"id":	6,	"song":	"602.mp3"},
+                    {"id":	7,	"song":	"603.mp3"},
+                    {"id":	8,	"song":	"604.mp3"},
+                    {"id":	9,	"song":	"605.mp3"},
+                    {"id":	10,	"song":	"606.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Vol 4",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"619.mp3"},
+                    {"id":	2,	"song":	"620.mp3"},
+                    {"id":	3,	"song":	"621.mp3"},
+                    {"id":	4,	"song":	"622.mp3"},
+                    {"id":	5,	"song":	"623.mp3"},
+                    {"id":	6,	"song":	"624.mp3"},
+                    {"id":	7,	"song":	"625.mp3"},
+                    {"id":	8,	"song":	"626.mp3"},
+                    {"id":	9,	"song":	"627.mp3"},
+                    {"id":	10,	"song":	"628.mp3"},
+                    {"id":	11,	"song":	"629.mp3"},
+                    {"id":	12,	"song":	"630.mp3"},
+                    {"id":	13,	"song":	"631.mp3"},
+                    {"id":	14,	"song":	"632.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Yihonal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"607.mp3"},
+                    {"id":	2,	"song":	"608.mp3"},
+                    {"id":	3,	"song":	"609.mp3"},
+                    {"id":	4,	"song":	"610.mp3"},
+                    {"id":	5,	"song":	"611.mp3"},
+                    {"id":	6,	"song":	"612.mp3"},
+                    {"id":	7,	"song":	"613.mp3"},
+                    {"id":	8,	"song":	"614.mp3"},
+                    {"id":	9,	"song":	"615.mp3"},
+                    {"id":	10,	"song":	"616.mp3"},
+                    {"id":	11,	"song":	"617.mp3"},
+                    {"id":	12,	"song":	"618.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	44 ,
+        "name":	"Daniel Habte",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2789.mp3"},
+                    {"id":	2,	"song":	"2790.mp3"},
+                    {"id":	3,	"song":	"2791.mp3"},
+                    {"id":	4,	"song":	"2792.mp3"},
+                    {"id":	5,	"song":	"2793.mp3"},
+                    {"id":	6,	"song":	"2794.mp3"},
+                    {"id":	7,	"song":	"2795.mp3"},
+                    {"id":	8,	"song":	"2796.mp3"},
+                    {"id":	9,	"song":	"2797.mp3"},
+                    {"id":	10,	"song":	"2798.mp3"},
+                    {"id":	11,	"song":	"2799.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	45 ,
+        "name":	"Daniel Mengestab",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Nay Hiwote Medmude megda",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2184.mp3"},
+                    {"id":	2,	"song":	"2185.mp3"},
+                    {"id":	3,	"song":	"2186.mp3"},
+                    {"id":	4,	"song":	"2187.mp3"},
+                    {"id":	5,	"song":	"2188.mp3"},
+                    {"id":	6,	"song":	"2189.mp3"},
+                    {"id":	7,	"song":	"2190.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	46 ,
+        "name":	"Daniel Tilahun",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Zemen Meta",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1899.mp3"},
+                    {"id":	2,	"song":	"1900.mp3"},
+                    {"id":	3,	"song":	"1901.mp3"},
+                    {"id":	4,	"song":	"1902.mp3"},
+                    {"id":	5,	"song":	"1903.mp3"},
+                    {"id":	6,	"song":	"1904.mp3"},
+                    {"id":	7,	"song":	"1905.mp3"},
+                    {"id":	8,	"song":	"1906.mp3"},
+                    {"id":	9,	"song":	"1907.mp3"},
+                    {"id":	10,	"song":	"1908.mp3"},
+                    {"id":	11,	"song":	"1909.mp3"},
+                    {"id":	12,	"song":	"1910.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	47 ,
+        "name":	"Daniel Zena",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Wase",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2191.mp3"},
+                    {"id":	2,	"song":	"2192.mp3"},
+                    {"id":	3,	"song":	"2193.mp3"},
+                    {"id":	4,	"song":	"2194.mp3"},
+                    {"id":	5,	"song":	"2195.mp3"},
+                    {"id":	6,	"song":	"2196.mp3"},
+                    {"id":	7,	"song":	"2197.mp3"},
+                    {"id":	8,	"song":	"2198.mp3"},
+                    {"id":	9,	"song":	"2199.mp3"},
+                    {"id":	10,	"song":	"2200.mp3"},
+                    {"id":	11,	"song":	"2201.mp3"},
+                    {"id":	12,	"song":	"2202.mp3"},
+                    {"id":	13,	"song":	"2203.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	48 ,
+        "name":	"Dawit (Danny) Wolde",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Mezmur 91",
+                "image":	"Album_default",
+                "year":	"2005",
+                "songs":	[
+                    {"id":	1,	"song":	"1266.mp3"},
+                    {"id":	2,	"song":	"1267.mp3"},
+                    {"id":	3,	"song":	"1268.mp3"},
+                    {"id":	4,	"song":	"1269.mp3"},
+                    {"id":	5,	"song":	"1270.mp3"},
+                    {"id":	6,	"song":	"1271.mp3"},
+                    {"id":	7,	"song":	"1272.mp3"},
+                    {"id":	8,	"song":	"1274.mp3"},
+                    {"id":	9,	"song":	"1275.mp3"},
+                    {"id":	10,	"song":	"1276.mp3"},
+                    {"id":	11,	"song":	"1277.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	49,
+        "name":	"Dawit Getachew",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Eref Elalehu",
+                "image":	"Album_default",
+                "year":	"2005",
+                "songs":	[
+                    {"id":	1,	"song":	"2165.mp3"},
+                    {"id":	2,	"song":	"2166.mp3"},
+                    {"id":	3,	"song":	"2167.mp3"},
+                    {"id":	4,	"song":	"2168.mp3"},
+                    {"id":	5,	"song":	"2169.mp3"},
+                    {"id":	6,	"song":	"2170.mp3"},
+                    {"id":	7,	"song":	"2171.mp3"},
+                    {"id":	8,	"song":	"2172.mp3"},
+                    {"id":	9,	"song":	"2173.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	50 ,
+        "name":	"Dawit Molalign",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Haylaga",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"508.mp3"},
+                    {"id":	2,	"song":	"509.mp3"},
+                    {"id":	3,	"song":	"510.mp3"},
+                    {"id":	4,	"song":	"511.mp3"},
+                    {"id":	5,	"song":	"512.mp3"},
+                    {"id":	6,	"song":	"513.mp3"},
+                    {"id":	7,	"song":	"514.mp3"},
+                    {"id":	8,	"song":	"515.mp3"},
+                    {"id":	9,	"song":	"516.mp3"},
+                    {"id":	10,	"song":	"517.mp3"},
+                    {"id":	11,	"song":	"518.mp3"},
+                    {"id":	12,	"song":	"519.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Menged Lay Telogn Alhedem",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1022.mp3"},
+                    {"id":	2,	"song":	"1023.mp3"},
+                    {"id":	3,	"song":	"1024.mp3"},
+                    {"id":	4,	"song":	"1025.mp3"},
+                    {"id":	5,	"song":	"1026.mp3"},
+                    {"id":	6,	"song":	"1027.mp3"},
+                    {"id":	7,	"song":	"1028.mp3"},
+                    {"id":	8,	"song":	"1029.mp3"},
+                    {"id":	9,	"song":	"1030.mp3"},
+                    {"id":	10,	"song":	"1031.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	51 ,
+        "name":	"Debre Zeyte Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Talak Hizb Nen",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1417.mp3"},
+                    {"id":	2,	"song":	"1418.mp3"},
+                    {"id":	3,	"song":	"1419.mp3"},
+                    {"id":	4,	"song":	"1420.mp3"},
+                    {"id":	5,	"song":	"1421.mp3"},
+                    {"id":	6,	"song":	"1422.mp3"},
+                    {"id":	7,	"song":	"1423.mp3"},
+                    {"id":	8,	"song":	"1424.mp3"},
+                    {"id":	9,	"song":	"1425.mp3"},
+                    {"id":	10,	"song":	"1426.mp3"},
+                    {"id":	11,	"song":	"1427.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Yashagernge",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1289.mp3"},
+                    {"id":	2,	"song":	"1290.mp3"},
+                    {"id":	3,	"song":	"1291.mp3"},
+                    {"id":	4,	"song":	"1292.mp3"},
+                    {"id":	5,	"song":	"1293.mp3"},
+                    {"id":	6,	"song":	"1294.mp3"},
+                    {"id":	7,	"song":	"1295.mp3"},
+                    {"id":	8,	"song":	"1296.mp3"},
+                    {"id":	9,	"song":	"1297.mp3"},
+                    {"id":	10,	"song":	"1298.mp3"},
+                    {"id":	11,	"song":	"1299.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	52 ,
+        "name":	"Denberu Bayleyegn",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Abatoch Geta Y'Barckahew",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2844.mp3"},
+                    {"id":	2,	"song":	"2845.mp3"},
+                    {"id":	3,	"song":	"2846.mp3"},
+                    {"id":	4,	"song":	"2847.mp3"},
+                    {"id":	5,	"song":	"2848.mp3"},
+                    {"id":	6,	"song":	"2849.mp3"},
+                    {"id":	7,	"song":	"2850.mp3"},
+                    {"id":	8,	"song":	"2851.mp3"},
+                    {"id":	9,	"song":	"2852.mp3"},
+                    {"id":	10,	"song":	"2853.mp3"},
+                    {"id":	11,	"song":	"2854.mp3"},
+                    {"id":	12,	"song":	"2855.mp3"},
+                    {"id":	13,	"song":	"2856.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Edelega Neg Y'Esus Silalege",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2857.mp3"},
+                    {"id":	2,	"song":	"2858.mp3"},
+                    {"id":	3,	"song":	"2859.mp3"},
+                    {"id":	4,	"song":	"2860.mp3"},
+                    {"id":	5,	"song":	"2861.mp3"},
+                    {"id":	6,	"song":	"2862.mp3"},
+                    {"id":	7,	"song":	"2863.mp3"},
+                    {"id":	8,	"song":	"2864.mp3"},
+                    {"id":	9,	"song":	"2865.mp3"},
+                    {"id":	10,	"song":	"2866.mp3"},
+                    {"id":	11,	"song":	"2867.mp3"},
+                    {"id":	12,	"song":	"2868.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	53 ,
+        "name":	"Derge Mulatu",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Chemerew Chemerkut",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1537.mp3"},
+                    {"id":	2,	"song":	"1538.mp3"},
+                    {"id":	3,	"song":	"1539.mp3"},
+                    {"id":	4,	"song":	"1540.mp3"},
+                    {"id":	5,	"song":	"1541.mp3"},
+                    {"id":	6,	"song":	"1542.mp3"},
+                    {"id":	7,	"song":	"1543.mp3"},
+                    {"id":	8,	"song":	"1544.mp3"},
+                    {"id":	9,	"song":	"1545.mp3"},
+                    {"id":	10,	"song":	"1546.mp3"},
+                    {"id":	11,	"song":	"1547.mp3"},
+                    {"id":	12,	"song":	"1548.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Derge Mulatu (Uknown Album)",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"337.mp3"},
+                    {"id":	2,	"song":	"338.mp3"},
+                    {"id":	3,	"song":	"339.mp3"},
+                    {"id":	4,	"song":	"340.mp3"},
+                    {"id":	5,	"song":	"341.mp3"},
+                    {"id":	6,	"song":	"342.mp3"},
+                    {"id":	7,	"song":	"343.mp3"},
+                    {"id":	8,	"song":	"344.mp3"},
+                    {"id":	9,	"song":	"345.mp3"},
+                    {"id":	10,	"song":	"346.mp3"},
+                    {"id":	11,	"song":	"347.mp3"},
+                    {"id":	12,	"song":	"348.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	54 ,
+        "name":	"Dessiye Wolde",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. #2",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1516.mp3"},
+                    {"id":	2,	"song":	"1517.mp3"},
+                    {"id":	3,	"song":	"1518.mp3"},
+                    {"id":	4,	"song":	"1519.mp3"},
+                    {"id":	5,	"song":	"1520.mp3"},
+                    {"id":	6,	"song":	"1521.mp3"},
+                    {"id":	7,	"song":	"1522.mp3"},
+                    {"id":	8,	"song":	"1523.mp3"},
+                    {"id":	9,	"song":	"1524.mp3"},
+                    {"id":	10,	"song":	"1525.mp3"},
+                    {"id":	11,	"song":	"1526.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	55 ,
+        "name":	"Elias Abebe",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"ManEndante Getaye",
+                "image":	"Album_default",
+                "year":	"2007",
+                "songs":	[
+                    {"id":	1,	"song":	"2989.mp3"},
+                    {"id":	2,	"song":	"2990.mp3"},
+                    {"id":	3,	"song":	"2991.mp3"},
+                    {"id":	4,	"song":	"2992.mp3"},
+                    {"id":	5,	"song":	"2993.mp3"},
+                    {"id":	6,	"song":	"2994.mp3"},
+                    {"id":	7,	"song":	"2995.mp3"},
+                    {"id":	8,	"song":	"2996.mp3"},
+                    {"id":	9,	"song":	"2997.mp3"},
+                    {"id":	10,	"song":	"2998.mp3"},
+                    {"id":	11,	"song":	"2999.mp3"},
+                    {"id":	12,	"song":	"3000.mp3"},
+                    {"id":	13,	"song":	"3001.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Y'Ejocheh Sirawoch Dink Nachew",
+                "image":	"Album_default",
+                "year":	"2007",
+                "songs":	[
+                    {"id":	1,	"song":	"2977.mp3"},
+                    {"id":	2,	"song":	"2978.mp3"},
+                    {"id":	3,	"song":	"2979.mp3"},
+                    {"id":	4,	"song":	"2980.mp3"},
+                    {"id":	5,	"song":	"2981.mp3"},
+                    {"id":	6,	"song":	"2982.mp3"},
+                    {"id":	7,	"song":	"2983.mp3"},
+                    {"id":	8,	"song":	"2984.mp3"},
+                    {"id":	9,	"song":	"2985.mp3"},
+                    {"id":	10,	"song":	"2986.mp3"},
+                    {"id":	11,	"song":	"2987.mp3"},
+                    {"id":	12,	"song":	"2988.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	56 ,
+        "name":	"Elias Abte",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Yemitsewn Toafin Altefam",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2343.mp3"},
+                    {"id":	2,	"song":	"2344.mp3"},
+                    {"id":	3,	"song":	"2345.mp3"},
+                    {"id":	4,	"song":	"2346.mp3"},
+                    {"id":	5,	"song":	"2347.mp3"},
+                    {"id":	6,	"song":	"2348.mp3"},
+                    {"id":	7,	"song":	"2349.mp3"},
+                    {"id":	8,	"song":	"2350.mp3"},
+                    {"id":	9,	"song":	"2351.mp3"},
+                    {"id":	10,	"song":	"2352.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	57 ,
+        "name":	"Elias Shefraw",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Egzabher Besmay Tebark",
+                "image":	"Album_default",
+                "year":	"2004",
+                "songs":	[
+                    {"id":	1,	"song":	"919.mp3"},
+                    {"id":	2,	"song":	"920.mp3"},
+                    {"id":	3,	"song":	"921.mp3"},
+                    {"id":	4,	"song":	"922.mp3"},
+                    {"id":	5,	"song":	"923.mp3"},
+                    {"id":	6,	"song":	"924.mp3"},
+                    {"id":	7,	"song":	"925.mp3"},
+                    {"id":	8,	"song":	"926.mp3"},
+                    {"id":	9,	"song":	"927.mp3"},
+                    {"id":	10,	"song":	"928.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	58 ,
+        "name":	"Elsi Clawson",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Bemederebedam Amlak",
+                "image":	"Album_default",
+                "year":	"2004",
+                "songs":	[
+                    {"id":	1,	"song":	"2109.mp3"},
+                    {"id":	2,	"song":	"2110.mp3"},
+                    {"id":	3,	"song":	"2111.mp3"},
+                    {"id":	4,	"song":	"2112.mp3"},
+                    {"id":	5,	"song":	"2113.mp3"},
+                    {"id":	6,	"song":	"2114.mp3"},
+                    {"id":	7,	"song":	"2115.mp3"},
+                    {"id":	8,	"song":	"2116.mp3"},
+                    {"id":	9,	"song":	"2117.mp3"},
+                    {"id":	10,	"song":	"2118.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	59 ,
+        "name":	"Endalkachew Hawaz",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Egzabher Tilk New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"896.mp3"},
+                    {"id":	2,	"song":	"897.mp3"},
+                    {"id":	3,	"song":	"898.mp3"},
+                    {"id":	4,	"song":	"899.mp3"},
+                    {"id":	5,	"song":	"900.mp3"},
+                    {"id":	6,	"song":	"901.mp3"},
+                    {"id":	7,	"song":	"902.mp3"},
+                    {"id":	8,	"song":	"903.mp3"},
+                    {"id":	9,	"song":	"904.mp3"},
+                    {"id":	10,	"song":	"905.mp3"},
+                    {"id":	11,	"song":	"906.mp3"},
+                    {"id":	12,	"song":	"907.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Vol 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1067.mp3"},
+                    {"id":	2,	"song":	"1068.mp3"},
+                    {"id":	3,	"song":	"1069.mp3"},
+                    {"id":	4,	"song":	"1070.mp3"},
+                    {"id":	5,	"song":	"1071.mp3"},
+                    {"id":	6,	"song":	"1072.mp3"},
+                    {"id":	7,	"song":	"1073.mp3"},
+                    {"id":	8,	"song":	"1074.mp3"},
+                    {"id":	9,	"song":	"1075.mp3"},
+                    {"id":	10,	"song":	"1076.mp3"},
+                    {"id":	11,	"song":	"1077.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	60 ,
+        "name":	"Endrias Hawaz",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Kemotem Yadnewal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2330.mp3"},
+                    {"id":	2,	"song":	"2331.mp3"},
+                    {"id":	3,	"song":	"2332.mp3"},
+                    {"id":	4,	"song":	"2333.mp3"},
+                    {"id":	5,	"song":	"2334.mp3"},
+                    {"id":	6,	"song":	"2335.mp3"},
+                    {"id":	7,	"song":	"2336.mp3"},
+                    {"id":	8,	"song":	"2337.mp3"},
+                    {"id":	9,	"song":	"2338.mp3"},
+                    {"id":	10,	"song":	"2339.mp3"},
+                    {"id":	11,	"song":	"2340.mp3"},
+                    {"id":	12,	"song":	"2341.mp3"},
+                    {"id":	13,	"song":	"2342.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Talaq Amlak Alege",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2257.mp3"},
+                    {"id":	2,	"song":	"2258.mp3"},
+                    {"id":	3,	"song":	"2259.mp3"},
+                    {"id":	4,	"song":	"2260.mp3"},
+                    {"id":	5,	"song":	"2261.mp3"},
+                    {"id":	6,	"song":	"2262.mp3"},
+                    {"id":	7,	"song":	"2263.mp3"},
+                    {"id":	8,	"song":	"2264.mp3"},
+                    {"id":	9,	"song":	"2265.mp3"},
+                    {"id":	10,	"song":	"2266.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Y'Chelmaw Zemen Tegfefe",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2509.mp3"},
+                    {"id":	2,	"song":	"2510.mp3"},
+                    {"id":	3,	"song":	"2511.mp3"},
+                    {"id":	4,	"song":	"2512.mp3"},
+                    {"id":	5,	"song":	"2513.mp3"},
+                    {"id":	6,	"song":	"2514.mp3"},
+                    {"id":	7,	"song":	"2515.mp3"},
+                    {"id":	8,	"song":	"2516.mp3"},
+                    {"id":	9,	"song":	"2517.mp3"},
+                    {"id":	10,	"song":	"2518.mp3"},
+                    {"id":	11,	"song":	"2519.mp3"},
+                    {"id":	12,	"song":	"2520.mp3"}
+                ]
+            },
+            {
+                "id":	4 ,
+                "name":	"Y'mesnanat Zemen Y'hunlen",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2370.mp3"},
+                    {"id":	2,	"song":	"2371.mp3"},
+                    {"id":	3,	"song":	"2372.mp3"},
+                    {"id":	4,	"song":	"2373.mp3"},
+                    {"id":	5,	"song":	"2374.mp3"},
+                    {"id":	6,	"song":	"2375.mp3"},
+                    {"id":	7,	"song":	"2376.mp3"},
+                    {"id":	8,	"song":	"2377.mp3"},
+                    {"id":	9,	"song":	"2379.mp3"},
+                    {"id":	10,	"song":	"2380.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	61 ,
+        "name":	"Ephraim Dagn",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Alasfargme",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"576.mp3"},
+                    {"id":	2,	"song":	"577.mp3"},
+                    {"id":	3,	"song":	"578.mp3"},
+                    {"id":	4,	"song":	"579.mp3"},
+                    {"id":	5,	"song":	"580.mp3"},
+                    {"id":	6,	"song":	"581.mp3"},
+                    {"id":	7,	"song":	"582.mp3"},
+                    {"id":	8,	"song":	"583.mp3"},
+                    {"id":	9,	"song":	"584.mp3"},
+                    {"id":	10,	"song":	"585.mp3"},
+                    {"id":	11,	"song":	"586.mp3"},
+                    {"id":	12,	"song":	"587.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	62 ,
+        "name":	"Essay Estifan",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Aymlken Hlf Mesgana",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2767.mp3"},
+                    {"id":	2,	"song":	"2768.mp3"},
+                    {"id":	3,	"song":	"2769.mp3"},
+                    {"id":	4,	"song":	"2770.mp3"},
+                    {"id":	5,	"song":	"2771.mp3"},
+                    {"id":	6,	"song":	"2772.mp3"},
+                    {"id":	7,	"song":	"2773.mp3"},
+                    {"id":	8,	"song":	"2774.mp3"},
+                    {"id":	9,	"song":	"2775.mp3"},
+                    {"id":	10,	"song":	"2776.mp3"},
+                    {"id":	11,	"song":	"2777.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	63 ,
+        "name":	"Ethio. Fellowship Church in the UK",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Nafkote",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1997.mp3"},
+                    {"id":	2,	"song":	"1998.mp3"},
+                    {"id":	3,	"song":	"1999.mp3"},
+                    {"id":	4,	"song":	"2000.mp3"},
+                    {"id":	5,	"song":	"2001.mp3"},
+                    {"id":	6,	"song":	"2002.mp3"},
+                    {"id":	7,	"song":	"2003.mp3"},
+                    {"id":	8,	"song":	"2004.mp3"},
+                    {"id":	9,	"song":	"2005.mp3"},
+                    {"id":	10,	"song":	"2006.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	64 ,
+        "name":	"Ethiopian Evangelical Church in Rome",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Hiaw Yega Wongel",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2017.mp3"},
+                    {"id":	2,	"song":	"2018.mp3"},
+                    {"id":	3,	"song":	"2019.mp3"},
+                    {"id":	4,	"song":	"2020.mp3"},
+                    {"id":	5,	"song":	"2021.mp3"},
+                    {"id":	6,	"song":	"2022.mp3"},
+                    {"id":	7,	"song":	"2023.mp3"},
+                    {"id":	8,	"song":	"2024.mp3"},
+                    {"id":	9,	"song":	"2025.mp3"},
+                    {"id":	10,	"song":	"2026.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"O'Yinded",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1796.mp3"},
+                    {"id":	2,	"song":	"1797.mp3"},
+                    {"id":	3,	"song":	"1798.mp3"},
+                    {"id":	4,	"song":	"1799.mp3"},
+                    {"id":	5,	"song":	"1800.mp3"},
+                    {"id":	6,	"song":	"1801.mp3"},
+                    {"id":	7,	"song":	"1802.mp3"},
+                    {"id":	8,	"song":	"1803.mp3"},
+                    {"id":	9,	"song":	"1804.mp3"},
+                    {"id":	10,	"song":	"1805.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	65 ,
+        "name":	"Evangelical Church in Greece Athens",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Mengstih Timtalin",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1957.mp3"},
+                    {"id":	2,	"song":	"1958.mp3"},
+                    {"id":	3,	"song":	"1959.mp3"},
+                    {"id":	4,	"song":	"1960.mp3"},
+                    {"id":	5,	"song":	"1961.mp3"},
+                    {"id":	6,	"song":	"1962.mp3"},
+                    {"id":	7,	"song":	"1963.mp3"},
+                    {"id":	8,	"song":	"1964.mp3"},
+                    {"id":	9,	"song":	"1965.mp3"},
+                    {"id":	10,	"song":	"1966.mp3"},
+                    {"id":	11,	"song":	"1967.mp3"},
+                    {"id":	12,	"song":	"1968.mp3"},
+                    {"id":	13,	"song":	"1969.mp3"},
+                    {"id":	14,	"song":	"1970.mp3"},
+                    {"id":	15,	"song":	"1971.mp3"},
+                    {"id":	16,	"song":	"1972.mp3"},
+                    {"id":	17,	"song":	"1973.mp3"},
+                    {"id":	18,	"song":	"1974.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	66 ,
+        "name":	"Ezra Wolde Aregaye",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1505.mp3"},
+                    {"id":	2,	"song":	"1506.mp3"},
+                    {"id":	3,	"song":	"1507.mp3"},
+                    {"id":	4,	"song":	"1508.mp3"},
+                    {"id":	5,	"song":	"1509.mp3"},
+                    {"id":	6,	"song":	"1510.mp3"},
+                    {"id":	7,	"song":	"1511.mp3"},
+                    {"id":	8,	"song":	"1512.mp3"},
+                    {"id":	9,	"song":	"1513.mp3"},
+                    {"id":	10,	"song":	"1514.mp3"},
+                    {"id":	11,	"song":	"1515.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	67 ,
+        "name":	"Fedhasa Mikael",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Cush",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3272.mp3"},
+                    {"id":	2,	"song":	"3273.mp3"},
+                    {"id":	3,	"song":	"3274.mp3"},
+                    {"id":	4,	"song":	"3275.mp3"},
+                    {"id":	5,	"song":	"3276.mp3"},
+                    {"id":	6,	"song":	"3277.mp3"},
+                    {"id":	7,	"song":	"3278.mp3"},
+                    {"id":	8,	"song":	"3279.mp3"},
+                    {"id":	9,	"song":	"3280.mp3"},
+                    {"id":	10,	"song":	"3281.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Haa Ga'u",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3282.mp3"},
+                    {"id":	2,	"song":	"3283.mp3"},
+                    {"id":	3,	"song":	"3284.mp3"},
+                    {"id":	4,	"song":	"3285.mp3"},
+                    {"id":	5,	"song":	"3286.mp3"},
+                    {"id":	6,	"song":	"3287.mp3"},
+                    {"id":	7,	"song":	"3288.mp3"},
+                    {"id":	8,	"song":	"3289.mp3"},
+                    {"id":	9,	"song":	"3290.mp3"},
+                    {"id":	10,	"song":	"3291.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Vol. #1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3261.mp3"},
+                    {"id":	2,	"song":	"3262.mp3"},
+                    {"id":	3,	"song":	"3263.mp3"},
+                    {"id":	4,	"song":	"3264.mp3"},
+                    {"id":	5,	"song":	"3265.mp3"},
+                    {"id":	6,	"song":	"3266.mp3"},
+                    {"id":	7,	"song":	"3267.mp3"},
+                    {"id":	8,	"song":	"3268.mp3"},
+                    {"id":	9,	"song":	"3269.mp3"},
+                    {"id":	10,	"song":	"3270.mp3"},
+                    {"id":	11,	"song":	"3271.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	68 ,
+        "name":	"Fregenet Dessie",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1125.mp3"},
+                    {"id":	2,	"song":	"1126.mp3"},
+                    {"id":	3,	"song":	"1127.mp3"},
+                    {"id":	4,	"song":	"1128.mp3"},
+                    {"id":	5,	"song":	"1129.mp3"},
+                    {"id":	6,	"song":	"1130.mp3"},
+                    {"id":	7,	"song":	"1131.mp3"},
+                    {"id":	8,	"song":	"1132.mp3"},
+                    {"id":	9,	"song":	"1133.mp3"},
+                    {"id":	10,	"song":	"1134.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	69 ,
+        "name":	"Geja Kale Hiwot Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Abet Egazabher Amlaku Yehone",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2051.mp3"},
+                    {"id":	2,	"song":	"2052.mp3"},
+                    {"id":	3,	"song":	"2053.mp3"},
+                    {"id":	4,	"song":	"2054.mp3"},
+                    {"id":	5,	"song":	"2055.mp3"},
+                    {"id":	6,	"song":	"2056.mp3"},
+                    {"id":	7,	"song":	"2057.mp3"},
+                    {"id":	8,	"song":	"2058.mp3"},
+                    {"id":	9,	"song":	"2059.mp3"},
+                    {"id":	10,	"song":	"2060.mp3"},
+                    {"id":	11,	"song":	"2061.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	70 ,
+        "name":	"Getachew Taddese",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"YeLijnete Amlak",
+                "image":	"Album_default",
+                "year":	"2012",
+                "songs":	[
+                    {"id":	1,	"song":	"1922.mp3"},
+                    {"id":	2,	"song":	"1923.mp3"},
+                    {"id":	3,	"song":	"1924.mp3"},
+                    {"id":	4,	"song":	"1925.mp3"},
+                    {"id":	5,	"song":	"1926.mp3"},
+                    {"id":	6,	"song":	"1927.mp3"},
+                    {"id":	7,	"song":	"1928.mp3"},
+                    {"id":	8,	"song":	"1929.mp3"},
+                    {"id":	9,	"song":	"1930.mp3"},
+                    {"id":	10,	"song":	"1931.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	71 ,
+        "name":	"Getahun Heramo",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Yosef...Altefam",
+                "image":	"Album_default",
+                "year":	"2012",
+                "songs":	[
+                    {"id":	1,	"song":	"3223.mp3"},
+                    {"id":	2,	"song":	"3224.mp3"},
+                    {"id":	3,	"song":	"3225.mp3"},
+                    {"id":	4,	"song":	"3226.mp3"},
+                    {"id":	5,	"song":	"3227.mp3"},
+                    {"id":	6,	"song":	"3228.mp3"},
+                    {"id":	7,	"song":	"3229.mp3"},
+                    {"id":	8,	"song":	"3230.mp3"},
+                    {"id":	9,	"song":	"3231.mp3"},
+                    {"id":	10,	"song":	"3232.mp3"},
+                    {"id":	11,	"song":	"3233.mp3"},
+                    {"id":	12,	"song":	"3234.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	72 ,
+        "name":	"Getahun Tadesse",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Yalfal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3236.mp3"},
+                    {"id":	2,	"song":	"3237.mp3"},
+                    {"id":	3,	"song":	"3238.mp3"},
+                    {"id":	4,	"song":	"3239.mp3"},
+                    {"id":	5,	"song":	"3240.mp3"},
+                    {"id":	6,	"song":	"3241.mp3"},
+                    {"id":	7,	"song":	"3242.mp3"},
+                    {"id":	8,	"song":	"3243.mp3"},
+                    {"id":	9,	"song":	"3244.mp3"},
+                    {"id":	10,	"song":	"3245.mp3"},
+                    {"id":	11,	"song":	"3246.mp3"},
+                    {"id":	12,	"song":	"3247.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	73 ,
+        "name":	"Gezachew Worku",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Kidus Kidus Egzabher",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"963.mp3"},
+                    {"id":	2,	"song":	"964.mp3"},
+                    {"id":	3,	"song":	"965.mp3"},
+                    {"id":	4,	"song":	"966.mp3"},
+                    {"id":	5,	"song":	"967.mp3"},
+                    {"id":	6,	"song":	"968.mp3"},
+                    {"id":	7,	"song":	"969.mp3"},
+                    {"id":	8,	"song":	"970.mp3"},
+                    {"id":	9,	"song":	"971.mp3"},
+                    {"id":	10,	"song":	"972.mp3"},
+                    {"id":	11,	"song":	"973.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2315.mp3"},
+                    {"id":	2,	"song":	"2316.mp3"},
+                    {"id":	3,	"song":	"2317.mp3"},
+                    {"id":	4,	"song":	"2318.mp3"},
+                    {"id":	5,	"song":	"2319.mp3"},
+                    {"id":	6,	"song":	"2320.mp3"},
+                    {"id":	7,	"song":	"2321.mp3"},
+                    {"id":	8,	"song":	"2322.mp3"},
+                    {"id":	9,	"song":	"2323.mp3"},
+                    {"id":	10,	"song":	"2324.mp3"},
+                    {"id":	11,	"song":	"2325.mp3"},
+                    {"id":	12,	"song":	"2326.mp3"},
+                    {"id":	13,	"song":	"2327.mp3"},
+                    {"id":	14,	"song":	"2328.mp3"},
+                    {"id":	15,	"song":	"2329.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	74 ,
+        "name":	"Gezan Seyum",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Yedesta Zeit",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1842.mp3"},
+                    {"id":	2,	"song":	"1843.mp3"},
+                    {"id":	3,	"song":	"1844.mp3"},
+                    {"id":	4,	"song":	"1845.mp3"},
+                    {"id":	5,	"song":	"1846.mp3"},
+                    {"id":	6,	"song":	"1847.mp3"},
+                    {"id":	7,	"song":	"1848.mp3"},
+                    {"id":	8,	"song":	"1849.mp3"},
+                    {"id":	9,	"song":	"1851.mp3"},
+                    {"id":	10,	"song":	"1852.mp3"},
+                    {"id":	11,	"song":	"1853.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	75 ,
+        "name":	"Grum Tadesse",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Edglega Nege Eysus Silalege",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1103.mp3"},
+                    {"id":	2,	"song":	"1104.mp3"},
+                    {"id":	3,	"song":	"1105.mp3"},
+                    {"id":	4,	"song":	"1106.mp3"},
+                    {"id":	5,	"song":	"1107.mp3"},
+                    {"id":	6,	"song":	"1108.mp3"},
+                    {"id":	7,	"song":	"1109.mp3"},
+                    {"id":	8,	"song":	"1110.mp3"},
+                    {"id":	9,	"song":	"1111.mp3"},
+                    {"id":	10,	"song":	"1112.mp3"},
+                    {"id":	11,	"song":	"2007.mp3"},
+                    {"id":	12,	"song":	"2008.mp3"},
+                    {"id":	13,	"song":	"2009.mp3"},
+                    {"id":	14,	"song":	"2010.mp3"},
+                    {"id":	15,	"song":	"2011.mp3"},
+                    {"id":	16,	"song":	"2012.mp3"},
+                    {"id":	17,	"song":	"2013.mp3"},
+                    {"id":	18,	"song":	"2014.mp3"},
+                    {"id":	19,	"song":	"2015.mp3"},
+                    {"id":	20,	"song":	"2016.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Mehanite Bezu Bezu New Lene Yadergew",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2547.mp3"},
+                    {"id":	2,	"song":	"2548.mp3"},
+                    {"id":	3,	"song":	"2549.mp3"},
+                    {"id":	4,	"song":	"2550.mp3"},
+                    {"id":	5,	"song":	"2551.mp3"},
+                    {"id":	6,	"song":	"2552.mp3"},
+                    {"id":	7,	"song":	"2553.mp3"},
+                    {"id":	8,	"song":	"2554.mp3"},
+                    {"id":	9,	"song":	"2555.mp3"},
+                    {"id":	10,	"song":	"2556.mp3"},
+                    {"id":	11,	"song":	"2557.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	76 ,
+        "name":	"Gulele Bethel Church",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Selam Ale BeYesus",
+                "image":	"Album_default",
+                "year":	"2010",
+                "songs":	[
+                    {"id":	1,	"song":	"1629.mp3"},
+                    {"id":	2,	"song":	"1630.mp3"},
+                    {"id":	3,	"song":	"1631.mp3"},
+                    {"id":	4,	"song":	"1632.mp3"},
+                    {"id":	5,	"song":	"1633.mp3"},
+                    {"id":	6,	"song":	"1634.mp3"},
+                    {"id":	7,	"song":	"1635.mp3"},
+                    {"id":	8,	"song":	"1636.mp3"},
+                    {"id":	9,	"song":	"1637.mp3"},
+                    {"id":	10,	"song":	"1638.mp3"},
+                    {"id":	11,	"song":	"1639.mp3"},
+                    {"id":	12,	"song":	"1640.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	77 ,
+        "name":	"Haimi (Salem) Ayele",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Getaye Lene",
+                "image":	"Album_default",
+                "year":	"2010",
+                "songs":	[
+                    {"id":	1,	"song":	"2669.mp3"},
+                    {"id":	2,	"song":	"2670.mp3"},
+                    {"id":	3,	"song":	"2671.mp3"},
+                    {"id":	4,	"song":	"2672.mp3"},
+                    {"id":	5,	"song":	"2673.mp3"},
+                    {"id":	6,	"song":	"2674.mp3"},
+                    {"id":	7,	"song":	"2675.mp3"},
+                    {"id":	8,	"song":	"2676.mp3"},
+                    {"id":	9,	"song":	"2677.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	78,
+        "name":	"Hallelujah Gospel Band",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Egeziyabehare Melkam Amelak Naw",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2869.mp3"},
+                    {"id":	2,	"song":	"2870.mp3"},
+                    {"id":	3,	"song":	"2871.mp3"},
+                    {"id":	4,	"song":	"2872.mp3"},
+                    {"id":	5,	"song":	"2873.mp3"},
+                    {"id":	6,	"song":	"2874.mp3"},
+                    {"id":	7,	"song":	"2875.mp3"},
+                    {"id":	8,	"song":	"2876.mp3"},
+                    {"id":	9,	"song":	"2877.mp3"},
+                    {"id":	10,	"song":	"2878.mp3"},
+                    {"id":	11,	"song":	"2879.mp3"},
+                    {"id":	12,	"song":	"2880.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Glory To God",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1485.mp3"},
+                    {"id":	2,	"song":	"1486.mp3"},
+                    {"id":	3,	"song":	"1487.mp3"},
+                    {"id":	4,	"song":	"1488.mp3"},
+                    {"id":	5,	"song":	"1489.mp3"},
+                    {"id":	6,	"song":	"1490.mp3"},
+                    {"id":	7,	"song":	"1491.mp3"},
+                    {"id":	8,	"song":	"1492.mp3"},
+                    {"id":	9,	"song":	"1493.mp3"},
+                    {"id":	10,	"song":	"1494.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	79 ,
+        "name":	"Harrar Emmanuel Hibrat",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Egzabher Beki Neh",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1246.mp3"},
+                    {"id":	2,	"song":	"1247.mp3"},
+                    {"id":	3,	"song":	"1248.mp3"},
+                    {"id":	4,	"song":	"1249.mp3"},
+                    {"id":	5,	"song":	"1250.mp3"},
+                    {"id":	6,	"song":	"1251.mp3"},
+                    {"id":	7,	"song":	"1252.mp3"},
+                    {"id":	8,	"song":	"1253.mp3"},
+                    {"id":	9,	"song":	"1254.mp3"},
+                    {"id":	10,	"song":	"1255.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Egzabher Tewagi New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2558.mp3"},
+                    {"id":	2,	"song":	"2559.mp3"},
+                    {"id":	3,	"song":	"2560.mp3"},
+                    {"id":	4,	"song":	"2561.mp3"},
+                    {"id":	5,	"song":	"2562.mp3"},
+                    {"id":	6,	"song":	"2563.mp3"},
+                    {"id":	7,	"song":	"2564.mp3"},
+                    {"id":	8,	"song":	"2565.mp3"},
+                    {"id":	9,	"song":	"2566.mp3"},
+                    {"id":	10,	"song":	"2567.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	80 ,
+        "name":	"Harrar Mulu Wongel Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Talaq Desta Alen B'Smai",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2497.mp3"},
+                    {"id":	2,	"song":	"2498.mp3"},
+                    {"id":	3,	"song":	"2499.mp3"},
+                    {"id":	4,	"song":	"2500.mp3"},
+                    {"id":	5,	"song":	"2501.mp3"},
+                    {"id":	6,	"song":	"2502.mp3"},
+                    {"id":	7,	"song":	"2503.mp3"},
+                    {"id":	8,	"song":	"2504.mp3"},
+                    {"id":	9,	"song":	"2505.mp3"},
+                    {"id":	10,	"song":	"2506.mp3"},
+                    {"id":	11,	"song":	"2507.mp3"},
+                    {"id":	12,	"song":	"2508.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	81 ,
+        "name":	"Jimma Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Kiber Yegbahal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1942.mp3"},
+                    {"id":	2,	"song":	"1943.mp3"},
+                    {"id":	3,	"song":	"1944.mp3"},
+                    {"id":	4,	"song":	"1945.mp3"},
+                    {"id":	5,	"song":	"1946.mp3"},
+                    {"id":	6,	"song":	"1947.mp3"},
+                    {"id":	7,	"song":	"1948.mp3"},
+                    {"id":	8,	"song":	"1949.mp3"},
+                    {"id":	9,	"song":	"1950.mp3"},
+                    {"id":	10,	"song":	"1951.mp3"},
+                    {"id":	11,	"song":	"1952.mp3"},
+                    {"id":	12,	"song":	"1953.mp3"},
+                    {"id":	13,	"song":	"1954.mp3"},
+                    {"id":	14,	"song":	"1955.mp3"},
+                    {"id":	15,	"song":	"1956.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	82 ,
+        "name":	"Kaleb Tesfaye",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Teglbtoal Tarik",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2568.mp3"},
+                    {"id":	2,	"song":	"2569.mp3"},
+                    {"id":	3,	"song":	"2570.mp3"},
+                    {"id":	4,	"song":	"2571.mp3"},
+                    {"id":	5,	"song":	"2572.mp3"},
+                    {"id":	6,	"song":	"2573.mp3"},
+                    {"id":	7,	"song":	"2574.mp3"},
+                    {"id":	8,	"song":	"2575.mp3"},
+                    {"id":	9,	"song":	"2576.mp3"},
+                    {"id":	10,	"song":	"2577.mp3"},
+                    {"id":	11,	"song":	"2578.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Vol. 5",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1000.mp3"},
+                    {"id":	2,	"song":	"1001.mp3"},
+                    {"id":	3,	"song":	"1002.mp3"},
+                    {"id":	4,	"song":	"1003.mp3"},
+                    {"id":	5,	"song":	"1004.mp3"},
+                    {"id":	6,	"song":	"1005.mp3"},
+                    {"id":	7,	"song":	"1006.mp3"},
+                    {"id":	8,	"song":	"1007.mp3"},
+                    {"id":	9,	"song":	"1008.mp3"},
+                    {"id":	10,	"song":	"1009.mp3"},
+                    {"id":	11,	"song":	"1010.mp3"},
+                    {"id":	12,	"song":	"999.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	83 ,
+        "name":	"Kalkidan Tilahun",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Abetu Yne Geta",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1362.mp3"},
+                    {"id":	2,	"song":	"1363.mp3"},
+                    {"id":	3,	"song":	"1364.mp3"},
+                    {"id":	4,	"song":	"1365.mp3"},
+                    {"id":	5,	"song":	"1366.mp3"},
+                    {"id":	6,	"song":	"1367.mp3"},
+                    {"id":	7,	"song":	"1368.mp3"},
+                    {"id":	8,	"song":	"1369.mp3"},
+                    {"id":	9,	"song":	"1370.mp3"},
+                    {"id":	10,	"song":	"1371.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Atelwawtem",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"151.mp3"},
+                    {"id":	2,	"song":	"152.mp3"},
+                    {"id":	3,	"song":	"153.mp3"},
+                    {"id":	4,	"song":	"154.mp3"},
+                    {"id":	5,	"song":	"155.mp3"},
+                    {"id":	6,	"song":	"156.mp3"},
+                    {"id":	7,	"song":	"157.mp3"},
+                    {"id":	8,	"song":	"158.mp3"},
+                    {"id":	9,	"song":	"160.mp3"},
+                    {"id":	10,	"song":	"161.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Geta Eko New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"130.mp3"},
+                    {"id":	2,	"song":	"131.mp3"},
+                    {"id":	3,	"song":	"132.mp3"},
+                    {"id":	4,	"song":	"133.mp3"},
+                    {"id":	5,	"song":	"134.mp3"},
+                    {"id":	6,	"song":	"135.mp3"},
+                    {"id":	7,	"song":	"136.mp3"},
+                    {"id":	8,	"song":	"137.mp3"},
+                    {"id":	9,	"song":	"138.mp3"},
+                    {"id":	10,	"song":	"139.mp3"},
+                    {"id":	11,	"song":	"140.mp3"}
+                ]
+            },
+            {
+                "id":	4 ,
+                "name":	"Yetayegnal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"141.mp3"},
+                    {"id":	2,	"song":	"142.mp3"},
+                    {"id":	3,	"song":	"143.mp3"},
+                    {"id":	4,	"song":	"144.mp3"},
+                    {"id":	5,	"song":	"145.mp3"},
+                    {"id":	6,	"song":	"146.mp3"},
+                    {"id":	7,	"song":	"147.mp3"},
+                    {"id":	8,	"song":	"148.mp3"},
+                    {"id":	9,	"song":	"149.mp3"},
+                    {"id":	10,	"song":	"150.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	84 ,
+        "name":	"Kidus Tsegaye",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"B'sew Ken Aywetam",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3017.mp3"},
+                    {"id":	2,	"song":	"3018.mp3"},
+                    {"id":	3,	"song":	"3019.mp3"},
+                    {"id":	4,	"song":	"3020.mp3"},
+                    {"id":	5,	"song":	"3021.mp3"},
+                    {"id":	6,	"song":	"3022.mp3"},
+                    {"id":	7,	"song":	"3023.mp3"},
+                    {"id":	8,	"song":	"3024.mp3"},
+                    {"id":	9,	"song":	"3025.mp3"},
+                    {"id":	10,	"song":	"3026.mp3"},
+                    {"id":	11,	"song":	"3027.mp3"},
+                    {"id":	12,	"song":	"3028.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	85 ,
+        "name":	"Lealem Tilahun",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1078.mp3"},
+                    {"id":	2,	"song":	"1079.mp3"},
+                    {"id":	3,	"song":	"1080.mp3"},
+                    {"id":	4,	"song":	"1081.mp3"},
+                    {"id":	5,	"song":	"1082.mp3"},
+                    {"id":	6,	"song":	"1083.mp3"},
+                    {"id":	7,	"song":	"1084.mp3"},
+                    {"id":	8,	"song":	"1085.mp3"},
+                    {"id":	9,	"song":	"1086.mp3"},
+                    {"id":	10,	"song":	"1087.mp3"},
+                    {"id":	11,	"song":	"1088.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	86 ,
+        "name":	"Lideta Wongelawi Mekane Eysus",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Demu BeGubet Lay New",
+                "image":	"Album_default",
+                "year":	"2010",
+                "songs":	[
+                    {"id":	1,	"song":	"2119.mp3"},
+                    {"id":	2,	"song":	"2120.mp3"},
+                    {"id":	3,	"song":	"2121.mp3"},
+                    {"id":	4,	"song":	"2122.mp3"},
+                    {"id":	5,	"song":	"2123.mp3"},
+                    {"id":	6,	"song":	"2124.mp3"},
+                    {"id":	7,	"song":	"2125.mp3"},
+                    {"id":	8,	"song":	"2126.mp3"},
+                    {"id":	9,	"song":	"2127.mp3"},
+                    {"id":	10,	"song":	"2128.mp3"},
+                    {"id":	11,	"song":	"2129.mp3"},
+                    {"id":	12,	"song":	"2130.mp3"},
+                    {"id":	13,	"song":	"2132.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	87 ,
+        "name":	"Liya Birhanu",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Melekam Eregn Neh",
+                "image":	"Album_default",
+                "year":	"2010",
+                "songs":	[
+                    {"id":	1,	"song":	"2952.mp3"},
+                    {"id":	2,	"song":	"2953.mp3"},
+                    {"id":	3,	"song":	"2954.mp3"},
+                    {"id":	4,	"song":	"2955.mp3"},
+                    {"id":	5,	"song":	"2956.mp3"},
+                    {"id":	6,	"song":	"2957.mp3"},
+                    {"id":	7,	"song":	"2958.mp3"},
+                    {"id":	8,	"song":	"2959.mp3"},
+                    {"id":	9,	"song":	"2960.mp3"},
+                    {"id":	10,	"song":	"2961.mp3"},
+                    {"id":	11,	"song":	"2962.mp3"},
+                    {"id":	12,	"song":	"2963.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	88 ,
+        "name":	"Mamay Worku",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Helme",
+                "image":	"Album_default",
+                "year":	"2008",
+                "songs":	[
+                    {"id":	1,	"song":	"2902.mp3"},
+                    {"id":	2,	"song":	"2903.mp3"},
+                    {"id":	3,	"song":	"2904.mp3"},
+                    {"id":	4,	"song":	"2905.mp3"},
+                    {"id":	5,	"song":	"2906.mp3"},
+                    {"id":	6,	"song":	"2907.mp3"},
+                    {"id":	7,	"song":	"2908.mp3"},
+                    {"id":	8,	"song":	"2909.mp3"},
+                    {"id":	9,	"song":	"2910.mp3"},
+                    {"id":	10,	"song":	"2911.mp3"},
+                    {"id":	11,	"song":	"2912.mp3"},
+                    {"id":	12,	"song":	"2913.mp3"},
+                    {"id":	13,	"song":	"2914.mp3"},
+                    {"id":	14,	"song":	"2915.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	89 ,
+        "name":	"Meba Yilma",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Badebabayoch",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3197.mp3"},
+                    {"id":	2,	"song":	"3198.mp3"},
+                    {"id":	3,	"song":	"3199.mp3"},
+                    {"id":	4,	"song":	"3200.mp3"},
+                    {"id":	5,	"song":	"3201.mp3"},
+                    {"id":	6,	"song":	"3202.mp3"},
+                    {"id":	7,	"song":	"3203.mp3"},
+                    {"id":	8,	"song":	"3204.mp3"},
+                    {"id":	9,	"song":	"3205.mp3"},
+                    {"id":	10,	"song":	"3206.mp3"},
+                    {"id":	11,	"song":	"3207.mp3"},
+                    {"id":	12,	"song":	"3208.mp3"},
+                    {"id":	13,	"song":	"3209.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	90 ,
+        "name":	"Mebrhati Ambaye (Mebri)",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Kalkidanun Yefsmal!",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3174.mp3"},
+                    {"id":	2,	"song":	"3175.mp3"},
+                    {"id":	3,	"song":	"3176.mp3"},
+                    {"id":	4,	"song":	"3177.mp3"},
+                    {"id":	5,	"song":	"3178.mp3"},
+                    {"id":	6,	"song":	"3179.mp3"},
+                    {"id":	7,	"song":	"3180.mp3"},
+                    {"id":	8,	"song":	"3181.mp3"},
+                    {"id":	9,	"song":	"3182.mp3"},
+                    {"id":	10,	"song":	"3183.mp3"},
+                    {"id":	11,	"song":	"3184.mp3"},
+                    {"id":	12,	"song":	"3185.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	91 ,
+        "name":	"Meklit LeKristos",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Meklit LeKristos",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1561.mp3"},
+                    {"id":	2,	"song":	"1562.mp3"},
+                    {"id":	3,	"song":	"1563.mp3"},
+                    {"id":	4,	"song":	"1564.mp3"},
+                    {"id":	5,	"song":	"1565.mp3"},
+                    {"id":	6,	"song":	"1566.mp3"},
+                    {"id":	7,	"song":	"1567.mp3"},
+                    {"id":	8,	"song":	"1568.mp3"},
+                    {"id":	9,	"song":	"1569.mp3"},
+                    {"id":	10,	"song":	"1570.mp3"},
+                    {"id":	11,	"song":	"1571.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	92 ,
+        "name":	"Mekrez Youth Ministry Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Christmas Songs",
+                "image":	"Album_default",
+                "year":	"2010",
+                "songs":	[
+                    {"id":	1,	"song":	"1473.mp3"},
+                    {"id":	2,	"song":	"1474.mp3"},
+                    {"id":	3,	"song":	"1475.mp3"},
+                    {"id":	4,	"song":	"1476.mp3"},
+                    {"id":	5,	"song":	"1477.mp3"},
+                    {"id":	6,	"song":	"1478.mp3"},
+                    {"id":	7,	"song":	"1479.mp3"},
+                    {"id":	8,	"song":	"1480.mp3"},
+                    {"id":	9,	"song":	"1481.mp3"},
+                    {"id":	10,	"song":	"1482.mp3"},
+                    {"id":	11,	"song":	"1483.mp3"},
+                    {"id":	12,	"song":	"1484.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	93 ,
+        "name":	"Melesu Bulucha Debosie",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ejeg Talak Neh",
+                "image":	"Album_default",
+                "year":	"2010",
+                "songs":	[
+                    {"id":	1,	"song":	"3042.mp3"},
+                    {"id":	2,	"song":	"3043.mp3"},
+                    {"id":	3,	"song":	"3044.mp3"},
+                    {"id":	4,	"song":	"3045.mp3"},
+                    {"id":	5,	"song":	"3046.mp3"},
+                    {"id":	6,	"song":	"3047.mp3"},
+                    {"id":	7,	"song":	"3048.mp3"},
+                    {"id":	8,	"song":	"3049.mp3"},
+                    {"id":	9,	"song":	"3050.mp3"},
+                    {"id":	10,	"song":	"3051.mp3"},
+                    {"id":	11,	"song":	"3052.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	94 ,
+        "name":	"Meron Asfaw",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ye Fikreh Lik Sigebagh",
+                "image":	"Album_default",
+                "year":	"2009",
+                "songs":	[
+                    {"id":	1,	"song":	"3163.mp3"},
+                    {"id":	2,	"song":	"3164.mp3"},
+                    {"id":	3,	"song":	"3165.mp3"},
+                    {"id":	4,	"song":	"3166.mp3"},
+                    {"id":	5,	"song":	"3167.mp3"},
+                    {"id":	6,	"song":	"3168.mp3"},
+                    {"id":	7,	"song":	"3169.mp3"},
+                    {"id":	8,	"song":	"3170.mp3"},
+                    {"id":	9,	"song":	"3171.mp3"},
+                    {"id":	10,	"song":	"3172.mp3"},
+                    {"id":	11,	"song":	"3173.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	95 ,
+        "name":	"Meseret Tsege & Endalkachew Kidanework",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Yehadis Kidan Beg",
+                "image":	"Album_default",
+                "year":	"2009",
+                "songs":	[
+                    {"id":	1,	"song":	"2964.mp3"},
+                    {"id":	2,	"song":	"2965.mp3"},
+                    {"id":	3,	"song":	"2966.mp3"},
+                    {"id":	4,	"song":	"2967.mp3"},
+                    {"id":	5,	"song":	"2968.mp3"},
+                    {"id":	6,	"song":	"2969.mp3"},
+                    {"id":	7,	"song":	"2970.mp3"},
+                    {"id":	8,	"song":	"2971.mp3"},
+                    {"id":	9,	"song":	"2972.mp3"},
+                    {"id":	10,	"song":	"2973.mp3"},
+                    {"id":	11,	"song":	"2974.mp3"},
+                    {"id":	12,	"song":	"2975.mp3"},
+                    {"id":	13,	"song":	"2976.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Zinah Yegenenew",
+                "image":	"Album_default",
+                "year":	"2011",
+                "songs":	[
+                    {"id":	1,	"song":	"3120.mp3"},
+                    {"id":	2,	"song":	"3121.mp3"},
+                    {"id":	3,	"song":	"3122.mp3"},
+                    {"id":	4,	"song":	"3123.mp3"},
+                    {"id":	5,	"song":	"3124.mp3"},
+                    {"id":	6,	"song":	"3125.mp3"},
+                    {"id":	7,	"song":	"3126.mp3"},
+                    {"id":	8,	"song":	"3127.mp3"},
+                    {"id":	9,	"song":	"3128.mp3"},
+                    {"id":	10,	"song":	"3129.mp3"},
+                    {"id":	11,	"song":	"3130.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	96 ,
+        "name":	"Meserete Hiwot",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Endante Yale Yelmna",
+                "image":	"Album_default",
+                "year":	"Vol 7",
+                "songs":	[
+                    {"id":	1,	"song":	"1830.mp3"},
+                    {"id":	2,	"song":	"1831.mp3"},
+                    {"id":	3,	"song":	"1832.mp3"},
+                    {"id":	4,	"song":	"1833.mp3"},
+                    {"id":	5,	"song":	"1834.mp3"},
+                    {"id":	6,	"song":	"1835.mp3"},
+                    {"id":	7,	"song":	"1836.mp3"},
+                    {"id":	8,	"song":	"1837.mp3"},
+                    {"id":	9,	"song":	"1838.mp3"},
+                    {"id":	10,	"song":	"1839.mp3"},
+                    {"id":	11,	"song":	"1840.mp3"},
+                    {"id":	12,	"song":	"1841.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	97 ,
+        "name":	"Meserete Kirstos Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Amen Belu Sigedult",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1762.mp3"},
+                    {"id":	2,	"song":	"1763.mp3"},
+                    {"id":	3,	"song":	"1764.mp3"},
+                    {"id":	4,	"song":	"1765.mp3"},
+                    {"id":	5,	"song":	"1766.mp3"},
+                    {"id":	6,	"song":	"1767.mp3"},
+                    {"id":	7,	"song":	"1768.mp3"},
+                    {"id":	8,	"song":	"1769.mp3"},
+                    {"id":	9,	"song":	"1770.mp3"},
+                    {"id":	10,	"song":	"1771.mp3"},
+                    {"id":	11,	"song":	"1772.mp3"},
+                    {"id":	12,	"song":	"1773.mp3"},
+                    {"id":	13,	"song":	"1774.mp3"},
+                    {"id":	14,	"song":	"1775.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Ante Talak Neh",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1727.mp3"},
+                    {"id":	2,	"song":	"1728.mp3"},
+                    {"id":	3,	"song":	"1729.mp3"},
+                    {"id":	4,	"song":	"1730.mp3"},
+                    {"id":	5,	"song":	"1731.mp3"},
+                    {"id":	6,	"song":	"1732.mp3"},
+                    {"id":	7,	"song":	"1733.mp3"},
+                    {"id":	8,	"song":	"1734.mp3"},
+                    {"id":	9,	"song":	"1735.mp3"},
+                    {"id":	10,	"song":	"1736.mp3"},
+                    {"id":	11,	"song":	"1737.mp3"},
+                    {"id":	12,	"song":	"1738.mp3"},
+                    {"id":	13,	"song":	"1739.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Endet Dink Amlak New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1867.mp3"},
+                    {"id":	2,	"song":	"1868.mp3"},
+                    {"id":	3,	"song":	"1869.mp3"},
+                    {"id":	4,	"song":	"1870.mp3"},
+                    {"id":	5,	"song":	"1871.mp3"},
+                    {"id":	6,	"song":	"1872.mp3"},
+                    {"id":	7,	"song":	"1873.mp3"},
+                    {"id":	8,	"song":	"1874.mp3"},
+                    {"id":	9,	"song":	"1875.mp3"},
+                    {"id":	10,	"song":	"1876.mp3"},
+                    {"id":	11,	"song":	"1877.mp3"},
+                    {"id":	12,	"song":	"1878.mp3"},
+                    {"id":	13,	"song":	"1879.mp3"},
+                    {"id":	14,	"song":	"1880.mp3"},
+                    {"id":	15,	"song":	"1881.mp3"},
+                    {"id":	16,	"song":	"1882.mp3"},
+                    {"id":	17,	"song":	"1883.mp3"}
+                ]
+            },
+            {
+                "id":	4 ,
+                "name":	"Ensenalen",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2756.mp3"},
+                    {"id":	2,	"song":	"2757.mp3"},
+                    {"id":	3,	"song":	"2758.mp3"},
+                    {"id":	4,	"song":	"2759.mp3"},
+                    {"id":	5,	"song":	"2760.mp3"},
+                    {"id":	6,	"song":	"2761.mp3"},
+                    {"id":	7,	"song":	"2762.mp3"},
+                    {"id":	8,	"song":	"2763.mp3"},
+                    {"id":	9,	"song":	"2764.mp3"},
+                    {"id":	10,	"song":	"2765.mp3"},
+                    {"id":	11,	"song":	"2766.mp3"}
+                ]
+            },
+            {
+                "id":	5 ,
+                "name":	"Mesgna Melkam New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1854.mp3"},
+                    {"id":	2,	"song":	"1855.mp3"},
+                    {"id":	3,	"song":	"1856.mp3"},
+                    {"id":	4,	"song":	"1857.mp3"},
+                    {"id":	5,	"song":	"1858.mp3"},
+                    {"id":	6,	"song":	"1859.mp3"},
+                    {"id":	7,	"song":	"1860.mp3"},
+                    {"id":	8,	"song":	"1861.mp3"},
+                    {"id":	9,	"song":	"1862.mp3"},
+                    {"id":	10,	"song":	"1863.mp3"},
+                    {"id":	11,	"song":	"1864.mp3"},
+                    {"id":	12,	"song":	"1865.mp3"},
+                    {"id":	13,	"song":	"1866.mp3"}
+                ]
+            },
+            {
+                "id":	6 ,
+                "name":	"Yetamenkuten Aweqalehu",
+                "image":	"Album_default",
+                "year":	"1997",
+                "songs":	[
+                    {"id":	1,	"song":	"646.mp3"},
+                    {"id":	2,	"song":	"647.mp3"},
+                    {"id":	3,	"song":	"648.mp3"},
+                    {"id":	4,	"song":	"649.mp3"},
+                    {"id":	5,	"song":	"650.mp3"},
+                    {"id":	6,	"song":	"651.mp3"},
+                    {"id":	7,	"song":	"652.mp3"},
+                    {"id":	8,	"song":	"653.mp3"},
+                    {"id":	9,	"song":	"654.mp3"},
+                    {"id":	10,	"song":	"655.mp3"},
+                    {"id":	11,	"song":	"656.mp3"},
+                    {"id":	12,	"song":	"657.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	98 ,
+        "name":	"Mihret Eteffa",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol 1",
+                "image":	"Album_default",
+                "year":	"2013",
+                "songs":	[
+                    {"id":	1,	"song":	"1224.mp3"},
+                    {"id":	2,	"song":	"1225.mp3"},
+                    {"id":	3,	"song":	"1226.mp3"},
+                    {"id":	4,	"song":	"1227.mp3"},
+                    {"id":	5,	"song":	"1228.mp3"},
+                    {"id":	6,	"song":	"1229.mp3"},
+                    {"id":	7,	"song":	"1230.mp3"},
+                    {"id":	8,	"song":	"1231.mp3"},
+                    {"id":	9,	"song":	"1232.mp3"},
+                    {"id":	10,	"song":	"1233.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Vol. 2",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"531.mp3"},
+                    {"id":	2,	"song":	"532.mp3"},
+                    {"id":	3,	"song":	"533.mp3"},
+                    {"id":	4,	"song":	"534.mp3"},
+                    {"id":	5,	"song":	"535.mp3"},
+                    {"id":	6,	"song":	"536.mp3"},
+                    {"id":	7,	"song":	"537.mp3"},
+                    {"id":	8,	"song":	"538.mp3"},
+                    {"id":	9,	"song":	"539.mp3"},
+                    {"id":	10,	"song":	"540.mp3"},
+                    {"id":	11,	"song":	"541.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	99 ,
+        "name":	"Misseker Bereketab",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Kezenha Yebeltal",
+                "image":	"Album_default",
+                "year":	"2013",
+                "songs":	[
+                    {"id":	1,	"song":	"3210.mp3"},
+                    {"id":	2,	"song":	"3211.mp3"},
+                    {"id":	3,	"song":	"3212.mp3"},
+                    {"id":	4,	"song":	"3213.mp3"},
+                    {"id":	5,	"song":	"3214.mp3"},
+                    {"id":	6,	"song":	"3215.mp3"},
+                    {"id":	7,	"song":	"3216.mp3"},
+                    {"id":	8,	"song":	"3217.mp3"},
+                    {"id":	9,	"song":	"3218.mp3"},
+                    {"id":	10,	"song":	"3219.mp3"},
+                    {"id":	11,	"song":	"3220.mp3"},
+                    {"id":	12,	"song":	"3221.mp3"},
+                    {"id":	13,	"song":	"3222.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	100 ,
+        "name":	"Mulu Wongel Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Demenam Yalem",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1616.mp3"},
+                    {"id":	2,	"song":	"1617.mp3"},
+                    {"id":	3,	"song":	"1618.mp3"},
+                    {"id":	4,	"song":	"1619.mp3"},
+                    {"id":	5,	"song":	"1620.mp3"},
+                    {"id":	6,	"song":	"1621.mp3"},
+                    {"id":	7,	"song":	"1622.mp3"},
+                    {"id":	8,	"song":	"1623.mp3"},
+                    {"id":	9,	"song":	"1624.mp3"},
+                    {"id":	10,	"song":	"1625.mp3"},
+                    {"id":	11,	"song":	"1626.mp3"},
+                    {"id":	12,	"song":	"1627.mp3"},
+                    {"id":	13,	"song":	"1628.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Eysus Geta New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1776.mp3"},
+                    {"id":	2,	"song":	"1777.mp3"},
+                    {"id":	3,	"song":	"1778.mp3"},
+                    {"id":	4,	"song":	"1779.mp3"},
+                    {"id":	5,	"song":	"1780.mp3"},
+                    {"id":	6,	"song":	"1781.mp3"},
+                    {"id":	7,	"song":	"1782.mp3"},
+                    {"id":	8,	"song":	"1783.mp3"},
+                    {"id":	9,	"song":	"1784.mp3"}
+                ]
+            },
+            {
+                "id":	3,
+                "name":	"Eysus YeSaron Tsegreda	",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1885.mp3"},
+                    {"id":	2,	"song":	"1886.mp3"},
+                    {"id":	3,	"song":	"1887.mp3"},
+                    {"id":	4,	"song":	"1888.mp3"},
+                    {"id":	5,	"song":	"1889.mp3"},
+                    {"id":	6,	"song":	"1890.mp3"},
+                    {"id":	7,	"song":	"1891.mp3"},
+                    {"id":	8,	"song":	"1892.mp3"},
+                    {"id":	9,	"song":	"1893.mp3"},
+                    {"id":	10,	"song":	"1894.mp3"},
+                    {"id":	11,	"song":	"1895.mp3"},
+                    {"id":	12,	"song":	"1896.mp3"},
+                    {"id":	13,	"song":	"1897.mp3"},
+                    {"id":	14,	"song":	"1898.mp3"}
+                ]
+            },
+            {
+                "id":	4 ,
+                "name":	"Geta Amlake",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"683.mp3"},
+                    {"id":	2,	"song":	"684.mp3"},
+                    {"id":	3,	"song":	"685.mp3"},
+                    {"id":	4,	"song":	"686.mp3"},
+                    {"id":	5,	"song":	"687.mp3"},
+                    {"id":	6,	"song":	"688.mp3"},
+                    {"id":	7,	"song":	"689.mp3"},
+                    {"id":	8,	"song":	"690.mp3"},
+                    {"id":	9,	"song":	"691.mp3"}
+                ]
+            },
+            {
+                "id":	5 ,
+                "name":	"Geta L'Zelalem Aytlemna",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2063.mp3"},
+                    {"id":	2,	"song":	"2064.mp3"},
+                    {"id":	3,	"song":	"2065.mp3"},
+                    {"id":	4,	"song":	"2066.mp3"},
+                    {"id":	5,	"song":	"2067.mp3"},
+                    {"id":	6,	"song":	"2068.mp3"},
+                    {"id":	7,	"song":	"2069.mp3"},
+                    {"id":	8,	"song":	"2070.mp3"},
+                    {"id":	9,	"song":	"2071.mp3"},
+                    {"id":	10,	"song":	"2072.mp3"}
+                ]
+            },
+            {
+                "id":	6 ,
+                "name":	"Halleliuia",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2247.mp3"},
+                    {"id":	2,	"song":	"2248.mp3"},
+                    {"id":	3,	"song":	"2249.mp3"},
+                    {"id":	4,	"song":	"2250.mp3"},
+                    {"id":	5,	"song":	"2251.mp3"},
+                    {"id":	6,	"song":	"2252.mp3"},
+                    {"id":	7,	"song":	"2253.mp3"},
+                    {"id":	8,	"song":	"2254.mp3"},
+                    {"id":	9,	"song":	"2255.mp3"},
+                    {"id":	10,	"song":	"2256.mp3"}
+                ]
+            },
+            {
+                "id":	7 ,
+                "name":	"Medhanite",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2642.mp3"},
+                    {"id":	2,	"song":	"2643.mp3"},
+                    {"id":	3,	"song":	"2644.mp3"},
+                    {"id":	4,	"song":	"2645.mp3"},
+                    {"id":	5,	"song":	"2646.mp3"},
+                    {"id":	6,	"song":	"2647.mp3"},
+                    {"id":	7,	"song":	"2648.mp3"},
+                    {"id":	8,	"song":	"2649.mp3"},
+                    {"id":	9,	"song":	"2650.mp3"},
+                    {"id":	10,	"song":	"2651.mp3"},
+                    {"id":	11,	"song":	"2652.mp3"},
+                    {"id":	12,	"song":	"2653.mp3"}
+                ]
+            },
+            {
+                "id":	8 ,
+                "name":	"Yhe New Egzabher Amlakachin",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1717.mp3"},
+                    {"id":	2,	"song":	"1718.mp3"},
+                    {"id":	3,	"song":	"1719.mp3"},
+                    {"id":	4,	"song":	"1720.mp3"},
+                    {"id":	5,	"song":	"1721.mp3"},
+                    {"id":	6,	"song":	"1722.mp3"},
+                    {"id":	7,	"song":	"1723.mp3"},
+                    {"id":	8,	"song":	"1724.mp3"},
+                    {"id":	9,	"song":	"1725.mp3"},
+                    {"id":	10,	"song":	"1726.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	101 ,
+        "name":	"Muluken Melesee",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Halleluyah",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1438.mp3"},
+                    {"id":	2,	"song":	"1439.mp3"},
+                    {"id":	3,	"song":	"1440.mp3"},
+                    {"id":	4,	"song":	"1441.mp3"},
+                    {"id":	5,	"song":	"1442.mp3"},
+                    {"id":	6,	"song":	"1443.mp3"},
+                    {"id":	7,	"song":	"1444.mp3"},
+                    {"id":	8,	"song":	"1445.mp3"},
+                    {"id":	9,	"song":	"1446.mp3"},
+                    {"id":	10,	"song":	"1447.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	102 ,
+        "name":	"Nahom Markos",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ewnetegna Selam",
+                "image":	"Album_default",
+                "year":	"2000",
+                "songs":	[
+                    {"id":	1,	"song":	"3131.mp3"},
+                    {"id":	2,	"song":	"3132.mp3"},
+                    {"id":	3,	"song":	"3133.mp3"},
+                    {"id":	4,	"song":	"3134.mp3"},
+                    {"id":	5,	"song":	"3135.mp3"},
+                    {"id":	6,	"song":	"3136.mp3"},
+                    {"id":	7,	"song":	"3137.mp3"},
+                    {"id":	8,	"song":	"3138.mp3"},
+                    {"id":	9,	"song":	"3139.mp3"},
+                    {"id":	10,	"song":	"3140.mp3"},
+                    {"id":	11,	"song":	"3141.mp3"},
+                    {"id":	12,	"song":	"3142.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	103 ,
+        "name":	"Nairobi Emmanuel Church",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Amanuel",
+                "image":	"Album_default",
+                "year":	"2000",
+                "songs":	[
+                    {"id":	1,	"song":	"2039.mp3"},
+                    {"id":	2,	"song":	"2040.mp3"},
+                    {"id":	3,	"song":	"2041.mp3"},
+                    {"id":	4,	"song":	"2042.mp3"},
+                    {"id":	5,	"song":	"2043.mp3"},
+                    {"id":	6,	"song":	"2044.mp3"},
+                    {"id":	7,	"song":	"2045.mp3"},
+                    {"id":	8,	"song":	"2046.mp3"},
+                    {"id":	9,	"song":	"2047.mp3"},
+                    {"id":	10,	"song":	"2048.mp3"},
+                    {"id":	11,	"song":	"2049.mp3"},
+                    {"id":	12,	"song":	"2050.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Ewntega Wodaje",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2084.mp3"},
+                    {"id":	2,	"song":	"2085.mp3"},
+                    {"id":	3,	"song":	"2086.mp3"},
+                    {"id":	4,	"song":	"2087.mp3"},
+                    {"id":	5,	"song":	"2088.mp3"},
+                    {"id":	6,	"song":	"2089.mp3"},
+                    {"id":	7,	"song":	"2090.mp3"},
+                    {"id":	8,	"song":	"2091.mp3"},
+                    {"id":	9,	"song":	"2092.mp3"},
+                    {"id":	10,	"song":	"2093.mp3"},
+                    {"id":	11,	"song":	"2094.mp3"},
+                    {"id":	12,	"song":	"2095.mp3"},
+                    {"id":	13,	"song":	"2096.mp3"},
+                    {"id":	14,	"song":	"2097.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	104 ,
+        "name":	"Nazret Amanuel Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Birhan Wotalge",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1985.mp3"},
+                    {"id":	2,	"song":	"1986.mp3"},
+                    {"id":	3,	"song":	"1987.mp3"},
+                    {"id":	4,	"song":	"1988.mp3"},
+                    {"id":	5,	"song":	"1989.mp3"},
+                    {"id":	6,	"song":	"1990.mp3"},
+                    {"id":	7,	"song":	"1991.mp3"},
+                    {"id":	8,	"song":	"1992.mp3"},
+                    {"id":	9,	"song":	"1993.mp3"},
+                    {"id":	10,	"song":	"1994.mp3"},
+                    {"id":	11,	"song":	"1995.mp3"},
+                    {"id":	12,	"song":	"1996.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Madanu kemaEbelu feTnoal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"271.mp3"},
+                    {"id":	2,	"song":	"272.mp3"},
+                    {"id":	3,	"song":	"273.mp3"},
+                    {"id":	4,	"song":	"274.mp3"},
+                    {"id":	5,	"song":	"275.mp3"},
+                    {"id":	6,	"song":	"276.mp3"},
+                    {"id":	7,	"song":	"277.mp3"},
+                    {"id":	8,	"song":	"278.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Ylehm Tewdadari",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2073.mp3"},
+                    {"id":	2,	"song":	"2074.mp3"},
+                    {"id":	3,	"song":	"2075.mp3"},
+                    {"id":	4,	"song":	"2076.mp3"},
+                    {"id":	5,	"song":	"2077.mp3"},
+                    {"id":	6,	"song":	"2078.mp3"},
+                    {"id":	7,	"song":	"2079.mp3"},
+                    {"id":	8,	"song":	"2080.mp3"},
+                    {"id":	9,	"song":	"2081.mp3"},
+                    {"id":	10,	"song":	"2082.mp3"},
+                    {"id":	11,	"song":	"2083.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	105 ,
+        "name":	"Nazret Amanuel Church Servants",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Keftaye Yesus New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1322.mp3"},
+                    {"id":	2,	"song":	"1323.mp3"},
+                    {"id":	3,	"song":	"1324.mp3"},
+                    {"id":	4,	"song":	"1325.mp3"},
+                    {"id":	5,	"song":	"1326.mp3"},
+                    {"id":	6,	"song":	"1327.mp3"},
+                    {"id":	7,	"song":	"1328.mp3"},
+                    {"id":	8,	"song":	"1329.mp3"},
+                    {"id":	9,	"song":	"1330.mp3"},
+                    {"id":	10,	"song":	"1331.mp3"},
+                    {"id":	11,	"song":	"1332.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	106 ,
+        "name":	"Netsanet Assefa",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Alegne Bizu Mesgana",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3085.mp3"},
+                    {"id":	2,	"song":	"3086.mp3"},
+                    {"id":	3,	"song":	"3087.mp3"},
+                    {"id":	4,	"song":	"3088.mp3"},
+                    {"id":	5,	"song":	"3089.mp3"},
+                    {"id":	6,	"song":	"3090.mp3"},
+                    {"id":	7,	"song":	"3091.mp3"},
+                    {"id":	8,	"song":	"3092.mp3"},
+                    {"id":	9,	"song":	"3093.mp3"},
+                    {"id":	10,	"song":	"3094.mp3"},
+                    {"id":	11,	"song":	"3095.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Egziabeheren Barki",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3063.mp3"},
+                    {"id":	2,	"song":	"3064.mp3"},
+                    {"id":	3,	"song":	"3065.mp3"},
+                    {"id":	4,	"song":	"3066.mp3"},
+                    {"id":	5,	"song":	"3067.mp3"},
+                    {"id":	6,	"song":	"3068.mp3"},
+                    {"id":	7,	"song":	"3069.mp3"},
+                    {"id":	8,	"song":	"3070.mp3"},
+                    {"id":	9,	"song":	"3071.mp3"},
+                    {"id":	10,	"song":	"3072.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Eyesus Fiker",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3053.mp3"},
+                    {"id":	2,	"song":	"3054.mp3"},
+                    {"id":	3,	"song":	"3055.mp3"},
+                    {"id":	4,	"song":	"3056.mp3"},
+                    {"id":	5,	"song":	"3057.mp3"},
+                    {"id":	6,	"song":	"3058.mp3"},
+                    {"id":	7,	"song":	"3059.mp3"},
+                    {"id":	8,	"song":	"3060.mp3"},
+                    {"id":	9,	"song":	"3061.mp3"},
+                    {"id":	10,	"song":	"3062.mp3"}
+                ]
+            },
+            {
+                "id":	4 ,
+                "name":	"Laiyeh Nafikalehu",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"3073.mp3"},
+                    {"id":	2,	"song":	"3074.mp3"},
+                    {"id":	3,	"song":	"3075.mp3"},
+                    {"id":	4,	"song":	"3076.mp3"},
+                    {"id":	5,	"song":	"3077.mp3"},
+                    {"id":	6,	"song":	"3078.mp3"},
+                    {"id":	7,	"song":	"3079.mp3"},
+                    {"id":	8,	"song":	"3080.mp3"},
+                    {"id":	9,	"song":	"3081.mp3"},
+                    {"id":	10,	"song":	"3082.mp3"},
+                    {"id":	11,	"song":	"3083.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	107 ,
+        "name":	"Netsanet Belayneh",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Aynen Anseche",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1572.mp3"},
+                    {"id":	2,	"song":	"1573.mp3"},
+                    {"id":	3,	"song":	"1574.mp3"},
+                    {"id":	4,	"song":	"1575.mp3"},
+                    {"id":	5,	"song":	"1576.mp3"},
+                    {"id":	6,	"song":	"1577.mp3"},
+                    {"id":	7,	"song":	"1578.mp3"},
+                    {"id":	8,	"song":	"1579.mp3"},
+                    {"id":	9,	"song":	"1580.mp3"},
+                    {"id":	10,	"song":	"1581.mp3"},
+                    {"id":	11,	"song":	"1582.mp3"},
+                    {"id":	12,	"song":	"1583.mp3"},
+                    {"id":	13,	"song":	"1584.mp3"},
+                    {"id":	14,	"song":	"1585.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	108 ,
+        "name":	"Nigsist Haylu (Gedam)",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Tor Atansa",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2719.mp3"},
+                    {"id":	2,	"song":	"2720.mp3"},
+                    {"id":	3,	"song":	"2721.mp3"},
+                    {"id":	4,	"song":	"2722.mp3"},
+                    {"id":	5,	"song":	"2723.mp3"},
+                    {"id":	6,	"song":	"2724.mp3"},
+                    {"id":	7,	"song":	"2725.mp3"},
+                    {"id":	8,	"song":	"2726.mp3"},
+                    {"id":	9,	"song":	"2727.mp3"},
+                    {"id":	10,	"song":	"2728.mp3"},
+                    {"id":	11,	"song":	"2729.mp3"},
+                    {"id":	12,	"song":	"2730.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	109 ,
+        "name":	"Redda Abraham",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Altilhem Altewhem",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"2487.mp3"},
+                    {"id":	2,	"song":	"2488.mp3"},
+                    {"id":	3,	"song":	"2489.mp3"},
+                    {"id":	4,	"song":	"2490.mp3"},
+                    {"id":	5,	"song":	"2492.mp3"},
+                    {"id":	6,	"song":	"2493.mp3"},
+                    {"id":	7,	"song":	"2494.mp3"},
+                    {"id":	8,	"song":	"2495.mp3"},
+                    {"id":	9,	"song":	"2496.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	110 ,
+        "name":	"Roman Lorenso",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Geta Becha Tamgy New",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"2616.mp3"},
+                    {"id":	2,	"song":	"2617.mp3"},
+                    {"id":	3,	"song":	"2618.mp3"},
+                    {"id":	4,	"song":	"2619.mp3"},
+                    {"id":	5,	"song":	"2620.mp3"},
+                    {"id":	6,	"song":	"2621.mp3"},
+                    {"id":	7,	"song":	"2622.mp3"},
+                    {"id":	8,	"song":	"2623.mp3"},
+                    {"id":	9,	"song":	"2624.mp3"},
+                    {"id":	10,	"song":	"2625.mp3"},
+                    {"id":	11,	"song":	"2626.mp3"},
+                    {"id":	12,	"song":	"2627.mp3"},
+                    {"id":	13,	"song":	"2628.mp3"},
+                    {"id":	14,	"song":	"2629.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	111 ,
+        "name":	"Ruth Tadesse",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Heavenly Citizen",
+                "image":	"Album_default",
+                "year":	"2009",
+                "songs":	[
+                    {"id":	1,	"song":	"2630.mp3"},
+                    {"id":	2,	"song":	"2631.mp3"},
+                    {"id":	3,	"song":	"2632.mp3"},
+                    {"id":	4,	"song":	"2633.mp3"},
+                    {"id":	5,	"song":	"2634.mp3"},
+                    {"id":	6,	"song":	"2635.mp3"},
+                    {"id":	7,	"song":	"2636.mp3"},
+                    {"id":	8,	"song":	"2637.mp3"},
+                    {"id":	9,	"song":	"2638.mp3"},
+                    {"id":	10,	"song":	"2639.mp3"},
+                    {"id":	11,	"song":	"2640.mp3"},
+                    {"id":	12,	"song":	"2641.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	112 ,
+        "name":	"Rutha Tesfa Michael",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Meytha Ayzfkan",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2731.mp3"},
+                    {"id":	2,	"song":	"2732.mp3"},
+                    {"id":	3,	"song":	"2733.mp3"},
+                    {"id":	4,	"song":	"2734.mp3"},
+                    {"id":	5,	"song":	"2735.mp3"},
+                    {"id":	6,	"song":	"2736.mp3"},
+                    {"id":	7,	"song":	"2737.mp3"},
+                    {"id":	8,	"song":	"2738.mp3"},
+                    {"id":	9,	"song":	"2739.mp3"},
+                    {"id":	10,	"song":	"2740.mp3"},
+                    {"id":	11,	"song":	"2741.mp3"},
+                    {"id":	12,	"song":	"2742.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	113,
+        "name":	" Samuel Borsamo",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"B'Geta Hulu Yechalal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2539.mp3"},
+                    {"id":	2,	"song":	"2540.mp3"},
+                    {"id":	3,	"song":	"2541.mp3"},
+                    {"id":	4,	"song":	"2542.mp3"},
+                    {"id":	5,	"song":	"2543.mp3"},
+                    {"id":	6,	"song":	"2544.mp3"},
+                    {"id":	7,	"song":	"2545.mp3"},
+                    {"id":	8,	"song":	"2546.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	114 ,
+        "name":	"Samuel Oda",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Fkirin yetemolah",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"1056.mp3"},
+                    {"id":	2,	"song":	"1057.mp3"},
+                    {"id":	3,	"song":	"1058.mp3"},
+                    {"id":	4,	"song":	"1059.mp3"},
+                    {"id":	5,	"song":	"1060.mp3"},
+                    {"id":	6,	"song":	"1061.mp3"},
+                    {"id":	7,	"song":	"1062.mp3"},
+                    {"id":	8,	"song":	"1063.mp3"},
+                    {"id":	9,	"song":	"1064.mp3"},
+                    {"id":	10,	"song":	"1065.mp3"},
+                    {"id":	11,	"song":	"1066.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	115 ,
+        "name":	"Samuel T. Michael",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Eyesus",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"223.mp3"},
+                    {"id":	2,	"song":	"224.mp3"},
+                    {"id":	3,	"song":	"225.mp3"},
+                    {"id":	4,	"song":	"226.mp3"},
+                    {"id":	5,	"song":	"227.mp3"},
+                    {"id":	6,	"song":	"228.mp3"},
+                    {"id":	7,	"song":	"229.mp3"},
+                    {"id":	8,	"song":	"230.mp3"},
+                    {"id":	9,	"song":	"231.mp3"},
+                    {"id":	10,	"song":	"232.mp3"},
+                    {"id":	11,	"song":	"233.mp3"},
+                    {"id":	12,	"song":	"234.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	116 ,
+        "name":	"Seble Dietrich",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Y'Eysuse Zena Balm Yesemal Gena",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2680.mp3"},
+                    {"id":	2,	"song":	"2681.mp3"},
+                    {"id":	3,	"song":	"2682.mp3"},
+                    {"id":	4,	"song":	"2683.mp3"},
+                    {"id":	5,	"song":	"2684.mp3"},
+                    {"id":	6,	"song":	"2685.mp3"},
+                    {"id":	7,	"song":	"2686.mp3"},
+                    {"id":	8,	"song":	"2687.mp3"},
+                    {"id":	9,	"song":	"2688.mp3"},
+                    {"id":	10,	"song":	"2689.mp3"},
+                    {"id":	11,	"song":	"2690.mp3"},
+                    {"id":	12,	"song":	"2691.mp3"},
+                    {"id":	13,	"song":	"2692.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	117 ,
+        "name":	"Seife Gashaw",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Nefse Wodedheh",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"974.mp3"},
+                    {"id":	2,	"song":	"975.mp3"},
+                    {"id":	3,	"song":	"976.mp3"},
+                    {"id":	4,	"song":	"977.mp3"},
+                    {"id":	5,	"song":	"978.mp3"},
+                    {"id":	6,	"song":	"979.mp3"},
+                    {"id":	7,	"song":	"980.mp3"},
+                    {"id":	8,	"song":	"981.mp3"},
+                    {"id":	9,	"song":	"982.mp3"},
+                    {"id":	10,	"song":	"983.mp3"},
+                    {"id":	11,	"song":	"984.mp3"},
+                    {"id":	12,	"song":	"985.mp3"},
+                    {"id":	13,	"song":	"986.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	118,
+        "name":	"Senait Engeda",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Eysus Tikekel",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2470.mp3"},
+                    {"id":	2,	"song":	"2471.mp3"},
+                    {"id":	3,	"song":	"2472.mp3"},
+                    {"id":	4,	"song":	"2473.mp3"},
+                    {"id":	5,	"song":	"2474.mp3"},
+                    {"id":	6,	"song":	"2475.mp3"},
+                    {"id":	7,	"song":	"2476.mp3"},
+                    {"id":	8,	"song":	"2477.mp3"},
+                    {"id":	9,	"song":	"2478.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	119 ,
+        "name":	"Seyoum Geberyes",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Woder Yemaygeglih",
+                "image":	"Album_default",
+                "year":	"2007",
+                "songs":	[
+                    {"id":	1,	"song":	"2303.mp3"},
+                    {"id":	2,	"song":	"2304.mp3"},
+                    {"id":	3,	"song":	"2305.mp3"},
+                    {"id":	4,	"song":	"2306.mp3"},
+                    {"id":	5,	"song":	"2307.mp3"},
+                    {"id":	6,	"song":	"2308.mp3"},
+                    {"id":	7,	"song":	"2309.mp3"},
+                    {"id":	8,	"song":	"2310.mp3"},
+                    {"id":	9,	"song":	"2311.mp3"},
+                    {"id":	10,	"song":	"2312.mp3"},
+                    {"id":	11,	"song":	"2313.mp3"},
+                    {"id":	12,	"song":	"2314.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	120 ,
+        "name":	"Shewaye Damte",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Ketarye Betach Godaye",
+                "image":	"Album_default",
+                "year":	"2007",
+                "songs":	[
+                    {"id":	1,	"song":	"259.mp3"},
+                    {"id":	2,	"song":	"260.mp3"},
+                    {"id":	3,	"song":	"261.mp3"},
+                    {"id":	4,	"song":	"262.mp3"},
+                    {"id":	5,	"song":	"263.mp3"},
+                    {"id":	6,	"song":	"264.mp3"},
+                    {"id":	7,	"song":	"265.mp3"},
+                    {"id":	8,	"song":	"266.mp3"},
+                    {"id":	9,	"song":	"267.mp3"},
+                    {"id":	10,	"song":	"268.mp3"},
+                    {"id":	11,	"song":	"269.mp3"},
+                    {"id":	12,	"song":	"270.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	121 ,
+        "name":	"Sisay Abebe",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Eeleshady New Egziabher",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"2579.mp3"},
+                    {"id":	2,	"song":	"2580.mp3"},
+                    {"id":	3,	"song":	"2581.mp3"},
+                    {"id":	4,	"song":	"2582.mp3"},
+                    {"id":	5,	"song":	"2583.mp3"},
+                    {"id":	6,	"song":	"2584.mp3"},
+                    {"id":	7,	"song":	"2585.mp3"},
+                    {"id":	8,	"song":	"2586.mp3"},
+                    {"id":	9,	"song":	"2587.mp3"},
+                    {"id":	10,	"song":	"2588.mp3"},
+                    {"id":	11,	"song":	"2589.mp3"},
+                    {"id":	12,	"song":	"2590.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	122 ,
+        "name":	"Sisay Tegegn",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Fiker Gid Bilo",
+                "image":	"Album_default",
+                "year":	"2014",
+                "songs":	[
+                    {"id":	1,	"song":	"3248.mp3"},
+                    {"id":	2,	"song":	"3249.mp3"},
+                    {"id":	3,	"song":	"3250.mp3"},
+                    {"id":	4,	"song":	"3251.mp3"},
+                    {"id":	5,	"song":	"3252.mp3"},
+                    {"id":	6,	"song":	"3253.mp3"},
+                    {"id":	7,	"song":	"3254.mp3"},
+                    {"id":	8,	"song":	"3255.mp3"},
+                    {"id":	9,	"song":	"3256.mp3"},
+                    {"id":	10,	"song":	"3257.mp3"},
+                    {"id":	11,	"song":	"3258.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	123 ,
+        "name":	"Solomon Yeriga",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Tebibanch",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1214.mp3"},
+                    {"id":	2,	"song":	"1215.mp3"},
+                    {"id":	3,	"song":	"1216.mp3"},
+                    {"id":	4,	"song":	"1217.mp3"},
+                    {"id":	5,	"song":	"1218.mp3"},
+                    {"id":	6,	"song":	"1219.mp3"},
+                    {"id":	7,	"song":	"1220.mp3"},
+                    {"id":	8,	"song":	"1221.mp3"},
+                    {"id":	9,	"song":	"1222.mp3"},
+                    {"id":	10,	"song":	"1223.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	124,
+        "name":	"Tadesse Eshete",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1641.mp3"},
+                    {"id":	2,	"song":	"1642.mp3"},
+                    {"id":	3,	"song":	"1643.mp3"},
+                    {"id":	4,	"song":	"1644.mp3"},
+                    {"id":	5,	"song":	"1645.mp3"},
+                    {"id":	6,	"song":	"1646.mp3"},
+                    {"id":	7,	"song":	"1647.mp3"},
+                    {"id":	8,	"song":	"1648.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Vol. 2",
+                "image":	"Album_default",
+                "year":	"2005",
+                "songs":	[
+                    {"id":	1,	"song":	"1649.mp3"},
+                    {"id":	2,	"song":	"1650.mp3"},
+                    {"id":	3,	"song":	"1651.mp3"},
+                    {"id":	4,	"song":	"1652.mp3"},
+                    {"id":	5,	"song":	"1653.mp3"},
+                    {"id":	6,	"song":	"1654.mp3"},
+                    {"id":	7,	"song":	"1655.mp3"},
+                    {"id":	8,	"song":	"1656.mp3"},
+                    {"id":	9,	"song":	"1657.mp3"},
+                    {"id":	10,	"song":	"1658.mp3"},
+                    {"id":	11,	"song":	"1659.mp3"},
+                    {"id":	12,	"song":	"1660.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	125 ,
+        "name":	"Tamirat Aklilu",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Tamirat Aklilu (Unknown Album)",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"315.mp3"},
+                    {"id":	2,	"song":	"316.mp3"},
+                    {"id":	3,	"song":	"317.mp3"},
+                    {"id":	4,	"song":	"318.mp3"},
+                    {"id":	5,	"song":	"319.mp3"},
+                    {"id":	6,	"song":	"320.mp3"},
+                    {"id":	7,	"song":	"321.mp3"},
+                    {"id":	8,	"song":	"322.mp3"},
+                    {"id":	9,	"song":	"323.mp3"},
+                    {"id":	10,	"song":	"324.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	126 ,
+        "name":	"Tamirat Haile",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Dinqe New Lene Geta",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2450.mp3"},
+                    {"id":	2,	"song":	"2451.mp3"},
+                    {"id":	3,	"song":	"2452.mp3"},
+                    {"id":	4,	"song":	"2453.mp3"},
+                    {"id":	5,	"song":	"2454.mp3"},
+                    {"id":	6,	"song":	"2455.mp3"},
+                    {"id":	7,	"song":	"2456.mp3"},
+                    {"id":	8,	"song":	"2457.mp3"},
+                    {"id":	9,	"song":	"2458.mp3"},
+                    {"id":	10,	"song":	"2459.mp3"},
+                    {"id":	11,	"song":	"2460.mp3"},
+                    {"id":	12,	"song":	"2461.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Eysus Genana New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2267.mp3"},
+                    {"id":	2,	"song":	"2268.mp3"},
+                    {"id":	3,	"song":	"2269.mp3"},
+                    {"id":	4,	"song":	"2270.mp3"},
+                    {"id":	5,	"song":	"2271.mp3"},
+                    {"id":	6,	"song":	"2272.mp3"},
+                    {"id":	7,	"song":	"2273.mp3"},
+                    {"id":	8,	"song":	"2274.mp3"},
+                    {"id":	9,	"song":	"2275.mp3"},
+                    {"id":	10,	"song":	"2276.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Kristnaye Tkqemge",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2381.mp3"},
+                    {"id":	2,	"song":	"2382.mp3"},
+                    {"id":	3,	"song":	"2383.mp3"},
+                    {"id":	4,	"song":	"2384.mp3"},
+                    {"id":	5,	"song":	"2385.mp3"},
+                    {"id":	6,	"song":	"2386.mp3"},
+                    {"id":	7,	"song":	"2387.mp3"},
+                    {"id":	8,	"song":	"2388.mp3"},
+                    {"id":	9,	"song":	"2389.mp3"},
+                    {"id":	10,	"song":	"2390.mp3"},
+                    {"id":	11,	"song":	"2391.mp3"},
+                    {"id":	12,	"song":	"2392.mp3"},
+                    {"id":	13,	"song":	"2393.mp3"},
+                    {"id":	14,	"song":	"2394.mp3"}
+                ]
+            },
+            {
+                "id":	4 ,
+                "name":	"Vol 9",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1044.mp3"},
+                    {"id":	2,	"song":	"1045.mp3"},
+                    {"id":	3,	"song":	"1046.mp3"},
+                    {"id":	4,	"song":	"1047.mp3"},
+                    {"id":	5,	"song":	"1048.mp3"},
+                    {"id":	6,	"song":	"1049.mp3"},
+                    {"id":	7,	"song":	"1050.mp3"},
+                    {"id":	8,	"song":	"1051.mp3"},
+                    {"id":	9,	"song":	"1052.mp3"},
+                    {"id":	10,	"song":	"1053.mp3"},
+                    {"id":	11,	"song":	"1054.mp3"},
+                    {"id":	12,	"song":	"1055.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	127 ,
+        "name":	"Tamrat Walba",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Atakumu Kelkay",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"862.mp3"},
+                    {"id":	2,	"song":	"863.mp3"},
+                    {"id":	3,	"song":	"864.mp3"},
+                    {"id":	4,	"song":	"865.mp3"},
+                    {"id":	5,	"song":	"866.mp3"},
+                    {"id":	6,	"song":	"867.mp3"},
+                    {"id":	7,	"song":	"868.mp3"},
+                    {"id":	8,	"song":	"869.mp3"},
+                    {"id":	9,	"song":	"870.mp3"},
+                    {"id":	10,	"song":	"871.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2432.mp3"},
+                    {"id":	2,	"song":	"2433.mp3"},
+                    {"id":	3,	"song":	"2434.mp3"},
+                    {"id":	4,	"song":	"2435.mp3"},
+                    {"id":	5,	"song":	"2436.mp3"},
+                    {"id":	6,	"song":	"2437.mp3"},
+                    {"id":	7,	"song":	"2438.mp3"},
+                    {"id":	8,	"song":	"2439.mp3"},
+                    {"id":	9,	"song":	"2440.mp3"},
+                    {"id":	10,	"song":	"2441.mp3"},
+                    {"id":	11,	"song":	"2442.mp3"},
+                    {"id":	12,	"song":	"2443.mp3"},
+                    {"id":	13,	"song":	"2444.mp3"},
+                    {"id":	14,	"song":	"2445.mp3"},
+                    {"id":	15,	"song":	"2446.mp3"},
+                    {"id":	16,	"song":	"2447.mp3"},
+                    {"id":	17,	"song":	"2448.mp3"},
+                    {"id":	18,	"song":	"2449.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Vol. 3",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2277.mp3"},
+                    {"id":	2,	"song":	"2278.mp3"},
+                    {"id":	3,	"song":	"2279.mp3"},
+                    {"id":	4,	"song":	"2280.mp3"},
+                    {"id":	5,	"song":	"2281.mp3"},
+                    {"id":	6,	"song":	"2282.mp3"},
+                    {"id":	7,	"song":	"2283.mp3"},
+                    {"id":	8,	"song":	"2284.mp3"},
+                    {"id":	9,	"song":	"2285.mp3"},
+                    {"id":	10,	"song":	"2286.mp3"},
+                    {"id":	11,	"song":	"2287.mp3"},
+                    {"id":	12,	"song":	"2288.mp3"},
+                    {"id":	13,	"song":	"2289.mp3"},
+                    {"id":	14,	"song":	"2290.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	128 ,
+        "name":	"Teklemariam Kibret",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Agelgay Tebye",
+                "image":	"Album_default",
+                "year":	"2005",
+                "songs":	[
+                    {"id":	1,	"song":	"2916.mp3"},
+                    {"id":	2,	"song":	"2917.mp3"},
+                    {"id":	3,	"song":	"2918.mp3"},
+                    {"id":	4,	"song":	"2919.mp3"},
+                    {"id":	5,	"song":	"2920.mp3"},
+                    {"id":	6,	"song":	"2921.mp3"},
+                    {"id":	7,	"song":	"2922.mp3"},
+                    {"id":	8,	"song":	"2923.mp3"},
+                    {"id":	9,	"song":	"2924.mp3"},
+                    {"id":	10,	"song":	"2925.mp3"},
+                    {"id":	11,	"song":	"2926.mp3"},
+                    {"id":	12,	"song":	"2927.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	129 ,
+        "name":	"Tesfaye Challa",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1661.mp3"},
+                    {"id":	2,	"song":	"1662.mp3"},
+                    {"id":	3,	"song":	"1663.mp3"},
+                    {"id":	4,	"song":	"1664.mp3"},
+                    {"id":	5,	"song":	"1665.mp3"},
+                    {"id":	6,	"song":	"1666.mp3"},
+                    {"id":	7,	"song":	"1667.mp3"},
+                    {"id":	8,	"song":	"1668.mp3"},
+                    {"id":	9,	"song":	"1669.mp3"},
+                    {"id":	10,	"song":	"1670.mp3"},
+                    {"id":	11,	"song":	"1671.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Vol. 2",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1673.mp3"},
+                    {"id":	2,	"song":	"1674.mp3"},
+                    {"id":	3,	"song":	"1675.mp3"},
+                    {"id":	4,	"song":	"1676.mp3"},
+                    {"id":	5,	"song":	"1677.mp3"},
+                    {"id":	6,	"song":	"1678.mp3"},
+                    {"id":	7,	"song":	"1679.mp3"},
+                    {"id":	8,	"song":	"1680.mp3"},
+                    {"id":	9,	"song":	"1681.mp3"},
+                    {"id":	10,	"song":	"1682.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Vol. 3",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1495.mp3"},
+                    {"id":	2,	"song":	"1496.mp3"},
+                    {"id":	3,	"song":	"1497.mp3"},
+                    {"id":	4,	"song":	"1498.mp3"},
+                    {"id":	5,	"song":	"1499.mp3"},
+                    {"id":	6,	"song":	"1500.mp3"},
+                    {"id":	7,	"song":	"1501.mp3"},
+                    {"id":	8,	"song":	"1502.mp3"},
+                    {"id":	9,	"song":	"1503.mp3"},
+                    {"id":	10,	"song":	"1504.mp3"}
+                ]
+            },
+            {
+                "id":	4 ,
+                "name":	"Yebelay Neh Geta",
+                "image":	"Album_default",
+                "year":	"2005",
+                "songs":	[
+                    {"id":	1,	"song":	"211.mp3"},
+                    {"id":	2,	"song":	"212.mp3"},
+                    {"id":	3,	"song":	"213.mp3"},
+                    {"id":	4,	"song":	"214.mp3"},
+                    {"id":	5,	"song":	"215.mp3"},
+                    {"id":	6,	"song":	"216.mp3"},
+                    {"id":	7,	"song":	"217.mp3"},
+                    {"id":	8,	"song":	"218.mp3"},
+                    {"id":	9,	"song":	"219.mp3"},
+                    {"id":	10,	"song":	"220.mp3"},
+                    {"id":	11,	"song":	"221.mp3"},
+                    {"id":	12,	"song":	"222.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	130 ,
+        "name":	"Tesfaye Gabisso",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Abetu Mebarekin Barken",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"790.mp3"},
+                    {"id":	2,	"song":	"791.mp3"},
+                    {"id":	3,	"song":	"792.mp3"},
+                    {"id":	4,	"song":	"793.mp3"},
+                    {"id":	5,	"song":	"794.mp3"},
+                    {"id":	6,	"song":	"795.mp3"},
+                    {"id":	7,	"song":	"796.mp3"},
+                    {"id":	8,	"song":	"797.mp3"},
+                    {"id":	9,	"song":	"798.mp3"},
+                    {"id":	10,	"song":	"799.mp3"},
+                    {"id":	11,	"song":	"800.mp3"},
+                    {"id":	12,	"song":	"801.mp3"},
+                    {"id":	13,	"song":	"802.mp3"},
+                    {"id":	14,	"song":	"803.mp3"},
+                    {"id":	15,	"song":	"804.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Egziabher Hayal",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"713.mp3"},
+                    {"id":	2,	"song":	"714.mp3"},
+                    {"id":	3,	"song":	"715.mp3"},
+                    {"id":	4,	"song":	"716.mp3"},
+                    {"id":	5,	"song":	"717.mp3"},
+                    {"id":	6,	"song":	"718.mp3"},
+                    {"id":	7,	"song":	"719.mp3"},
+                    {"id":	8,	"song":	"720.mp3"},
+                    {"id":	9,	"song":	"721.mp3"},
+                    {"id":	10,	"song":	"722.mp3"},
+                    {"id":	11,	"song":	"723.mp3"},
+                    {"id":	12,	"song":	"724.mp3"},
+                    {"id":	13,	"song":	"725.mp3"},
+                    {"id":	14,	"song":	"726.mp3"}
+                ]
+            },
+            {
+                "id":	3 ,
+                "name":	"Egziabher Menfess New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"727.mp3"},
+                    {"id":	2,	"song":	"728.mp3"},
+                    {"id":	3,	"song":	"729.mp3"},
+                    {"id":	4,	"song":	"730.mp3"},
+                    {"id":	5,	"song":	"731.mp3"},
+                    {"id":	6,	"song":	"732.mp3"},
+                    {"id":	7,	"song":	"733.mp3"},
+                    {"id":	8,	"song":	"734.mp3"},
+                    {"id":	9,	"song":	"735.mp3"},
+                    {"id":	10,	"song":	"736.mp3"},
+                    {"id":	11,	"song":	"737.mp3"},
+                    {"id":	12,	"song":	"738.mp3"},
+                    {"id":	13,	"song":	"739.mp3"},
+                    {"id":	14,	"song":	"740.mp3"},
+                    {"id":	15,	"song":	"741.mp3"}
+                ]
+            },
+            {
+                "id":	4 ,
+                "name":	"Kirar Album",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"805.mp3"},
+                    {"id":	2,	"song":	"806.mp3"},
+                    {"id":	3,	"song":	"807.mp3"},
+                    {"id":	4,	"song":	"808.mp3"},
+                    {"id":	5,	"song":	"809.mp3"},
+                    {"id":	6,	"song":	"810.mp3"},
+                    {"id":	7,	"song":	"811.mp3"},
+                    {"id":	8,	"song":	"812.mp3"},
+                    {"id":	9,	"song":	"813.mp3"},
+                    {"id":	10,	"song":	"814.mp3"},
+                    {"id":	11,	"song":	"815.mp3"},
+                    {"id":	12,	"song":	"816.mp3"},
+                    {"id":	13,	"song":	"817.mp3"},
+                    {"id":	14,	"song":	"818.mp3"},
+                    {"id":	15,	"song":	"819.mp3"},
+                    {"id":	16,	"song":	"820.mp3"}
+                ]
+            },
+            {
+                "id":	5 ,
+                "name":	"Kristian Teshagere",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"742.mp3"},
+                    {"id":	2,	"song":	"743.mp3"},
+                    {"id":	3,	"song":	"744.mp3"},
+                    {"id":	4,	"song":	"745.mp3"},
+                    {"id":	5,	"song":	"746.mp3"},
+                    {"id":	6,	"song":	"747.mp3"},
+                    {"id":	7,	"song":	"748.mp3"},
+                    {"id":	8,	"song":	"749.mp3"},
+                    {"id":	9,	"song":	"750.mp3"},
+                    {"id":	10,	"song":	"751.mp3"},
+                    {"id":	11,	"song":	"752.mp3"},
+                    {"id":	12,	"song":	"753.mp3"},
+                    {"id":	13,	"song":	"754.mp3"},
+                    {"id":	14,	"song":	"755.mp3"},
+                    {"id":	15,	"song":	"756.mp3"},
+                    {"id":	16,	"song":	"757.mp3"}
+                ]
+            },
+            {
+                "id":	6 ,
+                "name":	"Mihretu Ayalkimina",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"758.mp3"},
+                    {"id":	2,	"song":	"759.mp3"},
+                    {"id":	3,	"song":	"760.mp3"},
+                    {"id":	4,	"song":	"761.mp3"},
+                    {"id":	5,	"song":	"762.mp3"},
+                    {"id":	6,	"song":	"763.mp3"},
+                    {"id":	7,	"song":	"764.mp3"},
+                    {"id":	8,	"song":	"765.mp3"},
+                    {"id":	9,	"song":	"766.mp3"},
+                    {"id":	10,	"song":	"767.mp3"},
+                    {"id":	11,	"song":	"768.mp3"},
+                    {"id":	12,	"song":	"769.mp3"},
+                    {"id":	13,	"song":	"770.mp3"},
+                    {"id":	14,	"song":	"771.mp3"},
+                    {"id":	15,	"song":	"772.mp3"},
+                    {"id":	16,	"song":	"773.mp3"}
+                ]
+            },
+            {
+                "id":	7 ,
+                "name":	"Vol 7",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"1234.mp3"},
+                    {"id":	2,	"song":	"1235.mp3"},
+                    {"id":	3,	"song":	"1236.mp3"},
+                    {"id":	4,	"song":	"1237.mp3"},
+                    {"id":	5,	"song":	"1238.mp3"},
+                    {"id":	6,	"song":	"1239.mp3"},
+                    {"id":	7,	"song":	"1240.mp3"},
+                    {"id":	8,	"song":	"1241.mp3"},
+                    {"id":	9,	"song":	"1242.mp3"},
+                    {"id":	10,	"song":	"1243.mp3"},
+                    {"id":	11,	"song":	"1244.mp3"},
+                    {"id":	12,	"song":	"1245.mp3"}
+                ]
+            },
+            {
+                "id":	8 ,
+                "name":	"Yenazerethu Eyesus",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"774.mp3"},
+                    {"id":	2,	"song":	"775.mp3"},
+                    {"id":	3,	"song":	"776.mp3"},
+                    {"id":	4,	"song":	"777.mp3"},
+                    {"id":	5,	"song":	"778.mp3"},
+                    {"id":	6,	"song":	"779.mp3"},
+                    {"id":	7,	"song":	"780.mp3"},
+                    {"id":	8,	"song":	"781.mp3"},
+                    {"id":	9,	"song":	"782.mp3"},
+                    {"id":	10,	"song":	"783.mp3"},
+                    {"id":	11,	"song":	"784.mp3"},
+                    {"id":	12,	"song":	"785.mp3"},
+                    {"id":	13,	"song":	"786.mp3"},
+                    {"id":	14,	"song":	"787.mp3"},
+                    {"id":	15,	"song":	"788.mp3"},
+                    {"id":	16,	"song":	"789.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	131 ,
+        "name":	"Tigist Alemu",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Maranata",
+                "image":	"Album_default",
+                "year":	"2006",
+                "songs":	[
+                    {"id":	1,	"song":	"2822.mp3"},
+                    {"id":	2,	"song":	"2823.mp3"},
+                    {"id":	3,	"song":	"2824.mp3"},
+                    {"id":	4,	"song":	"2825.mp3"},
+                    {"id":	5,	"song":	"2826.mp3"},
+                    {"id":	6,	"song":	"2827.mp3"},
+                    {"id":	7,	"song":	"2828.mp3"},
+                    {"id":	8,	"song":	"2829.mp3"},
+                    {"id":	9,	"song":	"2830.mp3"},
+                    {"id":	10,	"song":	"2831.mp3"},
+                    {"id":	11,	"song":	"2832.mp3"},
+                    {"id":	12,	"song":	"2833.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	132 ,
+        "name":	"Tselot",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Yehiwot kal Alehina",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"483.mp3"},
+                    {"id":	2,	"song":	"484.mp3"},
+                    {"id":	3,	"song":	"485.mp3"},
+                    {"id":	4,	"song":	"486.mp3"},
+                    {"id":	5,	"song":	"487.mp3"},
+                    {"id":	6,	"song":	"488.mp3"},
+                    {"id":	7,	"song":	"489.mp3"},
+                    {"id":	8,	"song":	"490.mp3"},
+                    {"id":	9,	"song":	"491.mp3"},
+                    {"id":	10,	"song":	"492.mp3"},
+                    {"id":	11,	"song":	"493.mp3"},
+                    {"id":	12,	"song":	"494.mp3"},
+                    {"id":	13,	"song":	"495.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	133 ,
+        "name":	"Wolyta Mulu Wongel Choir",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Egzabher Feker New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1806.mp3"},
+                    {"id":	2,	"song":	"1807.mp3"},
+                    {"id":	3,	"song":	"1808.mp3"},
+                    {"id":	4,	"song":	"1809.mp3"},
+                    {"id":	5,	"song":	"1810.mp3"},
+                    {"id":	6,	"song":	"1811.mp3"},
+                    {"id":	7,	"song":	"1812.mp3"},
+                    {"id":	8,	"song":	"1813.mp3"},
+                    {"id":	9,	"song":	"1814.mp3"},
+                    {"id":	10,	"song":	"1815.mp3"},
+                    {"id":	11,	"song":	"1816.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	134 ,
+        "name":	"Wondmeneh Baye",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Belbe",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1586.mp3"},
+                    {"id":	2,	"song":	"1587.mp3"},
+                    {"id":	3,	"song":	"1588.mp3"},
+                    {"id":	4,	"song":	"1589.mp3"},
+                    {"id":	5,	"song":	"1590.mp3"},
+                    {"id":	6,	"song":	"1591.mp3"},
+                    {"id":	7,	"song":	"1592.mp3"},
+                    {"id":	8,	"song":	"1593.mp3"},
+                    {"id":	9,	"song":	"1594.mp3"},
+                    {"id":	10,	"song":	"1595.mp3"},
+                    {"id":	11,	"song":	"1596.mp3"},
+                    {"id":	12,	"song":	"1597.mp3"},
+                    {"id":	13,	"song":	"1598.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	135 ,
+        "name":	"Yared Lemessa",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Fikern Astemarege",
+                "image":	"Album_default",
+                "year":	"2003",
+                "songs":	[
+                    {"id":	1,	"song":	"3096.mp3"},
+                    {"id":	2,	"song":	"3097.mp3"},
+                    {"id":	3,	"song":	"3098.mp3"},
+                    {"id":	4,	"song":	"3099.mp3"},
+                    {"id":	5,	"song":	"3100.mp3"},
+                    {"id":	6,	"song":	"3101.mp3"},
+                    {"id":	7,	"song":	"3102.mp3"},
+                    {"id":	8,	"song":	"3103.mp3"},
+                    {"id":	9,	"song":	"3104.mp3"},
+                    {"id":	10,	"song":	"3105.mp3"},
+                    {"id":	11,	"song":	"3106.mp3"},
+                    {"id":	12,	"song":	"3107.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	136,
+        "name":	"Yared Maru",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Dawit na wuta",
+                "image":	"Album_default",
+                "year":	"2004",
+                "songs":	[
+                    {"id":	1,	"song":	"588.mp3"},
+                    {"id":	2,	"song":	"589.mp3"},
+                    {"id":	3,	"song":	"590.mp3"},
+                    {"id":	4,	"song":	"591.mp3"},
+                    {"id":	5,	"song":	"592.mp3"},
+                    {"id":	6,	"song":	"593.mp3"},
+                    {"id":	7,	"song":	"594.mp3"},
+                    {"id":	8,	"song":	"595.mp3"},
+                    {"id":	9,	"song":	"596.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	137,
+        "name":	"Yemana Habte",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol.2",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2174.mp3"},
+                    {"id":	2,	"song":	"2175.mp3"},
+                    {"id":	3,	"song":	"2176.mp3"},
+                    {"id":	4,	"song":	"2177.mp3"},
+                    {"id":	5,	"song":	"2178.mp3"},
+                    {"id":	6,	"song":	"2179.mp3"},
+                    {"id":	7,	"song":	"2180.mp3"},
+                    {"id":	8,	"song":	"2181.mp3"},
+                    {"id":	9,	"song":	"2182.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	138 ,
+        "name":	"YeShibsheba Mezmeran",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Awo Ende Ayne Blen Tetebknaleh",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1785.mp3"},
+                    {"id":	2,	"song":	"1786.mp3"},
+                    {"id":	3,	"song":	"1787.mp3"},
+                    {"id":	4,	"song":	"1788.mp3"},
+                    {"id":	5,	"song":	"1789.mp3"},
+                    {"id":	6,	"song":	"1790.mp3"},
+                    {"id":	7,	"song":	"1791.mp3"},
+                    {"id":	8,	"song":	"1792.mp3"},
+                    {"id":	9,	"song":	"1793.mp3"},
+                    {"id":	10,	"song":	"1794.mp3"},
+                    {"id":	11,	"song":	"1795.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	139 ,
+        "name":	"Yohannes Girma",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Vol. 1",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1428.mp3"},
+                    {"id":	2,	"song":	"1429.mp3"},
+                    {"id":	3,	"song":	"1430.mp3"},
+                    {"id":	4,	"song":	"1431.mp3"},
+                    {"id":	5,	"song":	"1432.mp3"},
+                    {"id":	6,	"song":	"1433.mp3"},
+                    {"id":	7,	"song":	"1434.mp3"},
+                    {"id":	8,	"song":	"1435.mp3"},
+                    {"id":	9,	"song":	"1436.mp3"},
+                    {"id":	10,	"song":	"1437.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	140 ,
+        "name":	"Yonathan Abraham & Sosina Samuel",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Aserarhacka Fuluy",
+                "image":	"Album_default",
+                "year":	"2005",
+                "songs":	[
+                    {"id":	1,	"song":	"2204.mp3"},
+                    {"id":	2,	"song":	"2205.mp3"},
+                    {"id":	3,	"song":	"2206.mp3"},
+                    {"id":	4,	"song":	"2207.mp3"},
+                    {"id":	5,	"song":	"2208.mp3"},
+                    {"id":	6,	"song":	"2209.mp3"},
+                    {"id":	7,	"song":	"2210.mp3"},
+                    {"id":	8,	"song":	"2211.mp3"},
+                    {"id":	9,	"song":	"2212.mp3"},
+                    {"id":	10,	"song":	"2213.mp3"},
+                    {"id":	11,	"song":	"2214.mp3"},
+                    {"id":	12,	"song":	"2215.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	141 ,
+        "name":	"Yoseph Bekele",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Sintun Lawra",
+                "image":	"Album_default",
+                "year":	"2005",
+                "songs":	[
+                    {"id":	1,	"song":	"235.mp3"},
+                    {"id":	2,	"song":	"236.mp3"},
+                    {"id":	3,	"song":	"237.mp3"},
+                    {"id":	4,	"song":	"238.mp3"},
+                    {"id":	5,	"song":	"239.mp3"},
+                    {"id":	6,	"song":	"240.mp3"},
+                    {"id":	7,	"song":	"241.mp3"},
+                    {"id":	8,	"song":	"242.mp3"},
+                    {"id":	9,	"song":	"243.mp3"},
+                    {"id":	10,	"song":	"244.mp3"},
+                    {"id":	11,	"song":	"245.mp3"},
+                    {"id":	12,	"song":	"246.mp3"},
+                    {"id":	13,	"song":	"247.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	142 ,
+        "name":	"Zenebe Asfaw",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Aand Neger Beralign",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2800.mp3"},
+                    {"id":	2,	"song":	"2801.mp3"},
+                    {"id":	3,	"song":	"2802.mp3"},
+                    {"id":	4,	"song":	"2803.mp3"},
+                    {"id":	5,	"song":	"2804.mp3"},
+                    {"id":	6,	"song":	"2805.mp3"},
+                    {"id":	7,	"song":	"2806.mp3"},
+                    {"id":	8,	"song":	"2807.mp3"},
+                    {"id":	9,	"song":	"2808.mp3"},
+                    {"id":	10,	"song":	"2809.mp3"},
+                    {"id":	11,	"song":	"2810.mp3"}
+                ]
+            },
+            {
+                "id":	2 ,
+                "name":	"Hulu Ke'Ersuna Be'Ersu Le'Ersum Newun",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"2654.mp3"},
+                    {"id":	2,	"song":	"2655.mp3"},
+                    {"id":	3,	"song":	"2656.mp3"},
+                    {"id":	4,	"song":	"2657.mp3"},
+                    {"id":	5,	"song":	"2658.mp3"}
+                ]
+            }
+        ]
+    },
+
+    {
+        "id":	143 ,
+        "name":	"Zion Girma",
+        "image":	"Artist_image",
+        "album":	[
+            {
+                "id":	1 ,
+                "name":	"Egzabher Birhane New",
+                "image":	"Album_default",
+                "year":	"Unknown",
+                "songs":	[
+                    {"id":	1,	"song":	"1398.mp3"},
+                    {"id":	2,	"song":	"1399.mp3"},
+                    {"id":	3,	"song":	"1400.mp3"},
+                    {"id":	4,	"song":	"1401.mp3"},
+                    {"id":	5,	"song":	"1402.mp3"},
+                    {"id":	6,	"song":	"1403.mp3"},
+                    {"id":	7,	"song":	"1404.mp3"},
+                    {"id":	8,	"song":	"1405.mp3"},
+                    {"id":	9,	"song":	"1406.mp3"},
+                    {"id":	10,	"song":	"1407.mp3"}
                 ]
             }
         ]
     }
 
 ]
+
