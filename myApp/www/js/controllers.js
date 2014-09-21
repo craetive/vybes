@@ -79,4 +79,9 @@ angular.module('starter.controllers', [])
         $scope.verse = $scope.books[$stateParams.booklistId-1].chapters[$stateParams.chapterId-1].verses[$stateParams.verseId-1];
     });
 
+        $scope.nextVerse = function(){
+            alert("Hello");
+        }
+
 })
+

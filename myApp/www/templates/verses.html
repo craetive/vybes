@@ -24,6 +24,7 @@
                     <a href="#" class="subdued">1 Like</a>
                     <a href="#" class="subdued">5 Comments</a>
                 </p>
+                <button class="button button-positive" ng-click="nextVerse()">Say Hello</button>
             </div>
 
             <div class="item tabs tabs-secondary tabs-icon-left">
@@ -35,7 +36,7 @@
                     <i class="icon ion-home"></i>
                     Home
                 </a>
-                <a class="tab-item" href="#/app/booklists/{{book.id}}/{{chapter.id}}/{{verse.id+1}}">
+                <a class="tab-item" href="#/app/booklists/{{book.id}}/{{chapter.id}}/{{verse.id}}">
                     <i class="icon ion-chevron-right"></i>
                     Next
                 </a>

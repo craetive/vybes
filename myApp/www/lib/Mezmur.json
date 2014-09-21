@@ -971,7 +971,7 @@
 
     {
         "id":	31,
-        "name":	"Betelehem Wolde		",
+        "name":	"Betelehem Wolde",
         "image":	"Artist_image",
         "album":	[
             {
@@ -1025,7 +1025,7 @@
 
     {
         "id":	33,
-        "name":	"Bethel Music Ministry		",
+        "name":	"Bethel Music Ministry",
         "image":	"Artist_image",
         "album":	[
             {
@@ -3544,7 +3544,7 @@
             },
             {
                 "id":	3,
-                "name":	"Eysus YeSaron Tsegreda	",
+                "name":	"Eysus YeSaron Tsegreda",
                 "image":	"Album_default",
                 "year":	"Unknown",
                 "songs":	[
