@@ -35,9 +35,9 @@ angular.module('starter.controllers', [])
 
 .factory('theService', function($http) {
         return {
-            thing : function() {
+            getFile : function() {
                return $http({
-                    url: 'lib/bible.json',
+                    url: 'lib/Mezmur.json',
                     method: 'GET'
                 })
             }
@@ -45,38 +45,43 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistsCtrl', function($scope, $http) {
-        $http.get('lib/bible.json').success(function(data){
-            $scope.books = data;
+        $http.get('lib/Mezmur.json').success(function(data){
+            $scope.artists = data;
         })
         .error(function() {
-            $scope.books = 'could not find someFile.json';
+            $scope.artists = 'could not find Mezmur.json';
         });
+
+        $scope.isSearch = false;
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams, theService) {
-        theService.thing().success(function(data){
-            $scope.books = data;
-            $scope.book = $scope.books[$stateParams.booklistId-1];
-            $scope.chapters = $scope.books[$stateParams.booklistId-1].chapters;
+        theService.getFile().success(function(data){
+            $scope.artists = data;
+            $scope.artist = $scope.artists[$stateParams.booklistId-1];
+            $scope.albums = $scope.artists[$stateParams.booklistId-1].albums;
         });
 
 })
 
-.controller('ChapterCtrl', function($scope, $stateParams, theService) {
-        theService.thing().success(function(data){
-            $scope.books = data;
-            $scope.book = $scope.books[$stateParams.booklistId-1];
-            $scope.chapter = $scope.books[$stateParams.booklistId-1].chapters[$stateParams.chapterId-1];
+.controller('SongsCtrl', function($scope, $stateParams, theService) {
+        theService.getFile().success(function(data){
+            $scope.artists = data;
+            $scope.artist = $scope.artists[$stateParams.booklistId-1];
+            $scope.albums = $scope.artists[$stateParams.booklistId-1].albums;
+            $scope.album = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1];
+            $scope.songs = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1].songs;
         });
 
 })
 
 .controller('VerseCtrl', function($scope, $stateParams, theService) {
-    theService.thing().success(function(data){
-        $scope.books = data;
-        $scope.book = $scope.books[$stateParams.booklistId-1];
-        $scope.chapter = $scope.books[$stateParams.booklistId-1].chapters[$stateParams.chapterId-1];
-        $scope.verse = $scope.books[$stateParams.booklistId-1].chapters[$stateParams.chapterId-1].verses[$stateParams.verseId-1];
+    theService.getFile().success(function(data){
+        $scope.artists = data;
+        $scope.artist = $scope.artists[$stateParams.booklistId-1];
+        $scope.album = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1];
+        $scope.songs = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1].songs;
+        $scope.song = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1].songs[$stateParams.verseId-1];
     });
 
         $scope.nextVerse = function(){

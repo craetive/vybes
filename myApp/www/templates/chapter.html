@@ -1,44 +1,13 @@
-<ion-view title={{chapter.name}}>
+<ion-view title={{album.name}}>
     <ion-nav-buttons side="left">
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
     <ion-content class="has-header">
-        <div class="list card">
-
-            <div class="item item-avatar">
-                Search:
-                <div class="gridStyle">
-                    <input type="text" ng-model="name" />
-                </div>
-
-            </div>
-            <div class="item item-body">
-
-                <ol ng-repeat="verse in chapter.verses | filter:name">
-                    <a href="#/app/booklists/{{book.id}}/{{chapter.id}}/{{verse.id}}">{{verse.id}}</a> {{verse.text}}
-                </ol>
-
-                <p>
-                    <a href="#" class="subdued">1 Like</a>
-                    <a href="#" class="subdued">5 Comments</a>
-                </p>
-            </div>
-
-            <div class="item tabs tabs-secondary tabs-icon-left">
-                <a class="tab-item" href="#">
-                    <i class="icon ion-chevron-left"></i>
-                    Prev
-                </a>
-                <a class="tab-item" href="#">
-                    <i class="icon ion-home"></i>
-                    Home
-                </a>
-                <a class="tab-item" href="#/app/booklists/{{book.id}}/{{chapter.id+1}}">
-                    <i class="icon ion-chevron-right"></i>
-                    Next
-                </a>
-            </div>
-
-        </div>
+        <ion-list>
+            <ion-item ng-repeat=" song in songs" href="#/app/booklists/{{artist.id}}/{{album.id}}/{{song.id}}">
+                <h2>Track {{song.id}}</h2>
+                <p>Track Descriptions</p>
+            </ion-item>
+        </ion-list>
     </ion-content>
 </ion-view>

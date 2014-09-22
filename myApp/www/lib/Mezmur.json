@@ -3,7 +3,7 @@
         "id":	1,
         "name":	"Ababau Gebrelu",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Fewus Yishagnal",
@@ -31,7 +31,7 @@
         "id":	2,
         "name":	"Abba Natnael Taye",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Man Beye Letra Semehen",
@@ -76,7 +76,7 @@
         "id":	3 ,
         "name":	"Abiy Taddele",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Atetaglew",
@@ -105,7 +105,7 @@
         "id":	4 ,
         "name":	"Abu Bedada",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"NA",
@@ -131,7 +131,7 @@
         "id":	5 ,
         "name":	"Adane Buni",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1,
                 "name":	"Enem Alegn",
@@ -158,7 +158,7 @@
         "id":	6 ,
         "name":	"Addis Ababa Emanuel Social Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Tamag New Egziabher",
@@ -185,7 +185,7 @@
         "id":	7 ,
         "name":	"Addis Demelew",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"BeKinfocheh Tila Gardehgal",
@@ -232,7 +232,7 @@
         "id":	8 ,
         "name":	"Addisu Worku",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ene Bebkule",
@@ -281,7 +281,7 @@
         "id":	9 ,
         "name":	"Alemaheu Tesfa Michael",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Egziabher Sendek Alamye Now",
@@ -307,7 +307,7 @@
         "id":	10 ,
         "name":	"Alemay University Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ekuya Ataneleh",
@@ -335,7 +335,7 @@
         "id":	11 ,
         "name":	"Alemayo Tesfam",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Kidan Misgana",
@@ -361,7 +361,7 @@
         "id":	12 ,
         "name":	"Amanuel Church (Addis Abeba)",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Bedel Enwtalen",
@@ -388,7 +388,7 @@
         "id":	13 ,
         "name":	"Andenet Gezahegn",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Eyesus Korahubih",
@@ -414,7 +414,7 @@
         "id":	14 ,
         "name":	"Arusi Emmanuel Church Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Dekdek Chelma Yshnefew",
@@ -442,7 +442,7 @@
         "id":	15 ,
         "name":	"Asaph Worship and Gospel Ministry",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Alawodadrhim",
@@ -468,7 +468,7 @@
         "id":	16 ,
         "name":	"Ashenafi Deyas",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Halelujah",
@@ -495,7 +495,7 @@
         "id":	17 ,
         "name":	"Asmamaw",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Asmamaw",
@@ -522,7 +522,7 @@
         "id":	18 ,
         "name":	"Assela Mulu Wongel Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Endih Zemene Yelk",
@@ -548,7 +548,7 @@
         "id":	19 ,
         "name":	"Aster & Endlkachewu",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"LeEgzabher Ezemralehu",
@@ -575,7 +575,7 @@
         "id":	20 ,
         "name":	"Aster Angelo",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ale BeMaderiyaw",
@@ -603,7 +603,7 @@
         "id":	21 ,
         "name":	"Aster Moges",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ene Aleweredeme",
@@ -629,7 +629,7 @@
         "id":	22 ,
         "name":	"Aster Yoseph",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Antew Teschalegnaleh",
@@ -657,7 +657,7 @@
         "id":	23 ,
         "name":	"Awassa Emmanuel Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Yefker Sitota",
@@ -685,7 +685,7 @@
         "id":	24 ,
         "name":	"Awet Kebdeom",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. 1",
@@ -712,7 +712,7 @@
         "id":	25 ,
         "name":	"Awtaru Kebede",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Lelitu Nega",
@@ -796,7 +796,7 @@
         "id":	26,
         "name":	"Aynaleme Huegawe",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Zenbel Alalge Geta",
@@ -823,7 +823,7 @@
         "id":	27 ,
         "name":	"Azeb Hailu",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ameletekut",
@@ -893,7 +893,7 @@
         "id":	28 ,
         "name":	"Baca Beyene",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. 1",
@@ -921,7 +921,7 @@
         "id":	29 ,
         "name":	"Benyam Hussen",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Astemerge",
@@ -948,7 +948,7 @@
         "id":	30 ,
         "name":	"Betelehem Tezera",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Abetu Amlake Vol. 1",
@@ -973,7 +973,7 @@
         "id":	31,
         "name":	"Betelehem Wolde",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Kalehen Wededkut",
@@ -1002,7 +1002,7 @@
         "id":	32 ,
         "name":	"Betelehem Wolde,Lili & Endalkachew Hawaz",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Kalet Atahu",
@@ -1027,7 +1027,7 @@
         "id":	33,
         "name":	"Bethel Music Ministry",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"EndZenbaba Enlemlmlan",
@@ -1072,7 +1072,7 @@
         "id":	34 ,
         "name":	"Bezu Mulugeta & Tedla Assefa (Wongelawi)",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Eysus Leiu New Alen Endgena",
@@ -1098,7 +1098,7 @@
         "id":	35 ,
         "name":	"Bezuayehu Gebretsadik",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. 4",
@@ -1126,7 +1126,7 @@
         "id":	36 ,
         "name":	"Birhana Wongel Mitmkawin Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Egzabher Kega Gar New",
@@ -1170,7 +1170,7 @@
         "id":	37 ,
         "name":	"Birhanu Bekele",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Be Eysus Memot",
@@ -1197,7 +1197,7 @@
         "id":	38 ,
         "name":	"Birucktawit Assefa & Getayawqale Girmay",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Egzabher Sewn Yeflgal",
@@ -1256,7 +1256,7 @@
         "id":	39 ,
         "name":	"Bisrat Yohannes",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Tigraga Mezmur",
@@ -1281,7 +1281,7 @@
         "id":	40 ,
         "name":	"Christian Girma & Emnet Zewdi",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Eyesus yenefse Nigus neh",
@@ -1309,7 +1309,7 @@
         "id":	41 ,
         "name":	"Dagmawi Tilahun",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. 1",
@@ -1337,7 +1337,7 @@
         "id":	42 ,
         "name":	"Daniel Agonafer",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ye'Yesus Getnet",
@@ -1361,7 +1361,7 @@
         "id":	43 ,
         "name":	"Daniel Amdemichael",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Daniel Amdemichael (Unknown Album)",
@@ -1429,7 +1429,7 @@
         "id":	44 ,
         "name":	"Daniel Habte",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. 1",
@@ -1456,7 +1456,7 @@
         "id":	45 ,
         "name":	"Daniel Mengestab",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Nay Hiwote Medmude megda",
@@ -1479,7 +1479,7 @@
         "id":	46 ,
         "name":	"Daniel Tilahun",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Zemen Meta",
@@ -1507,7 +1507,7 @@
         "id":	47 ,
         "name":	"Daniel Zena",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Wase",
@@ -1536,7 +1536,7 @@
         "id":	48 ,
         "name":	"Dawit (Danny) Wolde",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Mezmur 91",
@@ -1563,7 +1563,7 @@
         "id":	49,
         "name":	"Dawit Getachew",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Eref Elalehu",
@@ -1588,7 +1588,7 @@
         "id":	50 ,
         "name":	"Dawit Molalign",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Haylaga",
@@ -1634,7 +1634,7 @@
         "id":	51 ,
         "name":	"Debre Zeyte Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Talak Hizb Nen",
@@ -1680,7 +1680,7 @@
         "id":	52 ,
         "name":	"Denberu Bayleyegn",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Abatoch Geta Y'Barckahew",
@@ -1729,7 +1729,7 @@
         "id":	53 ,
         "name":	"Derge Mulatu",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Chemerew Chemerkut",
@@ -1777,7 +1777,7 @@
         "id":	54 ,
         "name":	"Dessiye Wolde",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. #2",
@@ -1804,7 +1804,7 @@
         "id":	55 ,
         "name":	"Elias Abebe",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"ManEndante Getaye",
@@ -1853,7 +1853,7 @@
         "id":	56 ,
         "name":	"Elias Abte",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Yemitsewn Toafin Altefam",
@@ -1879,7 +1879,7 @@
         "id":	57 ,
         "name":	"Elias Shefraw",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Egzabher Besmay Tebark",
@@ -1905,7 +1905,7 @@
         "id":	58 ,
         "name":	"Elsi Clawson",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Bemederebedam Amlak",
@@ -1931,7 +1931,7 @@
         "id":	59 ,
         "name":	"Endalkachew Hawaz",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Egzabher Tilk New",
@@ -1978,7 +1978,7 @@
         "id":	60 ,
         "name":	"Endrias Hawaz",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Kemotem Yadnewal",
@@ -2063,7 +2063,7 @@
         "id":	61 ,
         "name":	"Ephraim Dagn",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Alasfargme",
@@ -2091,7 +2091,7 @@
         "id":	62 ,
         "name":	"Essay Estifan",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Aymlken Hlf Mesgana",
@@ -2118,7 +2118,7 @@
         "id":	63 ,
         "name":	"Ethio. Fellowship Church in the UK",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Nafkote",
@@ -2144,7 +2144,7 @@
         "id":	64 ,
         "name":	"Ethiopian Evangelical Church in Rome",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Hiaw Yega Wongel",
@@ -2188,7 +2188,7 @@
         "id":	65 ,
         "name":	"Evangelical Church in Greece Athens",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Mengstih Timtalin",
@@ -2222,7 +2222,7 @@
         "id":	66 ,
         "name":	"Ezra Wolde Aregaye",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. 1",
@@ -2249,7 +2249,7 @@
         "id":	67 ,
         "name":	"Fedhasa Mikael",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Cush",
@@ -2312,7 +2312,7 @@
         "id":	68 ,
         "name":	"Fregenet Dessie",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol 1",
@@ -2338,7 +2338,7 @@
         "id":	69 ,
         "name":	"Geja Kale Hiwot Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Abet Egazabher Amlaku Yehone",
@@ -2365,7 +2365,7 @@
         "id":	70 ,
         "name":	"Getachew Taddese",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"YeLijnete Amlak",
@@ -2391,7 +2391,7 @@
         "id":	71 ,
         "name":	"Getahun Heramo",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Yosef...Altefam",
@@ -2419,7 +2419,7 @@
         "id":	72 ,
         "name":	"Getahun Tadesse",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Yalfal",
@@ -2447,7 +2447,7 @@
         "id":	73 ,
         "name":	"Gezachew Worku",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Kidus Kidus Egzabher",
@@ -2497,7 +2497,7 @@
         "id":	74 ,
         "name":	"Gezan Seyum",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Yedesta Zeit",
@@ -2524,7 +2524,7 @@
         "id":	75 ,
         "name":	"Grum Tadesse",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Edglega Nege Eysus Silalege",
@@ -2579,7 +2579,7 @@
         "id":	76 ,
         "name":	"Gulele Bethel Church",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Selam Ale BeYesus",
@@ -2607,7 +2607,7 @@
         "id":	77 ,
         "name":	"Haimi (Salem) Ayele",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Getaye Lene",
@@ -2632,7 +2632,7 @@
         "id":	78,
         "name":	"Hallelujah Gospel Band",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Egeziyabehare Melkam Amelak Naw",
@@ -2678,7 +2678,7 @@
         "id":	79 ,
         "name":	"Harrar Emmanuel Hibrat",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Egzabher Beki Neh",
@@ -2722,7 +2722,7 @@
         "id":	80 ,
         "name":	"Harrar Mulu Wongel Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Talaq Desta Alen B'Smai",
@@ -2750,7 +2750,7 @@
         "id":	81 ,
         "name":	"Jimma Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Kiber Yegbahal",
@@ -2781,7 +2781,7 @@
         "id":	82 ,
         "name":	"Kaleb Tesfaye",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Teglbtoal Tarik",
@@ -2828,7 +2828,7 @@
         "id":	83 ,
         "name":	"Kalkidan Tilahun",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Abetu Yne Geta",
@@ -2909,7 +2909,7 @@
         "id":	84 ,
         "name":	"Kidus Tsegaye",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"B'sew Ken Aywetam",
@@ -2937,7 +2937,7 @@
         "id":	85 ,
         "name":	"Lealem Tilahun",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol 1",
@@ -2964,7 +2964,7 @@
         "id":	86 ,
         "name":	"Lideta Wongelawi Mekane Eysus",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Demu BeGubet Lay New",
@@ -2993,7 +2993,7 @@
         "id":	87 ,
         "name":	"Liya Birhanu",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Melekam Eregn Neh",
@@ -3021,7 +3021,7 @@
         "id":	88 ,
         "name":	"Mamay Worku",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Helme",
@@ -3051,7 +3051,7 @@
         "id":	89 ,
         "name":	"Meba Yilma",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Badebabayoch",
@@ -3080,7 +3080,7 @@
         "id":	90 ,
         "name":	"Mebrhati Ambaye (Mebri)",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Kalkidanun Yefsmal!",
@@ -3108,7 +3108,7 @@
         "id":	91 ,
         "name":	"Meklit LeKristos",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Meklit LeKristos",
@@ -3135,7 +3135,7 @@
         "id":	92 ,
         "name":	"Mekrez Youth Ministry Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Christmas Songs",
@@ -3163,7 +3163,7 @@
         "id":	93 ,
         "name":	"Melesu Bulucha Debosie",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ejeg Talak Neh",
@@ -3190,7 +3190,7 @@
         "id":	94 ,
         "name":	"Meron Asfaw",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ye Fikreh Lik Sigebagh",
@@ -3217,7 +3217,7 @@
         "id":	95 ,
         "name":	"Meseret Tsege & Endalkachew Kidanework",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Yehadis Kidan Beg",
@@ -3265,7 +3265,7 @@
         "id":	96 ,
         "name":	"Meserete Hiwot",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Endante Yale Yelmna",
@@ -3293,7 +3293,7 @@
         "id":	97 ,
         "name":	"Meserete Kirstos Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Amen Belu Sigedult",
@@ -3429,7 +3429,7 @@
         "id":	98 ,
         "name":	"Mihret Eteffa",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol 1",
@@ -3474,7 +3474,7 @@
         "id":	99 ,
         "name":	"Misseker Bereketab",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Kezenha Yebeltal",
@@ -3503,7 +3503,7 @@
         "id":	100 ,
         "name":	"Mulu Wongel Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Demenam Yalem",
@@ -3662,7 +3662,7 @@
         "id":	101 ,
         "name":	"Muluken Melesee",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Halleluyah",
@@ -3688,7 +3688,7 @@
         "id":	102 ,
         "name":	"Nahom Markos",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ewnetegna Selam",
@@ -3716,7 +3716,7 @@
         "id":	103 ,
         "name":	"Nairobi Emmanuel Church",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Amanuel",
@@ -3766,7 +3766,7 @@
         "id":	104 ,
         "name":	"Nazret Amanuel Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Birhan Wotalge",
@@ -3829,7 +3829,7 @@
         "id":	105 ,
         "name":	"Nazret Amanuel Church Servants",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Keftaye Yesus New",
@@ -3856,7 +3856,7 @@
         "id":	106 ,
         "name":	"Netsanet Assefa",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Alegne Bizu Mesgana",
@@ -3938,7 +3938,7 @@
         "id":	107 ,
         "name":	"Netsanet Belayneh",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Aynen Anseche",
@@ -3968,7 +3968,7 @@
         "id":	108 ,
         "name":	"Nigsist Haylu (Gedam)",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Tor Atansa",
@@ -3996,7 +3996,7 @@
         "id":	109 ,
         "name":	"Redda Abraham",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Altilhem Altewhem",
@@ -4021,7 +4021,7 @@
         "id":	110 ,
         "name":	"Roman Lorenso",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Geta Becha Tamgy New",
@@ -4051,7 +4051,7 @@
         "id":	111 ,
         "name":	"Ruth Tadesse",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Heavenly Citizen",
@@ -4079,7 +4079,7 @@
         "id":	112 ,
         "name":	"Rutha Tesfa Michael",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Meytha Ayzfkan",
@@ -4107,7 +4107,7 @@
         "id":	113,
         "name":	" Samuel Borsamo",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"B'Geta Hulu Yechalal",
@@ -4131,7 +4131,7 @@
         "id":	114 ,
         "name":	"Samuel Oda",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Fkirin yetemolah",
@@ -4158,7 +4158,7 @@
         "id":	115 ,
         "name":	"Samuel T. Michael",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Eyesus",
@@ -4186,7 +4186,7 @@
         "id":	116 ,
         "name":	"Seble Dietrich",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Y'Eysuse Zena Balm Yesemal Gena",
@@ -4215,7 +4215,7 @@
         "id":	117 ,
         "name":	"Seife Gashaw",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Nefse Wodedheh",
@@ -4244,7 +4244,7 @@
         "id":	118,
         "name":	"Senait Engeda",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Eysus Tikekel",
@@ -4269,7 +4269,7 @@
         "id":	119 ,
         "name":	"Seyoum Geberyes",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Woder Yemaygeglih",
@@ -4297,7 +4297,7 @@
         "id":	120 ,
         "name":	"Shewaye Damte",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Ketarye Betach Godaye",
@@ -4325,7 +4325,7 @@
         "id":	121 ,
         "name":	"Sisay Abebe",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Eeleshady New Egziabher",
@@ -4353,7 +4353,7 @@
         "id":	122 ,
         "name":	"Sisay Tegegn",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Fiker Gid Bilo",
@@ -4380,7 +4380,7 @@
         "id":	123 ,
         "name":	"Solomon Yeriga",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Tebibanch",
@@ -4406,7 +4406,7 @@
         "id":	124,
         "name":	"Tadesse Eshete",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. 1",
@@ -4450,7 +4450,7 @@
         "id":	125 ,
         "name":	"Tamirat Aklilu",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Tamirat Aklilu (Unknown Album)",
@@ -4476,7 +4476,7 @@
         "id":	126 ,
         "name":	"Tamirat Haile",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Dinqe New Lene Geta",
@@ -4564,7 +4564,7 @@
         "id":	127 ,
         "name":	"Tamrat Walba",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Atakumu Kelkay",
@@ -4638,7 +4638,7 @@
         "id":	128 ,
         "name":	"Teklemariam Kibret",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Agelgay Tebye",
@@ -4666,7 +4666,7 @@
         "id":	129 ,
         "name":	"Tesfaye Challa",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. 1",
@@ -4749,7 +4749,7 @@
         "id":	130 ,
         "name":	"Tesfaye Gabisso",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Abetu Mebarekin Barken",
@@ -4941,7 +4941,7 @@
         "id":	131 ,
         "name":	"Tigist Alemu",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Maranata",
@@ -4969,7 +4969,7 @@
         "id":	132 ,
         "name":	"Tselot",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Yehiwot kal Alehina",
@@ -4998,7 +4998,7 @@
         "id":	133 ,
         "name":	"Wolyta Mulu Wongel Choir",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Egzabher Feker New",
@@ -5025,7 +5025,7 @@
         "id":	134 ,
         "name":	"Wondmeneh Baye",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Belbe",
@@ -5054,7 +5054,7 @@
         "id":	135 ,
         "name":	"Yared Lemessa",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Fikern Astemarege",
@@ -5082,7 +5082,7 @@
         "id":	136,
         "name":	"Yared Maru",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Dawit na wuta",
@@ -5107,7 +5107,7 @@
         "id":	137,
         "name":	"Yemana Habte",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol.2",
@@ -5132,7 +5132,7 @@
         "id":	138 ,
         "name":	"YeShibsheba Mezmeran",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Awo Ende Ayne Blen Tetebknaleh",
@@ -5159,7 +5159,7 @@
         "id":	139 ,
         "name":	"Yohannes Girma",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Vol. 1",
@@ -5185,7 +5185,7 @@
         "id":	140 ,
         "name":	"Yonathan Abraham & Sosina Samuel",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Aserarhacka Fuluy",
@@ -5213,7 +5213,7 @@
         "id":	141 ,
         "name":	"Yoseph Bekele",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Sintun Lawra",
@@ -5242,7 +5242,7 @@
         "id":	142 ,
         "name":	"Zenebe Asfaw",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Aand Neger Beralign",
@@ -5282,7 +5282,7 @@
         "id":	143 ,
         "name":	"Zion Girma",
         "image":	"Artist_image",
-        "album":	[
+        "albums":	[
             {
                 "id":	1 ,
                 "name":	"Egzabher Birhane New",

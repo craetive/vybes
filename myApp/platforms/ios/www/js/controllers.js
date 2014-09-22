@@ -34,28 +34,28 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistsCtrl', function($scope) {
-  $scope.books = bibleBooks;
+  $scope.artists = bibleBooks;
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-        $scope.book = bibleBooks[$stateParams.playlistId-1];
-        $scope.chapters = bibleBooks[$stateParams.playlistId-1].chapters;
+        $scope.artist = bibleBooks[$stateParams.playlistId-1];
+        $scope.albums = bibleBooks[$stateParams.playlistId-1].albums;
         currentBook = bibleBooks[$stateParams.playlistId-1];
-        currentChapter = bibleBooks[$stateParams.playlistId-1].chapters;
+        currentChapter = bibleBooks[$stateParams.playlistId-1].albums;
 
 })
 
 .controller('VerseCtrl', function($scope, $stateParams) {
-        $scope.chapter = currentChapter[$stateParams.verseId-1];
+        $scope.album = currentChapter[$stateParams.verseId-1];
 
 })
 
 var currentBook = '';
 var currentChapter = '';
 var bibleBooks = [
-    { book: 'Genesis',
+    { artist: 'Genesis',
         id: 1,
-        chapters: [
+        albums: [
             {name: 'Chapter 1',
                 id: 1,
                 verses: [
@@ -73,9 +73,9 @@ var bibleBooks = [
             {name: 'Chapter 5', id: 5}
         ]
     },
-    { book: 'Exodus',
+    { artist: 'Exodus',
         id: 2,
-        chapters: [
+        albums: [
             {name: 'Chapter 1', id: 1},
             {name: 'Chapter 2', id: 2},
             {name: 'Chapter 3', id: 3},
@@ -84,9 +84,9 @@ var bibleBooks = [
         ]
 
     },
-    { book: 'Leviticus',
+    { artist: 'Leviticus',
         id: 3,
-        chapters: [
+        albums: [
             {name: 'Chapter 1', id: 1},
             {name: 'Chapter 2', id: 2},
             {name: 'Chapter 3', id: 3},
@@ -94,9 +94,9 @@ var bibleBooks = [
             {name: 'Chapter 5', id: 5}
         ]
     },
-    { book: 'Numbers',
+    { artist: 'Numbers',
         id: 4,
-        chapters: [
+        albums: [
             {name: 'Chapter 1', id: 1},
             {name: 'Chapter 2', id: 2},
             {name: 'Chapter 3', id: 3},
@@ -104,9 +104,9 @@ var bibleBooks = [
             {name: 'Chapter 5', id: 5}
         ]
     },
-    { book: 'Deuteronomy',
+    { artist: 'Deuteronomy',
         id: 5,
-        chapters: [
+        albums: [
             {name: 'Chapter 1', id: 1},
             {name: 'Chapter 2', id: 2},
             {name: 'Chapter 3', id: 3},
@@ -114,9 +114,9 @@ var bibleBooks = [
             {name: 'Chapter 5', id: 5}
         ]
     },
-    { book: 'Joshua',
+    { artist: 'Joshua',
         id: 6,
-        chapters: [
+        albums: [
             {name: 'Chapter 1', id: 1},
             {name: 'Chapter 2', id: 2},
             {name: 'Chapter 3', id: 3},

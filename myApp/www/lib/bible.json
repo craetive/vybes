@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "book": "Genesis",
-        "chapters": [
+        "artist": "Genesis",
+        "albums": [
             {
                 "id": 1,
                 "name": "Chapter 1",
@@ -33,8 +33,8 @@
     },
     {
         "id": 2,
-        "book": "Exodus",
-        "chapters": [
+        "artist": "Exodus",
+        "albums": [
             {"id": 1, "name": "Chapter 1"},
             {"id": 2, "name": "Chapter 2"},
             {"id": 3, "name": "Chapter 3"},
@@ -45,8 +45,8 @@
     },
     {
         "id": 3,
-        "book": "Leviticus",
-        "chapters": [
+        "artist": "Leviticus",
+        "albums": [
             {"id": 1, "name": "Chapter 1"},
             {"id": 2, "name": "Chapter 2"},
             {"id": 3, "name": "Chapter 3"},
@@ -56,8 +56,8 @@
     },
     {
         "id": 4,
-        "book": "Numbers",
-        "chapters": [
+        "artist": "Numbers",
+        "albums": [
             {"id": 1, "name": "Chapter 1"},
             {"id": 2, "name": "Chapter 2"},
             {"id": 3, "name": "Chapter 3"},
@@ -67,8 +67,8 @@
     },
     {
         "id": 5,
-        "book": "Deuteronomy",
-        "chapters": [
+        "artist": "Deuteronomy",
+        "albums": [
             {"id": 1, "name": "Chapter 1"},
             {"id": 2, "name": "Chapter 2"},
             {"id": 3, "name": "Chapter 3"},
@@ -78,8 +78,8 @@
     },
     {
         "id": 6,
-        "book": "Joshua",
-        "chapters": [
+        "artist": "Joshua",
+        "albums": [
             {"id": 1, "name": "Chapter 1"},
             {"id": 2, "name": "Chapter 2"},
             {"id": 3, "name": "Chapter 3"},

@@ -48,7 +48,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
-    .state('app.booklists', {
+    .state('app.artistslists', {
       url: "/booklists",
       views: {
         'menuContent' :{
@@ -58,7 +58,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
 
-    .state('app.chapterlists', {
+    .state('app.albumlists', {
       url: "/booklists/:booklistId",
       views: {
         'menuContent' :{
@@ -67,12 +67,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-  .state('app.chapter', {
+  .state('app.songs', {
       url: "/booklists/:booklistId/:chapterId",
       views: {
           'menuContent' :{
               templateUrl: "templates/chapter.html",
-              controller: 'ChapterCtrl'
+              controller: 'SongsCtrl'
           }
       }
   })

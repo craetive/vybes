@@ -1,6 +1,13 @@
 /* Empty. Add your own CSS if you like */
-.gridStyle {
-    border: 1px solid rgb(212,212,212);
+.bar_search .gridStyle{
+    margin-top: -37px;
+    border-radius: 5px;
     width: auto;
     height: auto;
+    position: absolute;
+    z-index: 9999;
+}
+
+.bar_search .gridStyle input{
+    border-radius: inherit;
 }
