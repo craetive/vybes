@@ -1,23 +1,22 @@
-<ion-view title="Books">
-  <ion-nav-buttons side="left">
-    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
-      <div class="bar_search">
-      <div style="left: 40px; right: 40px;" class="gridStyle" ng-show="isSearch">
-          <input type="search" placeholder="Search" ng-model="name" />
-      </div>
-      </div>
-  </ion-nav-buttons>
-    <ion-nav-buttons side="right">
-        <button ng-click="isSearch = !isSearch" class="button button-icon icon ion-navicon"></button>
+<ion-view title="Artists">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+        <div class="bar_search">
+            <div style="left: 45px; right: 45px;" class="gridStyle" ng-show="isSearch">
+                <input type="search" placeholder="Search" ng-model="name" />
+            </div>
+        </div>
     </ion-nav-buttons>
-
-  <ion-content class="has-header">
-    <ion-list>
-      <ion-item class="item item-avatar" ng-repeat="artist in artists | filter:name" href="#/app/booklists/{{artist.id}}">
-        <img ng-src="img\{{artist.image}}.jpg">
-        <h2>{{artist.name}}</h2>
-        <p>Artist Descriptions</p>
-      </ion-item>
-    </ion-list>
-  </ion-content>
+    <ion-nav-buttons side="right">
+        <button ng-click="isSearch = !isSearch" class="button button-icon ion-ios7-search" ></button>
+    </ion-nav-buttons>
+    <ion-content >
+        <ion-list >
+            <ion-item class="item item-avatar" ng-repeat="artist in artists | filter:name" href="#/app/booklists/{{artist.id}}">
+                <img ng-src="img\{{artist.image}}.jpg">
+                <h2>{{artist.name}}</h2>
+                <p>Artist Descriptions</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
 </ion-view>
