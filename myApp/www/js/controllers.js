@@ -74,13 +74,22 @@ angular.module('starter.controllers', [])
         });
 
         $scope.showSongs = true;
-        $scope.isPlaying = true;
+        $scope.Playing = false ;
         $scope.showAlbumDetail = true;
 
+
+        $scope.isPlaying = function(value) {
+            $scope.currentPlaying = value;
+            $scope.Playing = true;
+            $scope.currentSong = $scope.songs[value-1].song
+
+        };
+
         $scope.isShowSongs = function(value) {
+            $scope.test = value;
             $scope.showSongs = !$scope.showSongs;
         };
-        $scope.isShowAlbumDetail = function(value) {
+        $scope.isShowAlbumDetail = function() {
             $scope.showAlbumDetail = !$scope.showAlbumDetail;
         };
 

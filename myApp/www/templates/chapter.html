@@ -11,9 +11,14 @@
                     <h2>{{album.name}}</h2>
                     <p>Year: {{album.year}}</p>
                     <p>By: {{artist.name}}</p>
+
+
                 </div>
+                <a ng-show="Playing" class="item positive">
+                    Playing Track {{currentPlaying}} {{currentSong}}
+                </a>
                 <div class="item row positive">
-                    <a class="col col-33 item" href="#">
+                    <a class="col col-33 item" href=#/app/booklists/{{artist.id}}/{{album.id}}/1">
                         <i class="icon ion-music-note"></i>
                         Play All
                     </a>
@@ -26,7 +31,7 @@
                 </div>
                 <div class="item" ng-show="showSongs">
                 <div >
-                    <a class="item item-icon-right positive" ng-repeat=" song in songs" href="#/app/booklists/{{artist.id}}/{{album.id}}/{{song.id}}">
+                    <a ng-click="isPlaying(song.id)" class="item item-icon-right positive" ng-repeat=" song in songs"">
                         <i class="col col-0 icon ion-ios7-musical-note"> <h4>Track {{song.id}}</h4></i>
                         <i class="col col-10 icon ion-ios7-play-outline"></i>
 
