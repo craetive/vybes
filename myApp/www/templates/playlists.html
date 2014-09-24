@@ -2,13 +2,14 @@
     <ion-nav-buttons side="left">
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
         <div class="bar_search">
-            <div style="left: 45px; right: 45px;" class="gridStyle" ng-show="isSearch">
+            <div style="left: 45px; right: 80px;" class="gridStyle" ng-show="isSearch">
                 <input type="search" placeholder="Search" ng-model="name" />
             </div>
         </div>
     </ion-nav-buttons>
     <ion-nav-buttons side="right">
         <button ng-click="isSearch = !isSearch" class="button button-icon ion-ios7-search" ></button>
+        <button class="button button-icon ion-android-more" ></button>
     </ion-nav-buttons>
     <ion-content >
         <ion-list >
