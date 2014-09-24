@@ -75,6 +75,7 @@ angular.module('starter.controllers', [])
 
         $scope.isGrid = true;
         $scope.isPlaying = true;
+        $scope.isShowAlbumDetail = true;
 
 })
 

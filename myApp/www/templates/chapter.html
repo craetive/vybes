@@ -6,13 +6,11 @@
         <ion-list>
 
             <div class="list card">
-                <div class="item item-avatar">
+                <div ng-show="isShowAlbumDetail" class="item item-avatar">
                     <img ng-src="img\Album_default.jpg">
                     <h2>{{album.name}}</h2>
                     <p>Year: {{album.year}}</p>
                     <p>By: {{artist.name}}</p>
-
-
                 </div>
                 <div class="item row positive">
                     <a class="col col-33 item" href="#">
@@ -21,16 +19,17 @@
                     </a>
                     <div class="col"></p></div>
                     <div class="col col-33"> <p>Options---></p></div>
-                    <button ng-click="isGrid = !isGrid" class=" col col-10 item ion-grid" ng-show="isGrid"></button>
-                    <button ng-click="isGrid = !isGrid" class=" col col-10 item ion-image" ng-show="!isGrid"></button>
-                    <button class=" col col-10 item ion-android-storage"></button>
+                    <button ng-click="isShowAlbumDetail = !isShowAlbumDetail" class=" col col-10 item ion-image" ></button>
+                    <button ng-click="isGrid = !isGrid"  class=" col col-10 item ion-chevron-up" ng-show="isGrid"></button>
+                    <button ng-click="isGrid = !isGrid"  class=" col col-10 item ion-chevron-down" ng-show="!isGrid"></button>
 
                 </div>
                 <div class="item" ng-show="isGrid">
                 <div >
                     <a class="item item-icon-right positive" ng-repeat=" song in songs" href="#/app/booklists/{{artist.id}}/{{album.id}}/{{song.id}}">
-                        <i class="icon ion-music-note"></i>
-                        <h4>Track {{song.id}}</h4>
+                        <i class="col col-0 icon ion-ios7-musical-note"> <h4>Track {{song.id}}</h4></i>
+                        <i class="col col-10 icon ion-ios7-play-outline"></i>
+
 
                     </a>
                 </div>
