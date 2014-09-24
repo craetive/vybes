@@ -3,43 +3,21 @@
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
     <ion-content class="has-header">
-        <audio autoplay="autoplay" player controls
-               ng-src="http://www.wongelnet.net/_mp3_/{{song.song}}"
-               pre-load="none">
-        </audio>
         <div class="list card">
-
             <div class="item item-avatar">
-                Search:
-                <div class="gridStyle">
-                <input type="text" ng-model="name" />
-                 </div>
+                <img ng-src="img\Artist_image.jpg">
+                <h2>{{album.name}}</h2>
+                <p>Year: {{album.year}}</p>
+                <p>By: {{artist.name}}</p>
             </div>
-            <div class="item item-body">
-
-                <h2>{{verse.id}} {{verse.text}}</h2>
-
-                <p>
-                    <a href="#" class="subdued">1 Like</a>
-                    <a href="#" class="subdued">5 Comments</a>
-                </p>
-                <button class="button button-positive" ng-click="nextVerse()">Say Hello</button>
+            <div class="item item-image">
+                <img ng-src="img\Album_default.jpg">
             </div>
 
-            <div class="item tabs tabs-secondary tabs-icon-left">
-                <a class="tab-item" href="#">
-                    <i class="icon ion-chevron-left"></i>
-                    Prev
-                </a>
-                <a class="tab-item" href="#">
-                    <i class="icon ion-home"></i>
-                    Home
-                </a>
-                <a class="tab-item" href="#/app/booklists/{{book.id}}/{{chapter.id}}/{{verse.id}}">
-                    <i class="icon ion-chevron-right"></i>
-                    Next
-                </a>
-            </div>
+            <a class="item item-icon-right positive" href="#">
+                <i class="icon ion-music-note"></i>
+                Playing Track {{song.id}}
+            </a>
 
         </div>
     </ion-content>

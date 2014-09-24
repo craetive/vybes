@@ -4,10 +4,43 @@
     </ion-nav-buttons>
     <ion-content class="has-header">
         <ion-list>
-            <ion-item ng-repeat=" song in songs" href="#/app/booklists/{{artist.id}}/{{album.id}}/{{song.id}}">
-                <h2>Track {{song.id}}</h2>
-                <p>Track Descriptions</p>
-            </ion-item>
+
+            <div class="list card">
+                <div class="item item-avatar">
+                    <img ng-src="img\Album_default.jpg">
+                    <h2>{{album.name}}</h2>
+                    <p>Year: {{album.year}}</p>
+                    <p>By: {{artist.name}}</p>
+
+
+                </div>
+                <div class="item row positive">
+                    <a class="col col-33 item" href="#">
+                        <i class="icon ion-music-note"></i>
+                        Play All
+                    </a>
+                    <div class="col"></p></div>
+                    <div class="col col-33"> <p>Options---></p></div>
+                    <button ng-click="isGrid = !isGrid" class=" col col-10 item ion-grid" ng-show="isGrid"></button>
+                    <button ng-click="isGrid = !isGrid" class=" col col-10 item ion-image" ng-show="!isGrid"></button>
+                    <button class=" col col-10 item ion-android-storage"></button>
+
+                </div>
+                <div class="item" ng-show="isGrid">
+                <div >
+                    <a class="item item-icon-right positive" ng-repeat=" song in songs" href="#/app/booklists/{{artist.id}}/{{album.id}}/{{song.id}}">
+                        <i class="icon ion-music-note"></i>
+                        <h4>Track {{song.id}}</h4>
+
+                    </a>
+                </div>
+                </div>
+
+
+            </div>
+
+
+
         </ion-list>
     </ion-content>
 </ion-view>

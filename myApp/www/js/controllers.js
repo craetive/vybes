@@ -73,6 +73,9 @@ angular.module('starter.controllers', [])
             $scope.songs = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1].songs;
         });
 
+        $scope.isGrid = true;
+        $scope.isPlaying = true;
+
 })
 
 .controller('VerseCtrl', function($scope, $stateParams, theService) {
