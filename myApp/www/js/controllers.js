@@ -73,9 +73,17 @@ angular.module('starter.controllers', [])
             $scope.songs = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1].songs;
         });
 
-        $scope.isGrid = true;
+        $scope.showSongs = true;
         $scope.isPlaying = true;
-        $scope.isShowAlbumDetail = true;
+        $scope.showAlbumDetail = true;
+
+        $scope.isShowSongs = function(value) {
+            $scope.showSongs = !$scope.showSongs;
+        };
+        $scope.isShowAlbumDetail = function(value) {
+            $scope.showAlbumDetail = !$scope.showAlbumDetail;
+        };
+
 
 })
 
