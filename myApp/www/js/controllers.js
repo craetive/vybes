@@ -79,14 +79,13 @@ angular.module('starter.controllers', [])
 
 
         $scope.isPlaying = function(value) {
-            $scope.currentPlaying = value;
+            $scope.currentPlaying = value+1;
             $scope.Playing = true;
-            $scope.currentSong = $scope.songs[value-1].song
+            $scope.currentSong = $scope.songs[value].song
 
         };
 
-        $scope.isShowSongs = function(value) {
-            $scope.test = value;
+        $scope.isShowSongs = function() {
             $scope.showSongs = !$scope.showSongs;
         };
         $scope.isShowAlbumDetail = function() {
@@ -105,9 +104,8 @@ angular.module('starter.controllers', [])
         $scope.song = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1].songs[$stateParams.verseId-1];
     });
 
-        $scope.nextVerse = function(){
-            alert("Hello");
-        }
+    $scope.nextVerse = function(){
+        alert("Hello");
+    };
 
-})
-
+});
