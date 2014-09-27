@@ -14,3 +14,14 @@
 .bar_search .gridStyle input{
     border-radius: inherit;
 }
+
+.player {
+    position:relative;
+    clear:both;
+    height:70px; /* Tinggi footer */
+    line-height:30px;
+    padding:0 15px;
+    margin-top:-30px; /* Angkat ke atas setinggi 'tinggi footer' */
+    background-color:black;
+    color:white;
+}

@@ -14,9 +14,7 @@
 
 
                 </div>
-                <a ng-show="Playing" class="item positive">
-                    Playing Track {{currentPlaying}} {{currentSong}}
-                </a>
+
                 <div class="item row positive">
                     <a class="col col-33 item" href=#/app/booklists/{{artist.id}}/{{album.id}}/1">
                         <i class="icon ion-music-note"></i>
@@ -38,11 +36,12 @@
                 </div>
                 </div>
 
-
             </div>
-
-
-
         </ion-list>
     </ion-content>
+    <ion-footer-bar ng-show="Playing">
+        <div  class="bar bar-header bar-dark">
+            Playing Track {{currentPlaying}} {{currentSong}}
+        </div>
+    </ion-footer-bar>
 </ion-view>
