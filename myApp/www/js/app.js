@@ -6,86 +6,86 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers'])
 
-.run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
-    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-    // for form inputs)
-    if(window.cordova && window.cordova.plugins.Keyboard) {
-      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-    }
-    if(window.StatusBar) {
-      // org.apache.cordova.statusbar required
-      StatusBar.styleDefault();
-    }
-  });
-})
-
-.config(function($stateProvider, $urlRouterProvider) {
-  $stateProvider
-
-    .state('app', {
-      url: "/app",
-      abstract: true,
-      templateUrl: "templates/menu.html",
-      controller: 'AppCtrl'
+    .run(function($ionicPlatform) {
+      $ionicPlatform.ready(function() {
+        // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
+        // for form inputs)
+        if(window.cordova && window.cordova.plugins.Keyboard) {
+          cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+        }
+        if(window.StatusBar) {
+          // org.apache.cordova.statusbar required
+          StatusBar.styleDefault();
+        }
+      });
     })
 
-    .state('app.search', {
-      url: "/search",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/search.html"
-        }
-      }
-    })
+    .config(function($stateProvider, $urlRouterProvider) {
+            $stateProvider
 
-    .state('app.browse', {
-      url: "/browse",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/browse.html"
-        }
-      }
-    })
+            .state('app', {
+              url: "/app",
+              abstract: true,
+              templateUrl: "templates/menu.html",
+              controller: 'AppCtrl'
+            })
 
-    .state('app.artistslists', {
-      url: "/booklists",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/playlists.html",
-          controller: 'SongsCtrl'
-        }
-      }
-    })
+            .state('app.search', {
+              url: "/search",
+              views: {
+                'menuContent' :{
+                  templateUrl: "templates/search.html"
+                }
+              }
+            })
 
-    .state('app.albumlists', {
-      url: "/booklists/:booklistId",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/playlist.html",
-          controller: 'SongsCtrl'
-        }
-      }
-    })
-  .state('app.songs', {
-      url: "/booklists/:booklistId/:chapterId",
-      views: {
-          'menuContent' :{
-              templateUrl: "templates/chapter.html",
-              controller: 'SongsCtrl'
-          }
-      }
-  })
-    .state('app.verses', {
-      url: "/booklists/:booklistId/:chapterId/:verseId",
-      views: {
-        'menuContent' :{
-          templateUrl: "templates/verses.html",
-          controller: 'VerseCtrl'
-        }
-      }
+            .state('app.browse', {
+              url: "/browse",
+              views: {
+                'menuContent' :{
+                  templateUrl: "templates/browse.html"
+                }
+              }
+            })
+
+            .state('app.artistslists', {
+              url: "/booklists",
+              views: {
+                'menuContent' :{
+                  templateUrl: "templates/playlists.html",
+                  controller: 'SongsCtrl'
+                }
+              }
+            })
+
+            .state('app.albumlists', {
+              url: "/booklists/:booklistId",
+              views: {
+                'menuContent' :{
+                  templateUrl: "templates/playlist.html",
+                  controller: 'SongsCtrl'
+                }
+              }
+            })
+            .state('app.songs', {
+              url: "/booklists/:booklistId/:chapterId",
+              views: {
+                  'menuContent' :{
+                      templateUrl: "templates/chapter.html",
+                      controller: 'SongsCtrl'
+                  }
+              }
+            })
+            .state('app.verses', {
+              url: "/booklists/:booklistId/:chapterId/:verseId",
+              views: {
+                'menuContent' :{
+                  templateUrl: "templates/verses.html",
+                  controller: 'VerseCtrl'
+                }
+              }
+            });
+            // if none of the above states are matched, use this as the fallback
+            $urlRouterProvider.otherwise('/app/booklists');
     });
-  // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/booklists');
-});
 
