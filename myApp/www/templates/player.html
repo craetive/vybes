@@ -1,0 +1,35 @@
+<ion-view title={{}}>
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+    <ion-content class="has-header">
+
+
+
+
+        <div class="list card">
+    <audio id="player"></audio>
+    <div class="item">
+        <h2>{{SongName}}</h2>
+        <p>{{ArtistName}}</p>
+    </div>
+    <div class="item item-image">
+        <img src={{Cover}}>
+    </div>
+</div>
+<div class="tabs tabs-icon-only">
+    <div class="tab-item">
+        <i class="icon ion-ios7-skipbackward" ng-click="previousSong()"></i>
+    </div>
+    <div class="tab-item">
+        <i class="icon ion-pause" ng-click="playerControl()" ng-show="isPlaying"></i>
+        <i class="icon ion-play" ng-click="playerControl()" ng-hide="isPlaying"></i>
+    </div>
+    <div class="tab-item">
+        <i class="icon ion-ios7-skipforward" ng-click="nextSong()"></i>
+    </div>
+</div>
+
+
+    </ion-content>
+</ion-view>

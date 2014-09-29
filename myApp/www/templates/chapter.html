@@ -11,8 +11,6 @@
                     <h2>{{album.name}}</h2>
                     <p>Year: {{album.year}}</p>
                     <p>By: {{artist.name}}</p>
-
-
                 </div>
 
                 <div class="item row positive">
@@ -29,19 +27,28 @@
                 </div>
                 <div class="item" ng-show="showSongs">
                 <div >
-                    <a ng-click="isPlaying($index)" class="item item-icon-right positive" ng-repeat=" song in songs"">
+                    <a ng-click="play($index)" class="item item-icon-right positive" ng-repeat=" song in songs">
                         <i class="col col-0 icon ion-ios7-musical-note"> <h4>Track {{song.id}}</h4></i>
                         <i class="col col-10 icon ion-ios7-play-outline"></i>
                     </a>
                 </div>
                 </div>
-
             </div>
         </ion-list>
     </ion-content>
-    <ion-footer-bar ng-show="Playing">
-        <div  class="bar bar-header bar-dark">
-            Playing Track {{currentPlaying}} {{currentSong}}
+    <div class="tabs tabs-positive tabs-icon-only" ng-show="playing">
+        <div class="tab-item">
+            <i class="icon ion-ios7-skipbackward" ng-click="previousSong()"></i>
         </div>
-    </ion-footer-bar>
+        <div class="tab-item">
+            <i class="icon ion-pause" ng-click="pause()" ng-show="!paused"></i>
+            <i class="icon ion-play" ng-click="play(currentIndex)" ng-show="paused"></i>
+        </div>
+        <div class="tab-item">
+            <i class="icon ion-stop" ng-click="stop()" ng-show="playing"></i>
+        </div>
+        <div class="tab-item">
+            <i class="icon ion-ios7-skipforward" ng-click="nextSong()"></i>
+        </div>
+    </div>
 </ion-view>

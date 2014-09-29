@@ -74,15 +74,15 @@ angular.module('starter.controllers', [])
         });
 
         $scope.showSongs = true;
-        $scope.Playing = false ;
+        $scope.playing = false;
+        $scope.paused = false;
+        $scope.currentIndex = 0;
         $scope.showAlbumDetail = true;
-
 
         $scope.isPlaying = function(value) {
             $scope.currentPlaying = value+1;
-            $scope.Playing = true;
+            $scope.playing = true;
             $scope.currentSong = $scope.songs[value].song
-
         };
 
         $scope.isShowSongs = function() {
@@ -93,7 +93,79 @@ angular.module('starter.controllers', [])
         };
 
 
+        $scope.audio = document.createElement('audio');
+        $scope.select = function(value){
+            $scope.currentPlaying = value+1;
+            $scope.currentSong = $scope.songs[value].song;
+            $scope.audio.src = 'http://www.wongelnet.net/_mp3_/'+$scope.currentSong;
+
+        };
+
+        $scope.play = function(value) {
+
+            if($scope.currentPlaying){
+                $scope.stop();
+            }
+            $scope.select(value);
+            $scope.currentIndex = value;
+            $scope.audio.play();
+            $scope.playing = true;
+            $scope.paused = false;
+        };
+
+        $scope.stop = function() {
+            $scope.audio.pause();
+            $scope.playing = false;
+        };
+
+        $scope.pause = function() {
+            $scope.audio.pause();
+            $scope.paused = true;
+        };
+
+        $scope.nextSong = function(){
+
+            if($scope.currentIndex < $scope.songs.length-1){
+                $scope.currentIndex++;
+                $scope.play($scope.currentIndex);
+            }
+
+        };
+
+        $scope.previousSong = function(){
+
+            if($scope.currentIndex > 0){
+                $scope.currentIndex--;
+                $scope.play($scope.currentIndex);
+            }
+        };
+
+        $scope.audio.addEventListener('ended', function() {
+            $scope.$apply(function() {
+                $scope.nextSong()
+            });
+        });
+
+
 })
+.controller('PlayerController', ['$scope', function($scope) {
+        $scope.playing = false;
+        $scope.audio = document.createElement('audio');
+        $scope.audio.src = 'http://www.wongelnet.net/_mp3_/30.mp3'
+        $scope.play = function() {
+            $scope.audio.play();
+            $scope.playing = true;
+        };
+        $scope.stop = function() {
+            $scope.audio.pause();
+            $scope.playing = false;
+        };
+        $scope.audio.addEventListener('ended', function() {
+            $scope.$apply(function() {
+                $scope.stop()
+            });
+        });
+}])
 
 .controller('VerseCtrl', function($scope, $stateParams, theService) {
     theService.getFile().success(function(data){
