@@ -4,8 +4,7 @@
     </ion-nav-buttons>
     <ion-content class="has-header">
         <ion-list>
-
-            <div class="list card">
+            <div class="card">
                 <div ng-show="showAlbumDetail" class="item item-thumbnail-left">
                     <img ng-src="img\Album_default.jpg">
                     <h2>{{album.name}}</h2>
@@ -16,7 +15,8 @@
                     <progress min="0" max="100" value="{{audioProgress()}}">></progress>
                 </div>
             </div>
-                    <div class="item row positive">
+            <div>
+                <div class="item row positive">
                     <a class="col col-33 item" href=#/app/booklists/{{artist.id}}/{{album.id}}/1">
                         <i class="icon ion-music-note"></i>
                         Play All
@@ -26,15 +26,14 @@
                     <button ng-click="isShowAlbumDetail()" class=" col col-10 item ion-image" ></button>
                     <button ng-click="isShowSongs()"  class=" col col-10 item ion-chevron-up" ng-show="showSongs"></button>
                     <button ng-click="isShowSongs()"  class=" col col-10 item ion-chevron-down" ng-show="!showSongs"></button>
-
                 </div>
                 <div class="item" ng-show="showSongs">
-                <div >
-                    <a ng-click="play($index)" class="item item-icon-right positive" ng-repeat=" song in songs">
-                        <i class="col col-0 icon ion-ios7-musical-note"> <h4>Track {{song.id}}</h4></i>
-                        <i class="col col-10 icon ion-ios7-play-outline"></i>
-                    </a>
-                </div>
+                    <div >
+                        <a ng-click="play($index)" class="item item-icon-right positive" ng-repeat=" song in songs">
+                            <i class="col col-0 icon ion-ios7-musical-note"> <h4>Track {{song.id}}</h4></i>
+                            <i class="col col-10 icon ion-ios7-play-outline"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </ion-list>
