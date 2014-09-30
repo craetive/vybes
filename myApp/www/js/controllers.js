@@ -167,6 +167,25 @@ angular.module('starter.controllers', [])
         });
 
 
+        $scope.images = [{
+            src: 'http://www.wongelnet.com/imageRotator2/images/1001.jpg',
+            title: 'Pic 1'
+        }, {
+            src: 'http://www.wongelnet.com/imageRotator2/images/1002.jpg',
+            title: 'Pic 2'
+        }, {
+            src: 'http://www.wongelnet.com/imageRotator2/images/1003.jpg',
+            title: 'Pic 3'
+        }, {
+            src: 'http://www.wongelnet.com/imageRotator2/images/1004.jpg',
+            title: 'Pic 4'
+        }, {
+            src: 'http://www.wongelnet.com/imageRotator2/images/1006.jpg',
+            title: 'Pic 5'
+        }];
+
+        $scope.currentImage = $scope.images[2].title;
+
 })
 .controller('PlayerController', ['$scope', function($scope) {
         $scope.playing = false;
