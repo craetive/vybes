@@ -79,11 +79,7 @@ angular.module('starter.controllers', [])
         $scope.currentIndex = 0;
         $scope.showAlbumDetail = true;
 
-        $scope.isPlaying = function(value) {
-            $scope.currentPlaying = value+1;
-            $scope.playing = true;
-            $scope.currentSong = $scope.songs[value].song
-        };
+
 
         $scope.isShowSongs = function() {
             $scope.showSongs = !$scope.showSongs;
@@ -93,6 +89,7 @@ angular.module('starter.controllers', [])
         };
 
 
+
         $scope.audio = document.createElement('audio');
         $scope.select = function(value){
             $scope.currentPlaying = value+1;
@@ -100,6 +97,14 @@ angular.module('starter.controllers', [])
             $scope.audio.src = 'http://www.wongelnet.net/_mp3_/'+$scope.currentSong;
 
         };
+
+        $scope.audioProgress = function(){
+            var audioDuration = $scope.audio.duration;
+            var currentTime = $scope.audio.currentTime;
+            return  (currentTime / audioDuration)*100;
+
+        };
+
 
         $scope.play = function(value) {
 
@@ -119,8 +124,15 @@ angular.module('starter.controllers', [])
         };
 
         $scope.pause = function() {
+            $scope.pausedTime = $scope.audio.currentTime;
             $scope.audio.pause();
             $scope.paused = true;
+        };
+
+        $scope.unPause = function() {
+            $scope.audio.currentTime = $scope.pausedTime;
+            $scope.audio.play();
+            $scope.paused = false;
         };
 
         $scope.nextSong = function(){
@@ -128,6 +140,8 @@ angular.module('starter.controllers', [])
             if($scope.currentIndex < $scope.songs.length-1){
                 $scope.currentIndex++;
                 $scope.play($scope.currentIndex);
+            }else {
+                $scope.stop();
             }
 
         };
@@ -143,6 +157,12 @@ angular.module('starter.controllers', [])
         $scope.audio.addEventListener('ended', function() {
             $scope.$apply(function() {
                 $scope.nextSong()
+            });
+        });
+
+        $scope.audio.addEventListener('timeupdate', function() {
+            $scope.$apply(function() {
+                $scope.audioProgress()
             });
         });
 

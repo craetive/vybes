@@ -12,8 +12,11 @@
                     <p>Year: {{album.year}}</p>
                     <p>By: {{artist.name}}</p>
                 </div>
-
-                <div class="item row positive">
+                <div  ng-show="playing" class="item range range-positive" style="height: 10px; padding: 0px">
+                    <progress min="0" max="100" value="{{audioProgress()}}">></progress>
+                </div>
+            </div>
+                    <div class="item row positive">
                     <a class="col col-33 item" href=#/app/booklists/{{artist.id}}/{{album.id}}/1">
                         <i class="icon ion-music-note"></i>
                         Play All
@@ -37,18 +40,22 @@
         </ion-list>
     </ion-content>
     <div class="tabs tabs-positive tabs-icon-only" ng-show="playing">
-        <div class="tab-item">
-            <i class="icon ion-ios7-skipbackward" ng-click="previousSong()"></i>
+
+        <div>
+            <div class="button-clear button-light">Track {{currentPlaying}}</div>
         </div>
         <div class="tab-item">
-            <i class="icon ion-pause" ng-click="pause()" ng-show="!paused"></i>
-            <i class="icon ion-play" ng-click="play(currentIndex)" ng-show="paused"></i>
+            <i class="button button-clear button-light icon ion-ios7-skipbackward" ng-click="previousSong()"></i>
         </div>
         <div class="tab-item">
-            <i class="icon ion-stop" ng-click="stop()" ng-show="playing"></i>
+            <i class="button button-clear button-light icon ion-pause" ng-click="pause()" ng-show="!paused"></i>
+            <i class="button button-clear button-light icon ion-play" ng-click="unPause()" ng-show="paused"></i>
         </div>
         <div class="tab-item">
-            <i class="icon ion-ios7-skipforward" ng-click="nextSong()"></i>
+            <i class="button button-clear button-light icon ion-stop" ng-click="stop()" ng-show="playing"></i>
+        </div>
+        <div class="tab-item">
+            <i class="button button-clear button-light icon ion-ios7-skipforward" ng-click="nextSong()"></i>
         </div>
     </div>
 </ion-view>

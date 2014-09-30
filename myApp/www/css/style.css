@@ -25,3 +25,10 @@
     background-color:black;
     color:white;
 }
+
+progress {
+    background-color: dodgerblue;
+    border: 0;
+    height: 5px;
+    border-radius: 20px;
+}
