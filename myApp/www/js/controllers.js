@@ -1,6 +1,25 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
+.service('playListService', function() {
+    var currentAlbum = [];
+    var myPlayList = [];
+
+    var addAlbum = function(newObj) {
+        currentAlbum = [];
+        currentAlbum.push(newObj);
+    };
+
+    var getAlbum = function(){
+        return currentAlbum;
+    };
+
+    return {
+        addAlbum: addAlbum,
+        getAlbum: getAlbum
+    };
+})
+
+.controller('AppCtrl', function($scope, $ionicModal, $timeout, playListService) {
   // Form data for the login modal
   $scope.loginData = {};
 
@@ -31,6 +50,91 @@ angular.module('starter.controllers', [])
       $scope.closeLogin();
     }, 1000);
   };
+
+    $scope.$on("myEvent", function (event, args) {
+        $scope.album = playListService.getAlbum();
+        $scope.currentIndex = args;
+        $scope.select($scope.currentIndex);
+        $scope.audio.play();
+    });
+
+
+    $scope.audio = document.createElement('audio');
+    $scope.select = function(value){
+        $scope.currentPlaying = value+1;
+        $scope.currentSong = $scope.album[0][value].song;
+        $scope.audio.src = 'http://www.wongelnet.net/_mp3_/'+$scope.currentSong;
+        $scope.currentIndex = value;
+
+    };
+
+    $scope.playOrPauseButton = "button button-clear button-light icon ion-pause";
+    $scope.rootPlay = function(){
+        if($scope.audio.paused){
+            $scope.audio.play();
+            $scope.playing = true;
+            $scope.playOrPauseButton = "button button-clear button-light icon ion-pause";
+        }else {
+            $scope.audio.pause();
+            $scope.playOrPauseButton = "button button-clear button-light icon ion-play";
+        }
+    };
+
+    $scope.stop = function() {
+        $scope.audio.pause();
+        $scope.playing = false;
+    };
+
+    $scope.nextSong = function(){
+        if($scope.currentIndex < $scope.album[0].length-1){
+            $scope.currentIndex++;
+            $scope.select($scope.currentIndex);
+            $scope.audio.play();
+        }
+    };
+
+    $scope.previousSong = function(){
+        if($scope.currentIndex > 0){
+            $scope.currentIndex--;
+            $scope.select($scope.currentIndex);
+            $scope.audio.play();
+        }
+    };
+
+    $scope.audioProgress = function(){
+        var audioDuration = $scope.audio.duration;
+        var currentTime = $scope.audio.currentTime;
+        var progressInPercent = (currentTime / audioDuration)*100;
+        return  $scope.formatTime(currentTime)
+
+    };
+
+    $scope.audio.addEventListener('ended', function() {
+        $scope.nextSong()
+    });
+
+    $scope.audio.addEventListener('timeupdate', function() {
+        $scope.$apply(function() {
+            $scope.audioProgress()
+        });
+    });
+
+    $scope.formatTime = function (seconds) {
+        if (seconds === Infinity) {
+            return '∞'; // If the data is streaming
+        }
+        var hours = parseInt(seconds / 3600, 10) % 24,
+            minutes = parseInt(seconds / 60, 10) % 60,
+            secs = parseInt(seconds % 60, 10),
+            result,
+            fragment = (minutes < 10 ? '0' + minutes : minutes) + ':' + (secs < 10 ? '0' + secs : secs);
+        if (hours > 0) {
+            result = (hours < 10 ? '0' + hours : hours) + ':' + fragment;
+        } else {
+            result = fragment;
+        }
+        return result;
+    };
 })
 
 .factory('theService', function($http) {
@@ -64,7 +168,8 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('SongsCtrl', function($scope, $stateParams, theService) {
+.controller('SongsCtrl', function($scope, $stateParams, theService, $rootScope, playListService) {
+
         theService.getFile().success(function(data){
             $scope.artists = data;
             $scope.artist = $scope.artists[$stateParams.booklistId-1];
@@ -78,93 +183,29 @@ angular.module('starter.controllers', [])
         $scope.paused = false;
         $scope.currentIndex = 0;
         $scope.showAlbumDetail = true;
+        $scope.upOrDownArrow = "ion-chevron-up";
 
-
+        $scope.searchText = $rootScope.searchText;
 
         $scope.isShowSongs = function() {
             $scope.showSongs = !$scope.showSongs;
+            if(!$scope.showSongs){
+                $scope.upOrDownArrow = "ion-chevron-down";
+            }else {
+                $scope.upOrDownArrow = "ion-chevron-up";
+            }
         };
+
         $scope.isShowAlbumDetail = function() {
             $scope.showAlbumDetail = !$scope.showAlbumDetail;
         };
 
-
-
-        $scope.audio = document.createElement('audio');
-        $scope.select = function(value){
-            $scope.currentPlaying = value+1;
-            $scope.currentSong = $scope.songs[value].song;
-            $scope.audio.src = 'http://www.wongelnet.net/_mp3_/'+$scope.currentSong;
-
-        };
-
-        $scope.audioProgress = function(){
-            var audioDuration = $scope.audio.duration;
-            var currentTime = $scope.audio.currentTime;
-            return  (currentTime / audioDuration)*100;
-
+        $scope.selectAlbum = function(value){
+            playListService.addAlbum($scope.songs);
+            $scope.$emit("myEvent", value);
         };
 
 
-        $scope.play = function(value) {
-
-            if($scope.currentPlaying){
-                $scope.stop();
-            }
-            $scope.select(value);
-            $scope.currentIndex = value;
-            $scope.audio.play();
-            $scope.playing = true;
-            $scope.paused = false;
-        };
-
-        $scope.stop = function() {
-            $scope.audio.pause();
-            $scope.playing = false;
-        };
-
-        $scope.pause = function() {
-            $scope.pausedTime = $scope.audio.currentTime;
-            $scope.audio.pause();
-            $scope.paused = true;
-        };
-
-        $scope.unPause = function() {
-            $scope.audio.currentTime = $scope.pausedTime;
-            $scope.audio.play();
-            $scope.paused = false;
-        };
-
-        $scope.nextSong = function(){
-
-            if($scope.currentIndex < $scope.songs.length-1){
-                $scope.currentIndex++;
-                $scope.play($scope.currentIndex);
-            }else {
-                $scope.stop();
-            }
-
-        };
-
-        $scope.previousSong = function(){
-
-            if($scope.currentIndex > 0){
-                $scope.currentIndex--;
-                $scope.play($scope.currentIndex);
-            }
-        };
-
-        $scope.audio.addEventListener('ended', function() {
-            $scope.$apply(function() {
-                $scope.nextSong()
-            });
-        });
-
-        $scope.audio.addEventListener('timeupdate', function() {
-            $scope.$apply(function() {
-                $scope.audioProgress()
-            });
-        });
 
 
         $scope.images = [{

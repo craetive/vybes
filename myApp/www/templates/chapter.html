@@ -24,12 +24,12 @@
                     <div class="col col-30"></p></div>
                     <div class="col col-33"> <p>Options---></p></div>
                     <button ng-click="isShowAlbumDetail()" class=" col col-10 item ion-image" ></button>
-                    <button ng-click="isShowSongs()"  class=" col col-10 item ion-chevron-up" ng-show="showSongs"></button>
-                    <button ng-click="isShowSongs()"  class=" col col-10 item ion-chevron-down" ng-show="!showSongs"></button>
+                    <button ng-click="isShowSongs()"  class=" col col-10 item {{upOrDownArrow}}" ></button>
+
                 </div>
                 <div class="item" ng-show="showSongs">
                     <div >
-                        <a ng-click="play($index)" class="item item-icon-right positive" ng-repeat=" song in songs">
+                        <a ng-click="selectAlbum($index)" class="item item-icon-right positive" ng-repeat=" song in songs">
                             <i class="col col-0 icon ion-ios7-musical-note"> <h4>Track {{song.id}}</h4></i>
                             <i class="col col-10 icon ion-ios7-play-outline"></i>
                         </a>
@@ -38,7 +38,7 @@
             </div>
         </ion-list>
     </ion-content>
-    <div class="tabs tabs-positive tabs-icon-only" ng-show="playing">
+    <div class="tabs tabs-positive tabs-icon-only" ng-show="playin">
 
         <div>
             <div class="button-clear button-light">Track {{currentPlaying}}</div>
@@ -47,11 +47,10 @@
             <i class="button button-clear button-light icon ion-ios7-skipbackward" ng-click="previousSong()"></i>
         </div>
         <div class="tab-item">
-            <i class="button button-clear button-light icon ion-pause" ng-click="pause()" ng-show="!paused"></i>
-            <i class="button button-clear button-light icon ion-play" ng-click="unPause()" ng-show="paused"></i>
+            <i class="{{playOrPauseButton}}" ng-click="play()"></i>
         </div>
         <div class="tab-item">
-            <i class="button button-clear button-light icon ion-stop" ng-click="stop()" ng-show="playing"></i>
+            <i class="button button-clear button-light icon ion-stop" ng-click="stop()"></i>
         </div>
         <div class="tab-item">
             <i class="button button-clear button-light icon ion-ios7-skipforward" ng-click="nextSong()"></i>
