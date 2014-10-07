@@ -51,11 +51,18 @@ angular.module('starter.controllers', [])
     }, 1000);
   };
 
+    $scope.playing = false;
+
+    $scope.$on("tabHide", function (event, arg) {
+        $scope.playing = arg;
+    });
+
     $scope.$on("myEvent", function (event, args) {
         $scope.album = playListService.getAlbum();
         $scope.currentIndex = args;
         $scope.select($scope.currentIndex);
         $scope.audio.play();
+        $scope.playing = true;
     });
 
 
@@ -78,6 +85,10 @@ angular.module('starter.controllers', [])
             $scope.audio.pause();
             $scope.playOrPauseButton = "button button-clear button-light icon ion-play";
         }
+    };
+
+    $scope.hideOrShowPlayer = function(){
+        $scope.playing = !$scope.playing;
     };
 
     $scope.stop = function() {
@@ -148,6 +159,14 @@ angular.module('starter.controllers', [])
         };
 })
 
+
+
+.controller('BibleCtrl', function($scope, $http) {
+
+        $scope.$emit("tabHide", false);
+
+})
+
 .controller('PlaylistsCtrl', function($scope, $http) {
         $http.get('lib/Mezmur.json').success(function(data){
             $scope.artists = data;
@@ -165,6 +184,26 @@ angular.module('starter.controllers', [])
             $scope.artist = $scope.artists[$stateParams.booklistId-1];
             $scope.albums = $scope.artists[$stateParams.booklistId-1].albums;
         });
+
+
+        $scope.images = [{
+            src: 'http://www.wongelnet.com/imageRotator2/images/1001.jpg',
+            title: 'Pic 1'
+        }, {
+            src: 'http://www.wongelnet.com/imageRotator2/images/1002.jpg',
+            title: 'Pic 2'
+        }, {
+            src: 'http://www.wongelnet.com/imageRotator2/images/1003.jpg',
+            title: 'Pic 3'
+        }, {
+            src: 'http://www.wongelnet.com/imageRotator2/images/1004.jpg',
+            title: 'Pic 4'
+        }, {
+            src: 'http://www.wongelnet.com/imageRotator2/images/1006.jpg',
+            title: 'Pic 5'
+        }];
+
+        $scope.currentImage = $scope.images[2].title;
 
 })
 
@@ -204,30 +243,8 @@ angular.module('starter.controllers', [])
             playListService.addAlbum($scope.songs);
             $scope.$emit("myEvent", value);
         };
-
-
-
-
-        $scope.images = [{
-            src: 'http://www.wongelnet.com/imageRotator2/images/1001.jpg',
-            title: 'Pic 1'
-        }, {
-            src: 'http://www.wongelnet.com/imageRotator2/images/1002.jpg',
-            title: 'Pic 2'
-        }, {
-            src: 'http://www.wongelnet.com/imageRotator2/images/1003.jpg',
-            title: 'Pic 3'
-        }, {
-            src: 'http://www.wongelnet.com/imageRotator2/images/1004.jpg',
-            title: 'Pic 4'
-        }, {
-            src: 'http://www.wongelnet.com/imageRotator2/images/1006.jpg',
-            title: 'Pic 5'
-        }];
-
-        $scope.currentImage = $scope.images[2].title;
-
 })
+
 .controller('PlayerController', ['$scope', function($scope) {
         $scope.playing = false;
         $scope.audio = document.createElement('audio');
