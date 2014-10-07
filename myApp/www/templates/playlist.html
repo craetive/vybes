@@ -10,9 +10,10 @@
               <p>Year: {{album.year}}</p>
               <p>By: {{artist.name}}</p>
           </ion-item>
+          <div class="button button-stable" ng-click="stopSlide()">{{playOrStop}}</div>
           <div class="list card">
               <div class="item item-image">
-                  <img ng-src="{{images[1].src}}" />
+                  <img ng-src="{{currentImage}}" />
               </div>
               <a class="item">
                   <h2>For more CLICK HERE</h2>

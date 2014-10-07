@@ -1,5 +1,14 @@
 angular.module('starter.controllers', [])
 
+.directive("scroll", function ($window) {
+    return function(scope, element, attrs) {
+        angular.element($window).bind("scroll", function() {
+            alert("scroll");
+            scope.$apply();
+        });
+    };
+})
+
 .service('playListService', function() {
     var currentAlbum = [];
     var myPlayList = [];
@@ -168,23 +177,25 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistsCtrl', function($scope, $http) {
-        $http.get('lib/Mezmur.json').success(function(data){
-            $scope.artists = data;
-        })
-        .error(function() {
-            $scope.artists = 'could not find Mezmur.json';
-        });
-
+        if (!$scope.artists){
+                $http.get('lib/Mezmur.json').success(function(data){
+                    $scope.artists = data;
+                })
+                .error(function() {
+                    $scope.artists = 'could not find Mezmur.json';
+                });
+        }
         $scope.isSearch = false;
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams, theService) {
+.controller('PlaylistCtrl', function($scope, $stateParams, theService, $timeout) {
         theService.getFile().success(function(data){
             $scope.artists = data;
             $scope.artist = $scope.artists[$stateParams.booklistId-1];
             $scope.albums = $scope.artists[$stateParams.booklistId-1].albums;
         });
 
+        var INTERVAL = 3000;
 
         $scope.images = [{
             src: 'http://www.wongelnet.com/imageRotator2/images/1001.jpg',
@@ -203,7 +214,25 @@ angular.module('starter.controllers', [])
             title: 'Pic 5'
         }];
 
-        $scope.currentImage = $scope.images[2].title;
+        $scope.slideStop = false;
+        $scope.playOrStop = "Stop";
+        function nextSlide() {
+            if(!$scope.slideStop){
+                $scope.currentIndex = ($scope.currentIndex < $scope.images.length - 1) ? ++$scope.currentIndex : 0;
+                $scope.currentImage = $scope.images[$scope.currentIndex].src;
+                $timeout(nextSlide, INTERVAL);
+            }
+        }
+        $scope.stopSlide = function(){
+            $scope.slideStop = !$scope.slideStop;
+            $scope.playOrStop = "Play";
+            if(!$scope.slideStop){
+                $timeout(nextSlide, 1000);
+                $scope.playOrStop = "Stop";
+            }
+        };
+
+        $timeout(nextSlide, 10);
 
 })
 
