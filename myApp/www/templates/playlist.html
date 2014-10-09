@@ -1,4 +1,4 @@
-<ion-view title="{{artist.name}}">
+<ion-view title="{{artist.name}}" xmlns="http://www.w3.org/1999/html">
     <ion-nav-buttons side="left">
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
@@ -10,7 +10,14 @@
               <p>Year: {{album.year}}</p>
               <p>By: {{artist.name}}</p>
           </ion-item>
-          <div class="button button-stable" ng-click="stopSlide()">{{playOrStop}}</div>
+          <a class="item " ng-repeat="x in data">
+                  id: {{x.id}}  ||
+                  Uniq id: {{x.yt_id}}  ||
+                  {{x.url_flv}}  ||
+                  {{x.video_href}}  ||
+          </a>
+          <div class="button button-stable" ng-click="search()">{{playOrStop}}</div>
+          {{status}}{{data}}
           <div class="list card">
               <div class="item item-image">
                   <img ng-src="{{currentImage}}" />

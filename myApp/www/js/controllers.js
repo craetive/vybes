@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['mydirectives'])
 
 .directive("scroll", function ($window) {
     return function(scope, element, attrs) {
@@ -170,7 +170,40 @@ angular.module('starter.controllers', [])
 
 
 
-.controller('BibleCtrl', function($scope, $http) {
+.controller('YoutubeCtrl', function($scope, $http) {
+        $scope.$emit("tabHide", false);
+        $scope.youTubeCode = 'IytNBm8WA1c';
+
+        $scope.url = 'http://www.getatube.com/vid.php'; // The url of our search
+
+        // The function that will be executed on button click (ng-click="search()")
+        $scope.search = function() {
+            $scope.youTubeCode = 'BYjna3kjmRE';
+
+            // Create the http post request
+            // the data holds the keywords
+            // The request is a JSON request.
+            $http.get($scope.url)
+                .success(function(data, status) {
+                    $scope.status = status;
+                    $scope.youTubeVideos = data;
+                    $scope.result = data; // Show result from server in our <pre></pre> element
+                })
+                .error(function(data, status) {
+                    $scope.youTubeVideos = data || "Request failed";
+                    $scope.status = status;
+                });
+        };
+
+        $scope.selectYoutubeVideo = function(value){
+            $scope.youTubeCode = value;
+        }
+
+
+
+})
+
+.controller('BibleCtrl', function($scope) {
 
         $scope.$emit("tabHide", false);
 
@@ -188,12 +221,35 @@ angular.module('starter.controllers', [])
         $scope.isSearch = false;
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams, theService, $timeout) {
+.controller('PlaylistCtrl', function($scope, $http, $stateParams, theService, $timeout) {
         theService.getFile().success(function(data){
             $scope.artists = data;
             $scope.artist = $scope.artists[$stateParams.booklistId-1];
             $scope.albums = $scope.artists[$stateParams.booklistId-1].albums;
         });
+
+        $scope.url = 'http://www.getatube.com/vid.php'; // The url of our search
+
+        // The function that will be executed on button click (ng-click="search()")
+        $scope.search = function() {
+
+            // Create the http post request
+            // the data holds the keywords
+            // The request is a JSON request.
+            $http.get($scope.url).
+                success(function(data, status) {
+                    $scope.status = status;
+                    $scope.data = data;
+                    $scope.result = data; // Show result from server in our <pre></pre> element
+                })
+                .
+                error(function(data, status) {
+                    $scope.data = data || "Request failed";
+                    $scope.status = status;
+                });
+        };
+
+
 
         var INTERVAL = 3000;
 
