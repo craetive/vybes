@@ -35,6 +35,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
               views: {
                 'menuContent' :{
                   templateUrl: "templates/search.html",
+                    controller: 'SearchCtrl'
+                }
+              }
+            })
+            .state('app.video', {
+              url: "/search/video",
+              views: {
+                'menuContent' :{
+                  templateUrl: "templates/youtubeVideo.html",
                     controller: 'YoutubeCtrl'
                 }
               }
@@ -82,8 +91,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
               url: "/booklists/:booklistId/:chapterId/:verseId",
               views: {
                 'menuContent' :{
-                  templateUrl: "templates/verses.html",
-                  controller: 'VerseCtrl'
+                  templateUrl: "templates/youtubeVideo.html",
+                  controller: 'YoutubeCtrl'
                 }
               }
             });

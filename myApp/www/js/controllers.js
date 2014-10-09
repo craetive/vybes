@@ -168,9 +168,7 @@ angular.module('starter.controllers', ['mydirectives'])
         };
 })
 
-
-
-.controller('YoutubeCtrl', function($scope, $http) {
+.controller('SearchCtrl', function($scope, $http) {
         $scope.$emit("tabHide", false);
         $scope.youTubeCode = 'IytNBm8WA1c';
 
@@ -196,12 +194,42 @@ angular.module('starter.controllers', ['mydirectives'])
         };
 
         $scope.selectYoutubeVideo = function(value){
-            $scope.youTubeCode = value;
+            $scope.youTubeVideos = value;
+        }
+})
+
+.controller('YoutubeCtrl', function($scope, $http, $sce) {
+        $scope.$emit("tabHide", false);
+        $scope.youTubeCode = $sce.trustAsResourceUrl("http://www.youtube.com/embed/IytNBm8WA1c");
+
+        $scope.url = 'http://www.getatube.com/vid.php'; // The url of our search
+
+        // The function that will be executed on button click (ng-click="search()")
+        $scope.search = function() {
+            $scope.youTubeCode = $sce.trustAsResourceUrl("http://www.youtube.com/embed/BYjna3kjmRE");
+
+            // Create the http post request
+            // the data holds the keywords
+            // The request is a JSON request.
+            $http.get($scope.url)
+                .success(function(data, status) {
+                    $scope.status = status;
+                    $scope.youTubeVideos = data;
+                    $scope.result = data; // Show result from server in our <pre></pre> element
+                })
+                .error(function(data, status) {
+                    $scope.youTubeVideos = data || "Request failed";
+                    $scope.status = status;
+                });
+        };
+
+        $scope.selectYoutubeVideo = function(value){
+            $scope.youTubeCode = $sce.trustAsResourceUrl("http://www.youtube.com/embed/"+value);
         }
 
 
 
-})
+    })
 
 .controller('BibleCtrl', function($scope) {
 
