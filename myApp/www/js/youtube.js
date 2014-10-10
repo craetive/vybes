@@ -2,10 +2,11 @@ angular.module('mydirectives', []);
 
 angular.module('mydirectives').directive('youtube', function($sce) {
     return {
-        restrict: 'E',
+        restrict: 'EA',
+        transclude: true,
         scope: { code: '@code'},
         replace: true,
-        template: '<div style="height:400px;"><iframe style="overflow:hidden;height:100%;width:100%" width="100%" height="100%" src="{{url}}" frameborder="0" allowfullscreen></iframe></div>',
+        template: '<div style="height:200px; max-width: 600px;"><iframe style="overflow:hidden;height:100%;width:100%" width="100%" height="100%" src="{{url}}" frameborder="0" allowfullscreen></iframe></div>',
         link: function (scope) {
             scope.$watch('code', function (newVal) {
                 if (newVal) {

@@ -168,7 +168,7 @@ angular.module('starter.controllers', ['mydirectives'])
         };
 })
 
-.controller('SearchCtrl', function($scope, $http) {
+.controller('SearchCtrl', ["$scope", "$http", function($scope, $http) {
         $scope.$emit("tabHide", false);
         $scope.youTubeCode = 'IytNBm8WA1c';
 
@@ -194,9 +194,9 @@ angular.module('starter.controllers', ['mydirectives'])
         };
 
         $scope.selectYoutubeVideo = function(value){
-            $scope.youTubeVideos = value;
+            $scope.youTubeCode = value;
         }
-})
+}])
 
 .controller('YoutubeCtrl', function($scope, $http, $sce) {
         $scope.$emit("tabHide", false);

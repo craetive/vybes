@@ -32,3 +32,9 @@ progress {
     height: 5px;
     border-radius: 20px;
 }
+.fixed_class{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    z-index: 9999;
+}
