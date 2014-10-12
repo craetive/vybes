@@ -172,7 +172,7 @@ angular.module('starter.controllers', ['mydirectives'])
         $scope.$emit("tabHide", false);
         $scope.youTubeCode = 'IytNBm8WA1c';
 
-        $scope.url = 'http://www.getatube.com/vid.php'; // The url of our search
+        $scope.url = 'http://www.getatube.com/vids.php'; // The url of our search
 
         // The function that will be executed on button click (ng-click="search()")
         $scope.search = function() {
@@ -192,6 +192,7 @@ angular.module('starter.controllers', ['mydirectives'])
                     $scope.status = status;
                 });
         };
+        $scope.search();
 
         $scope.selectYoutubeVideo = function(value){
             $scope.youTubeCode = value;
@@ -202,7 +203,7 @@ angular.module('starter.controllers', ['mydirectives'])
         $scope.$emit("tabHide", false);
         $scope.youTubeCode = $sce.trustAsResourceUrl("http://www.youtube.com/embed/IytNBm8WA1c");
 
-        $scope.url = 'http://www.getatube.com/vid.php'; // The url of our search
+        $scope.url = 'http://www.getatube.com/vids.php'; // The url of our search
 
         // The function that will be executed on button click (ng-click="search()")
         $scope.search = function() {
@@ -256,7 +257,7 @@ angular.module('starter.controllers', ['mydirectives'])
             $scope.albums = $scope.artists[$stateParams.booklistId-1].albums;
         });
 
-        $scope.url = 'http://www.getatube.com/vid.php'; // The url of our search
+        $scope.url = 'http://www.getatube.com/vids.php'; // The url of our search
 
         // The function that will be executed on button click (ng-click="search()")
         $scope.search = function() {

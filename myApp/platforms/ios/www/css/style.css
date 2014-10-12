@@ -1,1 +1,34 @@
 /* Empty. Add your own CSS if you like */
+.bar_search .gridStyle{
+    margin-top: -37px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 9999;
+}
+.list_songs{
+    height: auto;
+    padding: 10px;
+}
+.bar_search .gridStyle input{
+    border-radius: inherit;
+}
+
+.player {
+    position:relative;
+    clear:both;
+    height:70px; /* Tinggi footer */
+    line-height:30px;
+    padding:0 15px;
+    margin-top:-30px; /* Angkat ke atas setinggi 'tinggi footer' */
+    background-color:black;
+    color:white;
+}
+
+progress {
+    background-color: dodgerblue;
+    border: 0;
+    height: 5px;
+    border-radius: 20px;
+}

@@ -1,9 +1,24 @@
-<ion-view title="{{artist.artist}}">
+<ion-view title="{{artist.name}}">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
   <ion-content class="has-header">
       <ion-list>
-          <ion-item ng-repeat="album in albums" href="#/app/playlists/{{artist.id}}/{{album.id}}">
-              {{album.name}}
+          <ion-item class="item item-thumbnail-left" ng-repeat=" album in albums" href="#/app/booklists/{{artist.id}}/{{album.id}}">
+              <img ng-src="img\Album_default.jpg">
+              <h2>{{album.name}}</h2>
+              <p>Year: {{album.year}}</p>
+              <p>By: {{artist.name}}</p>
           </ion-item>
-      </ion-list>
+          <div class="button button-stable" ng-click="stopSlide()">{{playOrStop}}</div>
+          <div class="list card">
+              <div class="item item-image">
+                  <img ng-src="{{currentImage}}" />
+              </div>
+              <a class="item">
+                  <h2>For more CLICK HERE</h2>
+              </a>
+          </div>
+     </ion-list>
   </ion-content>
 </ion-view>
