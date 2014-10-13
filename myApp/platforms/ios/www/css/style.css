@@ -32,3 +32,23 @@ progress {
     height: 5px;
     border-radius: 20px;
 }
+.fixed_class{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    z-index: 9999;
+}
+
+slider-bounce {
+    transition-duration:0.5s;
+    transition-timing-function: ease-out;
+    transition-property: all;
+}
+
+.horizontal-slider {
+    width: 500px;
+    position: relative;
+    left:0px;
+translate3d(0px,0,0);
+}
+

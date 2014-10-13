@@ -4,12 +4,14 @@
     </ion-nav-buttons>
   <ion-content class="has-header">
       <ion-list>
-          <ion-item class="item item-thumbnail-left" ng-repeat=" album in albums" href="#/app/booklists/{{artist.id}}/{{album.id}}">
+          <div horizontal-slider class="card horizontal-slider" style="width: 150%;">
+          <div class="row">
+          <ion-item class="col col-25" ng-repeat=" album in albums" href="#/app/booklists/{{artist.id}}/{{album.id}}">
               <img ng-src="img\Album_default.jpg">
               <h2>{{album.name}}</h2>
-              <p>Year: {{album.year}}</p>
-              <p>By: {{artist.name}}</p>
           </ion-item>
+                  </div>
+          </div>
           <a class="item " ng-repeat="x in data">
                   id: {{x.id}}  ||
                   Uniq id: {{x.yt_id}}  ||

@@ -1,8 +1,16 @@
 <ion-view title="Search">
-  <ion-nav-buttons side="left">
-    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
-  </ion-nav-buttons>
-  <ion-content class="has-header">
-    <h1>Search</h1>
-  </ion-content>
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+    <ion-content class="has-header">
+        <div class="card" style="height:400px;">
+            <youtube code={{youTubeCode}}></youtube>
+        </div>
+        <ion-list>
+            <a style="min-height: 62px" class="item item-thumbnail-left" ng-repeat="x in youTubeVideos" ng-click="selectYoutubeVideo(x.yt_id)">
+                <img ng-src={{x.thumb_img_url}}>
+                <h2>{{x.video_title}}</h2>
+            </a>
+        </ion-list>
+    </ion-content>
 </ion-view>

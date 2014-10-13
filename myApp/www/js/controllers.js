@@ -66,13 +66,19 @@ angular.module('starter.controllers', ['mydirectives'])
         $scope.playing = arg;
     });
 
-    $scope.$on("myEvent", function (event, args) {
+    $scope.$on("myAlbum", function (event, args) {
         $scope.album = playListService.getAlbum();
-        $scope.currentIndex = args;
+        $scope.currentIndex = 0;
         $scope.select($scope.currentIndex);
         $scope.audio.play();
         $scope.playing = true;
     });
+    $scope.$on("mySong", function (event, args) {
+            $scope.currentIndex = args;
+            $scope.select($scope.currentIndex);
+            $scope.audio.play();
+            $scope.playing = true;
+        });
 
 
     $scope.audio = document.createElement('audio');
@@ -156,7 +162,40 @@ angular.module('starter.controllers', ['mydirectives'])
         return result;
     };
 })
+.directive('horizontalSlider', function ($ionicGesture) {
+    return function(scope, element, attr) {
+        var left = 0;
+        var handleDrag = function(e) {
+            element.css({
+                '-webkit-transform': 'translate3d(' + (left + Math.round(e.gesture.deltaX)) + 'px, 0, 0)'
+            });
+            if (element.hasClass('slider-bounce')) {
+                element.removeClass('slider-bounce');
+            }
+        };
 
+        var releaseFn = function(e) {
+            var pattern = new RegExp('translate3d\\((-?[0-9]*)px, 0, 0\\)'),
+                pattern2 = new RegExp('(-?[0-9]*)px');
+            var transformMatches = pattern.exec(element.css('-webkit-transform')),
+                widthMatches = pattern2.exec(element.css('width'));
+            left = Math.round(transformMatches[1]);
+            var width = widthMatches[1];
+            if(left < (320 - width)) left = 320 - width;
+            if(left > 0) left = 0;
+            element.addClass('slider-bounce');
+            element.css({
+                '-webkit-transform': 'translate3d(' + left + 'px, 0, 0)'
+            });
+        };
+
+        var releaseGesture = $ionicGesture.on('release', releaseFn, element);
+        var dragGesture = $ionicGesture.on('drag', handleDrag, element);
+        scope.$on('$destroy', function() {
+            $ionicGesture.off(dragGesture, 'drag', handleDrag);
+        });
+    }
+})
 .factory('theService', function($http) {
         return {
             getFile : function() {
@@ -323,12 +362,16 @@ angular.module('starter.controllers', ['mydirectives'])
 
 .controller('SongsCtrl', function($scope, $stateParams, theService, $rootScope, playListService) {
 
+        $scope.currenartist = $stateParams.booklistId-1
+        $scope.currentAlbum = 0;
+        $scope.selectedSong = 0;
+
         theService.getFile().success(function(data){
             $scope.artists = data;
             $scope.artist = $scope.artists[$stateParams.booklistId-1];
             $scope.albums = $scope.artists[$stateParams.booklistId-1].albums;
-            $scope.album = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1];
-            $scope.songs = $scope.artists[$stateParams.booklistId-1].albums[$stateParams.chapterId-1].songs;
+            $scope.album = $scope.artists[$stateParams.booklistId-1].albums[$scope.currentAlbum];
+            $scope.songs = $scope.artists[$stateParams.booklistId-1].albums[$scope.currentAlbum].songs;
         });
 
         $scope.showSongs = true;
@@ -354,8 +397,14 @@ angular.module('starter.controllers', ['mydirectives'])
         };
 
         $scope.selectAlbum = function(value){
+            $scope.currentAlbum = value;
+            playListService.addAlbum($scope.artists[$stateParams.booklistId-1].albums[$scope.currentAlbum].songs);
+            $scope.$emit("myAlbum", value);
+        };
+
+        $scope.selectSong = function(value){
             playListService.addAlbum($scope.songs);
-            $scope.$emit("myEvent", value);
+            $scope.$emit("mySong", value);
         };
 })
 
