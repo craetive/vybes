@@ -277,6 +277,12 @@ angular.module('starter.controllers', ['mydirectives'])
 
 })
 
+.controller('HomeCtrl', function($scope) {
+
+        $scope.$emit("tabHide", false);
+
+})
+
 .controller('PlaylistsCtrl', function($scope, $http) {
         if (!$scope.artists){
                 $http.get('lib/Mezmur.json').success(function(data){

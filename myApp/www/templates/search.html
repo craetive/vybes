@@ -6,11 +6,11 @@
         <div class="card" style="height:400px;">
             <youtube code={{youTubeCode}}></youtube>
         </div>
-        <ion-list>
-            <a style="min-height: 62px" class="item item-thumbnail-left" ng-repeat="x in youTubeVideos" ng-click="selectYoutubeVideo(x.yt_id)">
+        <div class="card">
+            <a style="min-height: 62px;" class="item-thumbnail-left" ng-repeat="x in youTubeVideos" ng-click="selectYoutubeVideo(x.yt_id)">
                 <img ng-src={{x.thumb_img_url}}>
                 <h2>{{x.video_title}}</h2>
             </a>
-        </ion-list>
+        </div>
     </ion-content>
 </ion-view>
