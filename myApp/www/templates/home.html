@@ -1,59 +1,57 @@
-<ion-view>
+<ion-view title="GetaTube.com">
 <ion-nav-buttons side="left">
     <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
 </ion-nav-buttons>
-<ion-tabs class="tabs-positive tabs-icon-top">
-    <ion-tab title="Home" icon-on="ion-ios7-home" icon-off="ion-ios7-home-outline">
-        <!-- Tab 1 content -->
-
-        <ion-content class="has-header stable-bg">
-            <ion-list>
-                <div class="card">
-                    <div class="item item-divider">
-                        <p class="text-center">www.getatube.com</p>
-                    </div>
-                    <div class="list">
-                        <a class="item" menu-close href="##/app/search">
-                            <i class="icon ion-social-vimeo"></i>
-                            Video
-                        </a>
-                        <a class="item" menu-close href="#/app/home/music">
-                            <i class="icon ion-music-note"></i>
-                            Music
-                        </a>
-                        <a class="item" menu-close href="#/app/home/music">
-                            <i class="icon"></i>
-                            Teachings
-                        </a>
-                        <a class="item" menu-close href="#/app/bible">
-                            <i class="icon ion-android-book"></i>
-                            Bible
-                        </a>
-                        <a class="item item-divider text-center">
-                            <h3>More..</h3>
-                        </a>
-                    </div>
+    <ion-content class="has-header stable-bg">
+        <ion-list>
+            <div class="list card">
+                <div class="item-divider text-center">
+                   www.getatube.com
                 </div>
-                <div class="card">
-                    <div class="item item-divider">
-                        <p class="text-center">Recently Watched</p>
-                    </div>
-                    <div class="item item-text-wrap">
-                        This is a basic Card with some text.
-                    </div>
-                    <a class="item item-divider text-center">
-                        <h3>More..</h3>
-                    </a>
+                <a class="item item-icon-left" menu-close href="#/app/search">
+                    <i class="icon ion-social-vimeo"></i>
+                    Video
+                </a>
+                <a class="item item-icon-left" menu-close href="#/app/home/music">
+                    <i class="icon ion-music-note"></i>
+                    Music
+                </a>
+                <a class="item item-icon-left" menu-close href="#/app/home/music">
+                    <i class="icon ion-android-microphone"></i>
+                    Teachings
+                </a>
+                <a class="item item-icon-left" menu-close href="#/app/bible">
+                    <i class="icon ion-android-book"></i>
+                    Bible
+                </a>
+            </div>
+            <div class="list card">
+                <div class="item-divider text-center">
+                    New Videos
                 </div>
-            </ion-list>
+                <a class="item item-thumbnail-left" href="#">
+                    <img src="img\Album_default.jpg">
+                    <h2>Pretty Hate Machine</h2>
+                    <p>Nine Inch Nails</p>
+                </a>
+            </div>
+            <div class="list card">
+                <div class="item-divider text-center">
+                    Recently Album
+                </div>
+                <a class="item item-thumbnail-left" href="#">
+                    <img src="img\Album_default.jpg">
+                    <h2>Pretty Hate Machine</h2>
+                    <p>Nine Inch Nails</p>
+                </a>
+            </div>
 
-        </ion-content>
-    </ion-tab>
-    <ion-tab title="About" icon-on="ion-ios7-star" icon-off="ion-ios7-star-outline">
-        <!-- Tab 2 content -->
-    </ion-tab>
-    <ion-tab title="Settings" icon-on="ion-ios7-gear" icon-off="ion-ios7-gear-outline">
-        <!-- Tab 3 content -->
-    </ion-tab>
-</ion-tabs>
+
+
+            <div class="card item-divider text-center">
+                More...
+            </div>
+        </ion-list>
+
+    </ion-content>
 </ion-view>
