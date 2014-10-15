@@ -1,4 +1,4 @@
-<ion-view title="Search">
+<ion-view title="Video">
     <ion-nav-buttons side="left">
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
@@ -11,11 +11,11 @@
                 www.getatube.com
             </div>
             <div style="min-height: 100px;" ng-repeat="x in youTubeVideos" >
-            <a class="item item-thumbnail-left text-center" ng-click="selectYoutubeVideo(x.yt_id)">
-                <img class="list_thumb" ng-src={{x.thumb_img_url}}>
-                <p>{{x.video_title}}</p>
-            </a>
-        </div>
+                <a class="item item-thumbnail-left list_text item-text-wrap" ng-click="selectYoutubeVideo(x.yt_id)">
+                    <img class="list_thumb" ng-src={{x.thumb_img_url}}>
+                    <h3>{{x.video_title}}</h3>
+                </a>
+            </div>
         </div>
     </ion-content>
 </ion-view>

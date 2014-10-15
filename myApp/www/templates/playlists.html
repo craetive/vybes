@@ -10,13 +10,18 @@
     <ion-nav-buttons side="right">
         <button ng-click="isSearch = !isSearch" class="button button-icon ion-ios7-search" ></button>
     </ion-nav-buttons>
-    <ion-content class="card has-header stable-bg">
+    <ion-content class="stable-bg">
         <ion-list >
-            <a class="item item-thumbnail-left" ng-repeat="artist in artists | filter:searchText" href="#/app/booklists/{{artist.id}}">
-                <img ng-src="img\{{artist.image}}.jpg">
-                <h2>{{artist.name}}</h2>
-                <p>Artist Descriptions</p>
-            </a>
+            <div class="list card">
+                <div class="item-divider text-center">
+                    Music
+                </div>
+                <a class="item item-thumbnail-left" ng-repeat="artist in artists | filter:searchText" href="#/app/booklists/{{artist.id}}">
+                    <img ng-src="img\{{artist.image}}.jpg">
+                    <h3>{{artist.name}}</h3>
+                    <p>Artist Descriptions</p>
+                </a>
+            </div>
         </ion-list>
     </ion-content>
 </ion-view>

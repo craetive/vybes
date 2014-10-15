@@ -54,10 +54,14 @@ translate3d(0px,0,0);
 
 .list_thumb {
     position: absolute;
-    top: 5px;
-    left: 5px;
-    max-width: 150px !important;
-    max-height: 90px;
+    top: 3px!important;
+    left: 3px!important;
+    max-width: 160px !important;
+    max-height: 90px !important;
     width: 100% !important;
     height: 100%;
+}
+.list_text {
+    padding-left: 180px;
+    min-height: 100px;
 }
