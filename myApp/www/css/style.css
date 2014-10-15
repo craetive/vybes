@@ -52,3 +52,12 @@ slider-bounce {
 translate3d(0px,0,0);
 }
 
+.list_thumb {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    max-width: 150px !important;
+    max-height: 90px;
+    width: 100% !important;
+    height: 100%;
+}
