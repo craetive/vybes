@@ -6,19 +6,19 @@
         <div class="text-center item-divider">
             Songs
         </div>
-        <div class="list row responsive-sm stable-bg">
-            <div></div>
-            <div class="col">
-                <a class="item item-thumbnail-left" ng-repeat=" album in albums" ng-click="selectAlbum($index)">
-                    <img ng-src="img\Album_default.jpg">
-                    <h4>{{album.name}}</h4>
-                    <p>{{album.year}}</p>
-                </a>
-            </div>
-            <div class="col col-75">
-
-            <a class="item item-icon-left" ng-repeat=" song in songs" ng-click="selectSong($index)" >
-                <i class="icon ion-music-note">&nbsp;&nbsp;&nbsp;&nbsp;</i>
+        <div class="list stable-bg">
+            <ion-scroll direction="x">
+                <div class="row">
+                    <a style="min-width: 150px;" class="item stable-bg" ng-repeat=" album in albums" ng-click="selectAlbum($index)">
+                        <img style="min-width: 150px;" ng-src="img\Album_default.jpg">
+                        <h4>{{album.name}}</h4>
+                        <p>{{album.year}}</p>
+                    </a>
+                </div>
+            </ion-scroll>
+            <div>
+            <a class="item item-avatar-left" ng-repeat=" song in songs" ng-click="selectSong($index)" >
+                <img style="min-width: 20px;" ng-src="img\Album_default.jpg">
                 Track {{song.id}}
             </a>
             </div>
