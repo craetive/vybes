@@ -3,13 +3,11 @@
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
     <ion-content class="has-header stable-bg">
-        <div style="height:300px;">
-            <youtube code={{youTubeCode}}></youtube>
-        </div>
         <div class="list">
             <div class="item-divider text-center">
                 www.getatube.com
             </div>
+            <a class="button button-positive" href="#/app/video">click</a>
             <div style="min-height: 100px;" ng-repeat="x in youTubeVideos" >
                 <a class="item item-thumbnail-left list_text item-text-wrap" ng-click="selectYoutubeVideo(x.yt_id)">
                     <img class="list_thumb" ng-src={{x.thumb_img_url}}>

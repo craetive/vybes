@@ -43,8 +43,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
               url: "/video",
               views: {
                 'menuContent' :{
-                  templateUrl: "templates/youtubeVideo.html",
-                    controller: 'YoutubeCtrl'
+                  templateUrl: "templates/videoPlayer.html",
+                    controller: 'SearchCtrl'
                 }
               }
             })
