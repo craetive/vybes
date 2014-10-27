@@ -60,7 +60,42 @@ angular.module('starter.controllers', ['mydirectives'])
     }, 1000);
   };
 
-    $scope.playing = false;
+        $ionicModal.fromTemplateUrl('templates/verses.html', {
+            scope: $scope,
+            animation: 'slide-in-up'
+        }).then(function(modal) {
+            $scope.musicPlayerModal = modal;
+        });
+
+        $scope.openMusicModal = function() {
+            $scope.musicPlayerModal.show();
+
+        };
+
+        $scope.closeMusicModal = function() {
+            $scope.musicPlayerModal.hide();
+        };
+
+        // Cleanup the modal when we're done with it!
+        $scope.$on('$destroy', function() {
+            $scope.musicPlayerModal.remove();
+        });
+        // Execute action on hide modal
+        $scope.$on('musicPlayerModal.hide', function() {
+            // Execute action
+        });
+        // Execute action on remove modal
+        $scope.$on('musicPlayerModal.removed', function() {
+            // Execute action
+        });
+        $scope.$on('musicPlayerModal.shown', function() {
+            console.log('Modal is shown!');
+        });
+
+
+
+
+        $scope.playing = false;
 
     $scope.$on("tabHide", function (event, arg) {
         $scope.playing = arg;
