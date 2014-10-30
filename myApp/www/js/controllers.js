@@ -28,6 +28,27 @@ angular.module('starter.controllers', ['mydirectives'])
     };
 })
 
+.service('videoListService', function() {
+    var currentVideos = [];
+    var videoPlayList = [];
+
+    var addVideos = function(newObj) {
+        currentVideos = [];
+        currentVideos.push(newObj);
+    };
+
+    var getVideos = function(){
+        return currentVideos;
+    };
+
+    return {
+        addVideos: addVideos,
+        getVideos: getVideos
+    };
+})
+
+
+
 .controller('AppCtrl', function($scope, $ionicModal, $timeout, playListService) {
   // Form data for the login modal
   $scope.loginData = {};
@@ -89,9 +110,11 @@ angular.module('starter.controllers', ['mydirectives'])
             // Execute action
         });
         $scope.$on('musicPlayerModal.shown', function() {
+
+
             console.log('Modal is shown!');
         });
-
+        $scope.show1 = true;
 
 
 
@@ -120,7 +143,7 @@ angular.module('starter.controllers', ['mydirectives'])
     $scope.select = function(value){
         $scope.currentPlaying = value+1;
         $scope.currentSong = $scope.album[0][value].song;
-        $scope.audio.src = 'http://www.wongelnet.net/_mp3_/'+$scope.currentSong;
+        $scope.audio.src = 'http://www.getatube.com/mp3/'+$scope.currentSong;
         $scope.currentIndex = value;
 
     };
@@ -242,8 +265,10 @@ angular.module('starter.controllers', ['mydirectives'])
         };
 })
 
-.controller('SearchCtrl', ["$scope", "$http", function($scope, $http) {
+.controller('SearchCtrl', ["$scope", "$http", function($scope, $http, videoListService) {
         $scope.$emit("tabHide", false);
+
+
         $scope.youTubeCode = 'IytNBm8WA1c';
 
         $scope.url = 'http://www.getatube.com/vids.php'; // The url of our search
@@ -265,11 +290,12 @@ angular.module('starter.controllers', ['mydirectives'])
                     $scope.youTubeVideos = data || "Request failed";
                     $scope.status = status;
                 });
+
         };
         $scope.search();
 
         $scope.selectYoutubeVideo = function(value){
-            $scope.youTubeCode = value;
+            $scope.youTubeCode = $scope.youTubeVideos[value].yt_id;
         }
 }])
 
@@ -452,7 +478,7 @@ angular.module('starter.controllers', ['mydirectives'])
 .controller('PlayerController', ['$scope', function($scope) {
         $scope.playing = false;
         $scope.audio = document.createElement('audio');
-        $scope.audio.src = 'http://www.wongelnet.net/_mp3_/30.mp3'
+        $scope.audio.src = 'http://www.getatube.com/mp3/30.mp3'
         $scope.play = function() {
             $scope.audio.play();
             $scope.playing = true;

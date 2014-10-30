@@ -65,3 +65,34 @@ translate3d(0px,0,0);
     padding-left: 180px;
     min-height: 100px;
 }
+
+.playerController {
+    font-size: 14px;
+    background: url("http://www.getatube.com/mobile/images/app/track_info_bg.png") repeat-x;
+    opacity: .98;
+}
+.playerController:active{
+    background: #000000;
+}
+.playerBg{
+    background: url("http://www.getatube.com/mobile/images/app/Background-Music.jpg") no-repeat;
+    opacity: .99;
+    z-index: -1;
+
+}
+.adHeader {
+    background: url("http://www.getatube.com/mobile/images/app/track_info_bg.png") repeat-x;
+    background-size: auto 80px;
+}
+
+.adIcon{
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    z-index: 2;
+
+}
+
+.noPadding {
+    padding-top: 0;
+}

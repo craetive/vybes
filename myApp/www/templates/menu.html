@@ -42,21 +42,12 @@
         </ion-content>
     </ion-side-menu>
 </ion-side-menus>
-<div class="tabs tabs-dark tabs-icon-only" ng-show="playing" ng-click="openMusicModal()">
+<div class="tabs tabs-dark tabs-icon-only" ng-show="playing">
 
-    <div>
-        <div class="button-clear button-light">Track {{currentSong}} {{audioProgress()}}</div>
+    <div class="playerController tab-item-dark col col-80"  ng-click="openMusicModal()">
+        <div>Track {{currentSong}} {{audioProgress()}}</div>
     </div>
-    <div class="tab-item">
-        <i class="button button-clear button-light icon ion-ios7-skipbackward" ng-click="previousSong()"></i>
-    </div>
-    <div class="tab-item">
+    <div class="playerController tab-item-dark col col col-20">
         <i class="{{playOrPauseButton}}" ng-click="rootPlay()"></i>
-    </div>
-    <div class="tab-item">
-        <i class="button button-clear button-light icon ion-stop" ng-click="stop()"></i>
-    </div>
-    <div class="tab-item">
-        <i class="button button-clear button-light icon ion-ios7-skipforward" ng-click="nextSong()"></i>
     </div>
 </div>

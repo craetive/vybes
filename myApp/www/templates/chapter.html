@@ -3,25 +3,26 @@
         <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
     </ion-nav-buttons>
     <ion-content class="has-header stable-bg">
-        <div class="text-center item-divider">
-            Songs
+
+        <div class="list card">
+            <div class="text-center item-divider">
+                Albums
+            </div>
+            <a class="item item-thumbnail-left" ng-repeat=" album in albums" ng-click="selectAlbum($index)">
+                <img ng-src="img\Album_default.jpg">
+                <h4>{{album.name}}</h4>
+                <p>{{album.year}}</p>
+            </a>
         </div>
-        <div class="list stable-bg">
-            <ion-scroll direction="x">
-                <div class="row">
-                    <a style="min-width: 150px;" class="item stable-bg" ng-repeat=" album in albums" ng-click="selectAlbum($index)">
-                        <img style="min-width: 150px;" ng-src="img\Album_default.jpg">
-                        <h4>{{album.name}}</h4>
-                        <p>{{album.year}}</p>
-                    </a>
-                </div>
-            </ion-scroll>
-            <div>
+
+        <div class="list card">
+            <div class="text-center item-divider">
+                Songs
+            </div>
             <a class="item item-avatar-left" ng-repeat=" song in songs" ng-click="selectSong($index)" >
-                <img style="min-width: 20px;" ng-src="img\Album_default.jpg">
+                <img ng-src="img\Album_default.jpg">
                 Track {{song.id}}
             </a>
-            </div>
         </div>
     </ion-content>
 </ion-view>

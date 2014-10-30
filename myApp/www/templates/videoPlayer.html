@@ -1,11 +1,19 @@
-<div class="modal">
+<ion-view>
 <a style="height: 20px; padding-top: 0px;" class="bar bar-header bar-dark has-header" href="#/app/search">Back</a>
-    <ion-content style="padding-top: 20px;" class="stable-bg">
-        <div style="height: 350px; width: auto;">
+
+    <div style="margin-top: 43px;" class="list">
+        <div style="height: 256px; width: auto;">
             <youtube code={{youTubeCode}}></youtube>
         </div>
-        <div class="item-divider text-center">
-            www.getatube.com
-        </div>
+    </div>
+    <ion-content style="margin-top: 260px;" class="stable-bg">
+        <ion-list >
+            <div style="min-height: 100px;" ng-repeat="x in youTubeVideos" >
+                <a class="item item-thumbnail-left list_text item-text-wrap" ng-click="selectYoutubeVideo($index)">
+                    <img class="list_thumb" ng-src={{x.thumb_img_url}}>
+                    <h3>{{x.video_title}}</h3>
+                </a>
+            </div>
+        </ion-list>
     </ion-content>
-</div>
+</ion-view>

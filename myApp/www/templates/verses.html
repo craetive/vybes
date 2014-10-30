@@ -1,23 +1,26 @@
-<div class="modal" title="Song">
-        <div style="height: 80px" class="bar-header item item-thumbnail-left stable-bg">
-            <img ng-src="img\Artist_image.jpg">
+<ion-view class="modal" title="Song">
+        <div class="bar-header bar-dark item item-thumbnail-left noPadding adHeader" ng-click="closeMusicModal()">
+            <img ng-src="img\Album_default.jpg">
             <h2>{{album.name}}</h2>
             <p>Year: {{album.year}}</p>
             <p>By: {{artist.name}}</p>
         </div>
+    <button class="adIcon button-dark" ng-click="show1=!show1">test</button>
+    <div style="height: 600px; opacity: .8;" class="item playerBg full-image">
 
-    <ion-content class="list card has-footer">
-            <div class="item item-image">
+    </div>
+
+    <ion-content style="margin-top: 80px;" class="playerBg has-footer" ng-show="show1">
+        <div class="list playerBg">
+            <a class="item item-thumbnail-left item-divider" ng-repeat=" song in album[0]" ng-click="selectSong($index)" >
                 <img ng-src="img\Album_default.jpg">
-            </div>
-
-            <a class="item item-icon-left positive" href="#">
-                <i class="icon ion-ios7-play">Playing</i>
+                <h3> Track {{song.id}}</h3>
+                <p> By: {{artist.name}}የዘማሪ ስም</p>
             </a>
+        </div>
     </ion-content>
 
-    <ion-footer-bar>
-        <div class="tabs tabs-dark tabs-icon-only" ng-show="playing" ng-click="openMusicModal()">
+        <div class="playerController tabs tabs-icon-only" ng-show="playing" ng-click="openMusicModal()">
             <div>
                 <div class="button-clear button-light">Track {{currentSong}} {{audioProgress()}}</div>
             </div>
@@ -34,5 +37,5 @@
                 <i class="button button-clear button-light icon ion-ios7-skipforward" ng-click="nextSong()"></i>
             </div>
         </div>
-    </ion-footer-bar>
-</div>
+
+</ion-view>
