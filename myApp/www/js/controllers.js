@@ -353,7 +353,22 @@ angular.module('starter.controllers', ['mydirectives'])
                     $scope.artists = 'could not find Mezmur.json';
                 });
         }
-        $scope.isSearch = false;
+        $scope.tab = 1;
+        $scope.tab2 = 1;
+
+        $scope.setTab = function(value){
+            $scope.tab = value;
+        };
+        $scope.isTab = function(value){
+            return  $scope.tab === value;
+        };
+
+        $scope.setTab2 = function(value){
+            $scope.tab2 = value;
+        };
+        $scope.isSet = function(value){
+            return  $scope.tab2 === value;
+        };
 })
 
 .controller('PlaylistCtrl', function($scope, $http, $stateParams, theService, $timeout) {

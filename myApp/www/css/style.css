@@ -67,13 +67,21 @@ translate3d(0px,0,0);
 }
 
 .playerController {
+    color: #ffffff;
     font-size: 14px;
     background: url("http://www.getatube.com/mobile/images/app/track_info_bg.png") repeat-x;
     opacity: .98;
 }
-.playerController:active{
-    background: #000000;
+.playerController:active, .playerController:hover{
+    color: #ffffff;
+    background: #145fd7;
 }
+
+.tabSelected {
+    color: #ffffff;
+    background: #145fd7;
+}
+
 .playerBg{
     background: url("http://www.getatube.com/mobile/images/app/Background-Music.jpg") no-repeat;
     opacity: .99;
