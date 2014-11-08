@@ -39,7 +39,7 @@ progress {
     z-index: 9999;
 }
 
-slider-bounce {
+.slider-bounce {
     transition-duration:0.5s;
     transition-timing-function: ease-out;
     transition-property: all;

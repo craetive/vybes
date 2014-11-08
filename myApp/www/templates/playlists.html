@@ -11,25 +11,21 @@
         <button ng-click="isSearch = !isSearch" class="button button-icon ion-ios7-search" ></button>
     </ion-nav-buttons>
 
-    <div style="margin-top: 45px;">
-        <ul class="nav nav-pills">
-            <li ng-class="{ active: isTab(1) }">
-                <a href ng-click="setTab(1)">Artist</a></li>
-            <li ng-class="{ active: isTab(2) }">
-                <a href ng-click="setTab(2)">Albums</a></li>
-            <li ng-class="{ active: isTab(3) }">
-                <a href ng-click="setTab(3)">Songs</a></li>
-            <li ng-class="{ active: isTab(4) }">
-                <a href ng-click="setTab(4)">New</a></li>
-        </ul>
+    <div style="margin-top: 45px;" class="button-bar bar-dark">
+        <a class="button playerController">Artist</a>
+        <a class="button playerController">Albums</a>
+        <a class="button playerController">Songs</a>
+        <a class="button playerController">New</a>
+        <div style="height: 50px; padding: 12px 5px 2px 5px!important;" class="item playerController">
+            <i class="icon ion-android-more"></i>
+        </div>
     </div>
-    <ion-content style="margin-top: 35px;" class="stable-bg">
+    <ion-content style="margin-top: 50px;" class="stable-bg">
             <div class="list" ng-show="isTab(1)">
                 <a class="item item-thumbnail-left" ng-repeat="artist in artists | filter:searchText" href="#/app/booklists/{{artist.id}}">
                     <img ng-src="img\Album_default.jpg">
                     <h2>{{artist.name}}</h2>
                     <p>Artist Descriptions</p>
-
                 </a>
             </div>
             <div class="list" ng-show="isTab(2)">
